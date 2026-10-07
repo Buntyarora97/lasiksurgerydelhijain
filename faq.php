@@ -10,10 +10,18 @@ page_start('faq','LASIK FAQs — Eligibility, Pain, Recovery, Cost & More | ' . 
  [['Guides & FAQs','/faq']]);
 ?>
 <section class="section">
-  <div class="container" style="max-width:820px">
-    <p class="eyebrow">Guides &amp; FAQs</p>
-    <h1>Frequently asked questions</h1>
-    <p class="section-lede">Straight answers, no sales language. If your question isn't here, ask it at your consultation — that's what consultations are for.</p>
+  <div class="container faq-container">
+    <div class="faq-intro-grid">
+      <div>
+        <p class="eyebrow">Guides &amp; FAQs</p>
+        <h1>Frequently asked questions</h1>
+        <p class="section-lede">Straight answers, no sales language. If your question isn't here, ask it at your consultation — that's what consultations are for.</p>
+      </div>
+      <figure class="faq-feature">
+        <img src="/assets/images/topography.jpg" alt="Illustrative examples of instruments used for corneal imaging and eye measurements" width="1000" height="667" loading="lazy">
+        <figcaption>Tests are selected for your eyes; an online guide cannot confirm suitability.</figcaption>
+      </figure>
+    </div>
 
     <div class="accordion">
       <details><summary>Am I eligible for LASIK?</summary><p>Only a clinical evaluation can answer that. Suitability depends on prescription stability, corneal thickness and shape, tear film, ocular health and general health — never on an online quiz.</p></details>
@@ -24,6 +32,11 @@ page_start('faq','LASIK FAQs — Eligibility, Pain, Recovery, Cost & More | ' . 
       <details><summary>Can I have LASIK while pregnant or breastfeeding?</summary><p>Elective vision correction is generally deferred during pregnancy and breastfeeding because hormonal changes can alter prescriptions and healing. Your surgeon will advise on timing.</p></details>
       <details><summary>How much does LASIK cost in Delhi?</summary><p>It depends on your evaluation: procedure category, technology, one or both eyes, medication and follow-up all matter. We provide written estimates after evaluation rather than advertising headline prices.</p></details>
       <details><summary>What are the alternatives if LASIK isn't suitable?</summary><p>PRK/TransPRK, phakic IOL/ICL, or simply continuing with glasses or contact lenses with better-fitting lenses. A responsible evaluation explains every path, including the non-surgical one.</p></details>
+      <details><summary>Should I stop wearing contact lenses before an evaluation?</summary><p>You may be asked to stop them for a period before some measurements because contact lenses can affect corneal shape. The timing depends on the lens type and your eyes; ask the clinic for instructions before your appointment.</p></details>
+      <details><summary>Do I have to decide on surgery the same day?</summary><p>No. An evaluation and a request for information do not commit you to treatment. Ask for the findings, alternatives, risks and written estimate, then take time to decide.</p></details>
+      <details><summary>Can LASIK prevent age-related reading changes?</summary><p>Standard LASIK does not stop the natural age-related change in near focusing (presbyopia). Any strategy intended to reduce dependence on reading glasses has trade-offs that should be discussed individually.</p></details>
+      <details><summary>What should I bring to an evaluation?</summary><p>Bring your current glasses or contact-lens details, any recent prescription, relevant eye or medical history, and a list of medicines. Do not send medical records through this website.</p></details>
+      <details><summary>Does an online form confirm that I am eligible?</summary><p>No. Only an in-person clinical examination and the tests selected by the treating clinician can assess suitability.</p></details>
       <?php foreach ($faqs as $f): ?>
       <details><summary><?= e($f['question']) ?></summary><p><?= e($f['answer']) ?></p></details>
       <?php endforeach; ?>

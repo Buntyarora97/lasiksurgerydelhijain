@@ -20,17 +20,18 @@ define('HOSPITAL_NAME', 'Jain Eye Hospital & Laser Centre');
 define('HOSPITAL_TAG',  'Advanced Super-Speciality Eye Care');
 define('DOCTOR_NAME',   'Dr. Rajat Jain');
 define('DOCTOR_ROLE',   'Medical Director & Consultant — Cornea & Anterior Segment, Cataract, LASIK & Refractive Surgery');
-define('HOSPITAL_URL',  'https://jaineyehospitalasercentre.com/');
+define('HOSPITAL_URL',  'https://jaineye.com/');
 define('DOCTOR_URL',    'https://drrajatjain.com/');
 define('ASSOCIATION_LINE', 'A focused patient-education and consultation platform associated with Jain Eye Hospital & Laser Centre.');
 
-/* [VERIFY COUNTRY CODE AND DIGITS BEFORE GO-LIVE] — supplied format is unusual for Delhi */
-define('PHONE_DISPLAY', '+0412 500 063');
-define('PHONE_LINK',    'tel:+0412500063');
-define('EMAIL_MAIN',    'info@jaineyehospitals.com');
-/* [VERIFY WHATSAPP NUMBER IN E.164 FORMAT] — keep hidden until confirmed */
-define('WHATSAPP_NUMBER', ''); // e.g. '919876543210' — empty = button hidden
-define('WHATSAPP_MSG', 'Hello, I would like information about booking a refractive-surgery evaluation.');
+define('PHONE_NUMBERS', [
+    ['display' => '011 4378 4377', 'href' => 'tel:01143784377'],
+    ['display' => '09643536373',   'href' => 'tel:09643536373'],
+    ['display' => '9643 900 900',  'href' => 'tel:9643900900'],
+]);
+define('PHONE_DISPLAY', PHONE_NUMBERS[0]['display']);
+define('PHONE_LINK',    PHONE_NUMBERS[0]['href']);
+define('EMAIL_MAIN',    'info@jaineye.com');
 
 define('ADDRESS_LINE', 'AG 152, Shalimar Bagh, Delhi 110088');
 define('MAPS_QUERY',   'Jain Eye Hospital & Laser Centre, AG 152, Shalimar Bagh, Delhi 110088');

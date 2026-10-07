@@ -18,7 +18,7 @@ page_start('home',
         <a class="btn btn-primary" href="/appointment">Book LASIK Evaluation</a>
         <a class="btn btn-ghost" href="/procedures">Explore Options</a>
       </div>
-       <p class="hero-note reveal">⚠️ No online quiz can confirm suitability — only a detailed eye examination can.</p>
+       <p class="hero-note reveal">No online quiz can confirm suitability — only a detailed eye examination can.</p>
        <div class="hero-proof reveal">
          <span><b>01</b> Understand your eyes</span>
          <span><b>02</b> Compare suitable options</span>
@@ -33,14 +33,9 @@ page_start('home',
             <figcaption><strong>Dr. Rajat Jain</strong><span>Cornea &amp; refractive surgery</span></figcaption>
           </figure>
           <figure class="hero-image-inset">
-            <img src="/assets/images/hospital-interior.jpg" alt="Jain Eye Hospital interior" width="1000" height="667">
-            <figcaption><span>Trusted eye care in Shalimar Bagh</span></figcaption>
+             <img src="/assets/images/topography.jpg" alt="Illustrative eye-diagnostic equipment used to explain corneal measurements" width="1000" height="667">
+             <figcaption><span>Eye measurements guide the discussion</span></figcaption>
           </figure>
-         <div class="hero-slide-dots" role="tablist" aria-label="Visual sequence">
-           <button role="tab" aria-selected="true" data-slide="0"><span>Evaluation</span></button>
-           <button role="tab" aria-selected="false" data-slide="1"><span>Explanation</span></button>
-           <button role="tab" aria-selected="false" data-slide="2"><span>Pathway</span></button>
-         </div>
        </div>
     </div>
   </div>
@@ -95,46 +90,45 @@ page_start('home',
 <!-- ============ SECTION 4: Vision-correction pathways ============ -->
 <section class="section section-alt" id="services">
   <div class="container">
-    <p class="eyebrow">Verified pathways</p>
-    <h2>Vision-correction pathways</h2>
-    <p class="section-lede">Only procedures confirmed as available are shown as offered. Everything else is clearly labelled as education.</p>
+     <p class="eyebrow">Educational overview</p>
+     <h2>Vision-correction pathways</h2>
+     <p class="section-lede">These cards explain commonly discussed options; they are not a list of confirmed services. Availability and suitability at the centre must be confirmed directly after clinical evaluation.</p>
      <div class="services-slider" data-services-slider>
        <button class="slider-arrow slider-prev" type="button" data-service-prev aria-label="Previous services">‹</button>
        <div class="services-viewport">
          <div class="services-track">
       <article class="card proc-card image-card">
         <img src="/assets/images/refractive-surgery-preview.jpg" alt="Illustrative view of refractive surgery planning" width="900" height="603" loading="lazy">
-        <h3>LASIK / Femto LASIK</h3>
-        <p>A thin corneal flap is created and the underlying tissue reshaped with an excimer laser. The most widely performed laser vision correction worldwide.</p>
+         <h3>LASIK / Femto LASIK <span class="tag-edu">Education</span></h3>
+         <p>A corneal flap is created and the underlying tissue is reshaped with an excimer laser. The exact technique depends on the platform and the surgeon's plan.</p>
         <p class="muted">May suit: stable prescription, adequate corneal thickness.</p>
         <p class="muted">Limitation: flap-related considerations; not ideal for very thin corneas.</p>
         <a class="card-link" href="/procedures">Learn responsibly →</a>
       </article>
       <article class="card proc-card image-card">
-        <img src="/assets/images/topography.jpg" alt="Corneal topography mapping used during evaluation" width="1000" height="667" loading="lazy">
-        <h3>Customised / Topography-guided</h3>
+         <img src="/assets/images/topography.jpg" alt="Illustrative corneal-topography equipment used to explain eye mapping" width="1000" height="667" loading="lazy">
+         <h3>Customised / Topography-guided <span class="tag-edu">Education</span></h3>
         <p>Treatment profiles designed from detailed corneal mapping, aiming to address subtle optical irregularities beyond a standard prescription.</p>
         <p class="muted">May suit: higher astigmatism or irregular corneal optics.</p>
         <p class="muted">Limitation: advanced-sounding is not automatically better — fit matters.</p>
         <a class="card-link" href="/compare">Compare approaches →</a>
       </article>
       <article class="card proc-card edu image-card">
-        <img src="/assets/images/mega-smile.webp" alt="Abstract illustration of a flapless vision-correction pathway" width="520" height="360" loading="lazy">
+         <img src="/assets/images/refractive-surgery-preview.jpg" alt="Illustrative eye image for refractive-surgery education, not a depiction of SMILE or SILK" width="900" height="603" loading="lazy">
         <h3>SMILE / SILK <span class="tag-edu">Education only</span></h3>
         <p>Flapless small-incision lenticule extraction. Availability at this centre requires confirmation — this page explains the concept honestly.</p>
         <p class="muted">May suit: certain prescriptions where flapless is preferred.</p>
         <a class="card-link" href="/compare">Read the comparison →</a>
       </article>
       <article class="card proc-card image-card">
-        <img src="/assets/images/mega-prk.webp" alt="Abstract illustration of surface vision-correction treatment" width="520" height="360" loading="lazy">
-        <h3>PRK / TransPRK</h3>
+         <img src="/assets/images/fundus-camera.jpg" alt="Illustrative refractive-laser equipment panel showing an excimer laser used for LASIK and PRK" width="1000" height="667" loading="lazy">
+         <h3>PRK / TransPRK <span class="tag-edu">Education</span></h3>
         <p>No-flap surface ablation — the laser reshapes the cornea directly. Often discussed when corneal thickness is limited.</p>
         <p class="muted">May suit: thinner corneas, certain contact sports.</p>
         <p class="muted">Limitation: slower early visual recovery than LASIK.</p>
         <a class="card-link" href="/procedures">Learn responsibly →</a>
       </article>
       <article class="card proc-card image-card">
-        <img src="/assets/images/mega-icl.webp" alt="Abstract illustration of lens-based vision correction" width="520" height="360" loading="lazy">
         <h3>Phakic IOL / ICL</h3>
         <p>A lens implanted inside the eye, in front of the natural lens — an option when power is beyond safe laser correction.</p>
         <p class="muted">May suit: very high myopia or thin corneas.</p>
@@ -169,8 +163,8 @@ page_start('home',
         <li><span class="t-num">05</span><h3>Discussion &amp; decision</h3><p>Options, trade-offs, risks and your questions — then you decide.</p></li>
       </ol>
       <figure class="section-photo journey-photo">
-         <img src="/assets/images/technology-1.jpg" alt="Retinal and diagnostic equipment used for eye measurements" width="1000" height="667" loading="lazy">
-        <figcaption>Diagnostic measurements support a personal plan.</figcaption>
+          <img src="/assets/images/topography.jpg" alt="Illustrative diagnostic instruments for corneal mapping and eye measurements" width="1000" height="667" loading="lazy">
+         <figcaption>Examples of diagnostic equipment; the tests needed depend on each patient's examination.</figcaption>
       </figure>
     </div>
   </div>
@@ -182,8 +176,8 @@ page_start('home',
     <div>
       <p class="eyebrow">Your refractive-surgery specialist</p>
       <h2>Meet <?= e(DOCTOR_NAME) ?></h2>
-      <p><?= e(DOCTOR_ROLE) ?>. His refractive practice is built around one principle: the right procedure for the right eye — or no procedure at all, if that's the safer answer.</p>
-      <p>Patients describe his consultations as unhurried and direct: what your measurements show, which options fit them, what each involves, and what could go wrong. Decisions are made together, after evaluation, never before it.</p>
+       <p><?= e(DOCTOR_ROLE) ?>. This guide follows one principle: match any treatment to the individual eye — or do not operate if that is the safer answer.</p>
+       <p>A careful consultation should explain what your measurements show, which options may fit, what each involves, and the risks and alternatives. Decisions follow evaluation, not the other way around.</p>
       <div class="btn-row">
         <a class="btn btn-light" href="/doctor">View Doctor Profile</a>
         <a class="btn btn-ghost-light" href="/appointment">Request Consultation</a>
@@ -191,7 +185,7 @@ page_start('home',
       <p class="muted-sm">Detailed biography, credentials and publications: <a class="ulink" href="<?= e(DOCTOR_URL) ?>" target="_blank" rel="noopener">drrajatjain.com ↗</a></p>
     </div>
     <figure class="doc-figure">
-      <img src="/assets/images/dr-rajat-consult.webp" alt="<?= e(DOCTOR_NAME) ?> consulting a patient" width="520" height="640" loading="lazy">
+      <img src="/assets/images/dr-rajat-jain.jpg" alt="<?= e(DOCTOR_NAME) ?>" width="900" height="1048" loading="lazy">
        <figcaption>Consultation at <?= e(HOSPITAL_NAME) ?> · <?= e(ADDRESS_LINE) ?></figcaption>
     </figure>
   </div>
@@ -225,12 +219,12 @@ page_start('home',
     <h2>Cost, explained — not advertised</h2>
     <p class="section-lede">We don't publish prices before they're verified, and we don't believe in bait pricing. Here's honestly what can influence the total:</p>
        <div class="card-grid three">
-        <div class="card image-card"><img src="/assets/images/biometry.jpg" alt="Eye measurement equipment used for assessment" width="1000" height="667" loading="lazy"><h3>Assessment</h3><p>Evaluation and diagnostic tests required to decide suitability.</p></div>
-        <div class="card image-card"><img src="/assets/images/technology-1.jpg" alt="Diagnostic technology in an eye-care setting" width="1000" height="667" loading="lazy"><h3>Procedure category</h3><p>Standard, customised, surface or lens-based options differ in consumables and technology.</p></div>
-        <div class="card image-card"><img src="/assets/images/hospital-interior.jpg" alt="Eye hospital treatment environment" width="1000" height="667" loading="lazy"><h3>One eye or both</h3><p>Total planning changes with single-eye versus both-eye treatment.</p></div>
-        <div class="card image-card"><img src="/assets/images/dr-rajat-consult.webp" alt="Doctor discussing treatment planning" width="520" height="640" loading="lazy"><h3>Medication</h3><p>Post-procedure drops and care items during recovery.</p></div>
-        <div class="card image-card"><img src="/assets/images/hospital-exterior.webp" alt="Exterior of the eye hospital" width="1000" height="667" loading="lazy"><h3>Follow-up</h3><p>Planned review visits and any enhancement evaluation, if ever needed.</p></div>
-        <div class="card cta-card image-card"><img src="/assets/images/hero-pathway.webp" alt="Abstract visual of the patient pathway" width="520" height="360" loading="lazy"><h3>The honest route</h3><p>Get a written estimate after your evaluation — based on your eyes, not a headline.</p><a class="btn btn-primary" href="/appointment">Request Evaluation First</a></div>
+        <article class="card cost-factor"><span class="cost-step">01 · BEFORE TREATMENT</span><h3>Assessment</h3><p>The clinical evaluation and diagnostic tests needed to decide whether treatment is appropriate.</p></article>
+        <article class="card cost-factor"><span class="cost-step">02 · PROCEDURE</span><h3>Procedure category</h3><p>Laser, surface and lens-based options differ in the technology, consumables and care involved.</p></article>
+        <article class="card cost-factor"><span class="cost-step">03 · TREATMENT PLAN</span><h3>One eye or both</h3><p>Ask whether the written estimate covers one eye or both, and which procedure is included.</p></article>
+        <article class="card cost-factor"><span class="cost-step">04 · AFTERCARE</span><h3>Medication</h3><p>Confirm which prescribed drops and recovery supplies are included in the estimate.</p></article>
+        <article class="card cost-factor"><span class="cost-step">05 · FOLLOW-UP</span><h3>Review visits</h3><p>Ask how many follow-ups are planned, when they happen and whether they are included.</p></article>
+        <article class="card cta-card cost-factor"><span class="cost-step">06 · YOUR CHOICE</span><h3>The honest route</h3><p>Get a written estimate after evaluation—based on your eyes, not a headline.</p><a class="btn btn-primary" href="/appointment">Request Evaluation First</a></article>
     </div>
   </div>
 </section>
@@ -241,9 +235,9 @@ page_start('home',
     <p class="eyebrow">Balanced information</p>
     <h2>Safety, expectations &amp; recovery</h2>
     <div class="card-grid three">
-       <div class="card safety-common image-card"><img src="/assets/images/hero-pathway.webp" alt="Abstract visual pathway illustration" width="520" height="360" loading="lazy"><h3>Common &amp; temporary</h3><ul><li>Dryness or grittiness</li><li>Glare or halos at night</li><li>Fluctuating focus early on</li></ul><p class="muted">Usually improve over weeks — but always report anything worrying.</p></div>
-       <div class="card safety-rare image-card"><img src="/assets/images/topography.jpg" alt="Corneal mapping used to assess risk factors" width="1000" height="667" loading="lazy"><h3>Less common — discuss fully</h3><ul><li>Under- or over-correction</li><li>Corneal flap or healing issues</li><li>Infection or inflammation</li></ul><p class="muted">Rare does not mean impossible. Ask about them directly.</p></div>
-       <div class="card safety-urgent image-card"><img src="/assets/images/dr-rajat-consult.webp" alt="Eye specialist discussing warning signs and follow-up" width="520" height="640" loading="lazy"><h3>Seek urgent care if…</h3><ul><li>Sudden vision drop</li><li>Severe pain not relieved by advised drops</li><li>Flashes/floaters with a curtain shadow</li></ul><p class="muted">This website is not an emergency service.</p></div>
+       <div class="card safety-common"><h3>Common &amp; temporary</h3><ul><li>Dryness or grittiness</li><li>Glare or halos at night</li><li>Fluctuating focus early on</li></ul><p class="muted">Experiences differ. Report symptoms that concern you to your care team.</p></div>
+       <div class="card safety-rare"><h3>Less common — discuss fully</h3><ul><li>Under- or over-correction</li><li>Corneal flap or healing issues</li><li>Infection or inflammation</li></ul><p class="muted">Rare does not mean impossible. Ask about risks that apply to your eyes.</p></div>
+       <div class="card safety-urgent"><h3>Seek urgent care if…</h3><ul><li>Sudden vision drop</li><li>Severe pain not relieved by advised drops</li><li>Flashes/floaters with a curtain shadow</li></ul><p class="muted">This website is not an emergency service.</p></div>
     </div>
     <div class="btn-row center">
       <a class="btn btn-ghost" href="/risks">Full risks &amp; safety page</a>
@@ -252,16 +246,16 @@ page_start('home',
   </div>
 </section>
 
-<!-- ============ SECTION 10: Stories & FAQs ============ -->
+<!-- ============ SECTION 10: Questions to take to consultation ============ -->
 <section class="section section-alt">
   <div class="container">
-    <p class="eyebrow">Decision journeys · Educational composites</p>
-    <h2>How thoughtful patients decided</h2>
-    <p class="section-lede">The journeys below are anonymised educational composites — not testimonials, not outcome guarantees. Verified patient stories appear only after signed consent.</p>
+    <p class="eyebrow">Useful questions</p>
+    <h2>What to ask before you decide</h2>
+    <p class="section-lede">There are no testimonials or guaranteed outcomes here. Use these questions to understand your own measurements, options and next steps.</p>
     <div class="card-grid three">
-      <article class="card story image-card"><img src="/assets/images/hero-slide-1.jpg" alt="Educational image for a first refractive consultation" width="1600" height="1056" loading="lazy"><h3>"I assumed LASIK was automatic."</h3><p>A 26-year-old designer with borderline corneal thickness learned why PRK was discussed instead — and why that honesty built trust.</p></article>
-      <article class="card story image-card"><img src="/assets/images/hero-slide-2.jpg" alt="Educational image for comparing vision-correction options" width="1600" height="1056" loading="lazy"><h3>"High power, thin cornea."</h3><p>An ICL evaluation replaced a laser plan. The lesson: the right alternative is a success, not a rejection.</p></article>
-      <article class="card story image-card"><img src="/assets/images/hero-slide-3.jpg" alt="Educational image for recovery planning" width="1600" height="1056" loading="lazy"><h3>"I came in terrified of pain."</h3><p>Understanding numbing drops and the 15-minute reality of the procedure day changed everything for a first-time surgery patient.</p></article>
+      <article class="card image-card"><img src="/assets/images/topography.jpg" alt="Illustrative corneal diagnostic equipment" width="1000" height="667" loading="lazy"><h3>What do my measurements show?</h3><p>Ask how prescription stability, corneal shape and thickness, tear film and eye health affect suitability.</p></article>
+      <article class="card image-card"><img src="/assets/images/fundus-camera.jpg" alt="Illustrative laser equipment panel, including an excimer laser for LASIK and PRK" width="1000" height="667" loading="lazy"><h3>What are the alternatives?</h3><p>Ask which procedures may fit, how they differ, what their risks are, and whether glasses remain the better choice.</p></article>
+      <article class="card image-card"><img src="/assets/images/dr-rajat-jain.jpg" alt="<?= e(DOCTOR_NAME) ?>" width="900" height="1048" loading="lazy"><h3>What happens after I decide?</h3><p>Clarify the written estimate, preparation, follow-up schedule, recovery advice and who to contact with concerns.</p></article>
     </div>
     <h3 class="faq-head">Quick answers</h3>
     <div class="accordion">
@@ -293,17 +287,22 @@ page_start('home',
       </div>
     </div>
        <div class="card appt-card location-card">
-         <img src="/assets/images/hospital-interior.jpg" alt="Interior view of the eye hospital" width="1000" height="667" loading="lazy">
+         <img src="/assets/images/topography.jpg" alt="Illustrative eye-diagnostic instruments; not a photograph of the hospital" width="1000" height="667" loading="lazy">
       <h3>Request an evaluation</h3>
       <p class="muted">Not confirmed until our team responds.</p>
+       <?php $homeFormError = flash('form_error'); if ($homeFormError): ?><div class="form-error" role="alert"><?= e($homeFormError) ?></div><?php endif; ?>
       <form class="appt-form mini" action="/actions/appointment-submit.php" method="post">
         <?= csrf_field() ?>
         <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+         <input type="hidden" name="ts" value="<?= time() ?>">
         <input type="hidden" name="source_url" value="/#location">
         <label>Name *<input name="name" required maxlength="120" autocomplete="name"></label>
         <label>Phone *<input name="phone" type="tel" required autocomplete="tel"></label>
-        <label>Preferred contact *<select name="preferred_contact" required><option value="">Select…</option><option>Phone call</option><option>WhatsApp</option><option>Email</option></select></label>
-        <input type="hidden" name="consent_privacy" value="1"><input type="hidden" name="consent_non_emergency" value="1">
+         <label>Age range *<select name="age_range" required><option value="">Select…</option><option>18–24</option><option>25–34</option><option>35–44</option><option>45–54</option><option>55+</option></select></label>
+         <label>Currently using *<select name="vision_correction" required><option value="">Select…</option><option>Spectacles</option><option>Contact lenses</option><option>Both</option><option>Neither</option></select></label>
+         <label>Preferred contact *<select name="preferred_contact" required><option value="Phone call">Phone call</option></select></label>
+         <label class="check"><input type="checkbox" name="consent_privacy" required value="1"><span>I agree to the <a href="/privacy" target="_blank">privacy policy</a> and consent to being contacted. *</span></label>
+         <label class="check"><input type="checkbox" name="consent_non_emergency" required value="1"><span>I understand this form is not for emergencies. *</span></label>
         <button class="btn btn-primary btn-block" type="submit">Request Evaluation</button>
       </form>
     </div>

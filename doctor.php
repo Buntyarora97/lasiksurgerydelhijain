@@ -16,8 +16,8 @@ page_start('doctor','Dr. Rajat Jain — Refractive Surgery Specialist in Delhi |
       <p class="eyebrow">Principal refractive-surgery expert</p>
       <h1 style="font-size:clamp(1.9rem,3.4vw,2.7rem)"><?= e(DOCTOR_NAME) ?></h1>
       <p><strong><?= e(DOCTOR_ROLE) ?></strong></p>
-      <p style="margin-top:1rem">Dr. Jain's refractive practice is built around a simple discipline: the right procedure for the right eye — or no procedure at all, when that's the safer answer. His consultations are unhurried and direct: what your measurements show, which options fit them, what each involves, and what could go wrong.</p>
-      <p>Decisions are made together, after evaluation, never before it. Patients frequently arrive convinced of one procedure and leave with a clearer, more personal plan — sometimes LASIK, sometimes PRK, sometimes an ICL, and occasionally the honest advice to wait.</p>
+       <p style="margin-top:1rem">Refractive-surgery decisions begin with the patient's eye examination, history and measurements—not with a procedure name. The consultation should explain what the findings show, which options may fit, what each involves, and what could go wrong.</p>
+       <p>A consultation may cover laser-based procedures, surface treatment, lens-based options, or continuing with glasses or contact lenses. Suitability and availability are confirmed only after clinical evaluation; it is reasonable to take time before deciding.</p>
       <p class="muted-sm">Qualifications, fellowships, publications and academic work are maintained on his dedicated professional website.</p>
       <div class="btn-row">
         <a class="btn btn-primary" href="/appointment">Request Consultation</a>
@@ -26,13 +26,13 @@ page_start('doctor','Dr. Rajat Jain — Refractive Surgery Specialist in Delhi |
     </div>
   </div>
   <div class="container" style="max-width:820px;margin-top:3rem">
-    <h2>Care philosophy</h2>
-    <ul style="margin:0 0 1rem 1.3rem;line-height:1.9">
-      <li>Suitability before selling — evaluation decides, not marketing</li>
-      <li>Option-neutral counselling — every fitting alternative is explained, including non-surgical ones</li>
-      <li>Informed consent as a conversation, not a signature</li>
-      <li>Planned follow-up — recovery is part of the procedure, not an afterthought</li>
-    </ul>
+    <h2>What to expect from a consultation</h2>
+    <div class="card-grid two" style="margin-top:1.5rem">
+      <article class="card"><h3>Understand the measurements</h3><p>Ask how your prescription, corneal shape, thickness, tear film and overall eye health affect your options.</p></article>
+      <article class="card"><h3>Compare the alternatives</h3><p>Discuss the benefits, limitations, recovery and risks of each option that may suit your eyes—including no surgery.</p></article>
+      <article class="card"><h3>Take time to decide</h3><p>Make sure you understand the plan and written estimate before choosing an elective procedure.</p></article>
+      <article class="card"><h3>Plan follow-up</h3><p>Ask what reviews and aftercare are expected, and whom to contact if recovery does not feel right.</p></article>
+    </div>
     <p class="muted-sm">Note: detailed credentials, registrations and awards are published only after document verification on drrajatjain.com.</p>
   </div>
 </section>

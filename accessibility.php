@@ -21,6 +21,8 @@ page_start('accessibility','Accessibility Statement — ' . SITE_NAME,
   <h2>Known limitations</h2>
   <p>The hero background video is decorative, muted and replaced by a static backdrop under reduced-motion settings or when video fails. Some third-party content (e.g. maps) loads only after consent.</p>
   <h2>Feedback</h2>
-  <p>Hit a barrier? Tell us what you were trying to do and where — we'll fix it: <a href="mailto:<?= e(EMAIL_MAIN) ?>"><?= e(EMAIL_MAIN) ?></a> or <?= e(PHONE_DISPLAY) ?>.</p>
+  <p>Hit a barrier? Tell us what you were trying to do and where: <a href="mailto:<?= e(EMAIL_MAIN) ?>"><?= e(EMAIL_MAIN) ?></a> or call
+    <?php foreach (PHONE_NUMBERS as $i => $number): ?><?= $i ? ', ' : '' ?><a href="<?= e($number['href']) ?>"><?= e($number['display']) ?></a><?php endforeach; ?>.
+  </p>
 </div></section>
 <?php page_end(); ?>

@@ -25,15 +25,11 @@ delivery on shared hosting, bundle PHPMailer and switch to authenticated SMTP
 (details in that file's comments).
 
 ## 4. Media checklist (before go-live)
-Add to `assets/images/`: hero-poster.jpg, dr-rajat-portrait.webp,
-dr-rajat-consult.webp, hospital-exterior.webp, mega-{lasik,custom,smile,prk,icl,evaluation,recovery}.webp,
-hero-consult.webp, hero-pathway.webp, og-default.jpg, favicon.svg.
-And `assets/video/hero-loop.mp4` (8–12s, muted, 1920×1080 + mobile cut).
-Until added, layout uses styled fallbacks — no broken pages.
+Use only images that match the subject and label illustrative diagnostic or procedure imagery clearly. The imported project does not include the separate `new-images` folder or verified hospital-interior/exterior photos. Add approved clinic photos before presenting any image as a photograph of the centre. Keep image alt text specific and accurate.
 
 ## 5. Pre-launch verification gate (MANDATORY)
 Site ships in noindex/staging mode (robots.txt disallows all; meta noindex).
-Only after verifying — phone/country code, WhatsApp number, doctor credentials,
+Only after verifying — approved contact details, doctor credentials,
 address/map pin, offered procedures, prices, timings, privacy wording — set:
 - `SITE_ENV` = `production' in config.php
 - remove `Disallow: /` from robots.txt

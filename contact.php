@@ -13,8 +13,8 @@ page_start('contact','Contact Us — ' . SITE_NAME,
       <h1>Talk to us</h1>
       <p class="section-lede">Questions about suitability, procedures or planning an evaluation? Reach out — a real conversation beats a hundred web pages.</p>
       <figure class="side-feature">
-        <img src="/assets/images/hospital-exterior.webp" alt="Exterior view of Jain Eye Hospital & Laser Centre" width="520" height="640" loading="eager">
-        <figcaption>Jain Eye Hospital &amp; Laser Centre · <?= e(ADDRESS_LINE) ?></figcaption>
+        <img src="/assets/images/dr-rajat-jain.jpg" alt="<?= e(DOCTOR_NAME) ?>" width="900" height="1048" loading="eager">
+        <figcaption><?= e(DOCTOR_NAME) ?> · <?= e(HOSPITAL_NAME) ?></figcaption>
       </figure>
       <div class="card" style="margin-bottom:1.2rem">
         <h3>Centre</h3>
@@ -23,15 +23,15 @@ page_start('contact','Contact Us — ' . SITE_NAME,
       </div>
       <div class="card" style="margin-bottom:1.2rem">
         <h3>Direct</h3>
-        <p>Phone: <a href="<?= e(PHONE_LINK) ?>"><?= e(PHONE_DISPLAY) ?></a><br>
-        Email: <a href="mailto:<?= e(EMAIL_MAIN) ?>"><?= e(EMAIL_MAIN) ?></a></p>
-        <?php if (WHATSAPP_NUMBER): ?>
-        <p>WhatsApp: <a href="https://wa.me/<?= e(WHATSAPP_NUMBER) ?>?text=<?= rawurlencode(WHATSAPP_MSG) ?>" target="_blank" rel="noopener">message us ↗</a></p>
-        <?php endif; ?>
+        <p class="footer-phone-list"><strong>Phone</strong>
+          <?php foreach (PHONE_NUMBERS as $number): ?><a href="<?= e($number['href']) ?>"><?= e($number['display']) ?></a><?php endforeach; ?>
+          <strong>Email</strong><a href="mailto:<?= e(EMAIL_MAIN) ?>"><?= e(EMAIL_MAIN) ?></a>
+        </p>
       </div>
       <div class="map-consent card" id="mapConsent">
-        <p>Maps load only with your consent.</p>
+      <p>Maps load only after you choose to open them. You can also get directions directly.</p>
         <button class="btn btn-sm btn-primary" id="loadMapBtn">Load map</button>
+      <a class="btn btn-sm btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=<?= rawurlencode(MAPS_QUERY) ?>" target="_blank" rel="noopener">Open directions</a>
       </div>
     </div>
     <div class="card">

@@ -283,8 +283,8 @@ p{max-width:70ch}
 .appt-card h3{margin-bottom:.3rem}
 
 /* ---------- Final CTA ---------- */
-.final-cta{position:relative;background:linear-gradient(110deg,rgba(8,39,29,.96),rgba(18,59,42,.82)),
-  url('/assets/images/hospital-exterior.webp') center/cover;color:#e8f5e8;overflow:hidden;text-align:center}
+.final-cta{position:relative;background:linear-gradient(110deg,rgba(8,39,29,.96),rgba(18,59,42,.82));
+  color:#e8f5e8;overflow:hidden;text-align:center}
 .final-cta h2{color:#fff;margin-inline:auto}
 .final-aperture{position:absolute;inset:-40%;background:
   radial-gradient(circle at 50% 50%,rgba(37,199,217,.22),transparent 34%),
@@ -334,25 +334,12 @@ p{max-width:70ch}
 .fab span{font-size:.56rem;font-weight:700;letter-spacing:.04em}
 .fab:hover{transform:translateY(-3px);text-decoration:none}
 .fab-connect{background:var(--amber);color:#fff;border:0}
-.fab-pending{cursor:pointer}
 .fab-book{background:linear-gradient(130deg,var(--cyan),var(--cyan-d));color:#fff;border:0}
-.fab-wa{background:#25D366;color:#fff;border:0}
 .mobile-bar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:950;
   background:#fff;border-top:1px solid var(--line);box-shadow:0 -6px 24px rgba(7,26,43,.12)}
 .mobile-bar a,.mobile-bar button{flex:1;text-align:center;padding:.9rem .4rem;font-weight:700;font-size:.78rem;
   color:var(--navy);border:0;background:#fff;font-family:inherit;cursor:pointer}
 .mobile-bar .mb-book{background:var(--navy);color:#fff}
-.social-links{display:flex;gap:.55rem;align-items:center;margin-top:1.2rem}
-.social-link{width:38px;height:38px;border:1px solid rgba(255,255,255,.28);border-radius:50%;
-  display:grid;place-items:center;background:rgba(255,255,255,.08);color:#dff3e2;cursor:pointer;transition:.2s}
-.social-link:hover{background:var(--amber);border-color:var(--amber);color:#fff;transform:translateY(-2px)}
-.social-link svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.social-link svg path{fill:currentColor;stroke:currentColor}
-.social-links-dark{margin-top:.7rem}
-.social-links-dark .social-link{width:auto;height:42px;border-radius:999px;padding:0 .8rem;display:flex;gap:.45rem;
-  color:var(--navy);background:#fff;border-color:var(--line);font:700 .76rem var(--font-display)}
-.social-links-dark .social-link:hover{color:#fff;background:var(--cyan);border-color:var(--cyan)}
-.social-links-dark .social-link span{white-space:nowrap}
 
 /* ---------- Contact hub popup ---------- */
 .contact-modal{position:fixed;inset:0;z-index:1650;display:grid;place-items:center;padding:1rem;
@@ -373,11 +360,7 @@ p{max-width:70ch}
 .contact-option small{color:var(--muted);font-size:.78rem;margin-top:.08rem}
 .contact-icon{width:40px;height:40px;display:grid;place-items:center;border-radius:12px;background:var(--navy);
   color:#fff;font-weight:800;font-size:1.15rem;flex:none}
-.contact-whatsapp .contact-icon{background:#25D366}
 .contact-book .contact-icon{background:var(--amber)}
-.contact-social-block{border-top:1px solid var(--line);margin-top:1.35rem;padding-top:1.1rem}
-.contact-social-block>strong{font-family:var(--font-display);color:var(--navy)}
-.contact-social-block .social-links{flex-wrap:wrap}
 
 /* ---------- Footer ---------- */
 .site-footer{background:var(--navy);color:#b9d6e0;margin-top:0}
@@ -500,7 +483,8 @@ p{max-width:70ch}
 .section-alt{background:linear-gradient(180deg,#f4faf3 0%,#eaf5e9 100%)}
 .section-dark{position:relative;overflow:hidden}
 .section-dark::before{content:"";position:absolute;inset:0;opacity:.16;pointer-events:none;
-  background:url('/assets/images/hero-pathway.webp') center/cover no-repeat;mix-blend-mode:screen}
+  background:radial-gradient(ellipse at 85% 20%,rgba(201,165,101,.18),transparent 42%),
+             radial-gradient(ellipse at 12% 85%,rgba(108,159,138,.14),transparent 45%)}
 .section-dark>.container{position:relative;z-index:1}
 .card{overflow:hidden}
 .image-card{padding:0 1.8rem 1.8rem}
@@ -715,9 +699,7 @@ h3{font-size:1.15rem}
 .hero{min-height:calc(100vh - 116px);background:
   radial-gradient(700px 500px at 88% 45%,rgba(111,160,139,.24),transparent 62%),
   linear-gradient(115deg,#f4f0e7 0%,#faf8f3 46%,#dfe9df 100%);position:relative}
-.hero::before{content:"";position:absolute;inset:0;background:
-  linear-gradient(90deg,rgba(250,248,243,.98) 0%,rgba(250,248,243,.78) 40%,rgba(250,248,243,0) 75%),
-  url('/assets/images/hero-poster.jpg') right center/cover no-repeat;opacity:.25;mix-blend-mode:multiply}
+.hero::before{content:none}
 .hero-grid{grid-template-columns:1.02fr .98fr;gap:2.5rem;padding:5.5rem 0 4.5rem}
 .hero-copy{max-width:700px}
 .hero h1{max-width:12ch;color:var(--navy)}
@@ -785,7 +767,7 @@ h3{font-size:1.15rem}
 .accordion summary{color:var(--navy)}
 .accordion summary::after{color:var(--amber)}
 .faq-head{margin-top:3rem}
-.final-cta{background:linear-gradient(110deg,rgba(7,23,20,.96),rgba(18,42,37,.8)),url('/assets/images/hospital-exterior.webp') center/cover}
+.final-cta{background:linear-gradient(110deg,rgba(7,23,20,.96),rgba(18,42,37,.8))}
 .final-aperture{background:radial-gradient(circle at 50% 50%,rgba(201,165,101,.2),transparent 34%),repeating-radial-gradient(circle at 50% 50%,rgba(201,165,101,.07) 0 2px,transparent 2px 64px)}
 .final-note{color:#b6c9bc}
 
@@ -799,7 +781,6 @@ h3{font-size:1.15rem}
 .fab{border-color:#dedbd2;background:#fffdf9;color:var(--navy)}
 .fab-book{background:var(--amber);color:var(--navy)}
 .fab-connect{background:var(--navy);color:#fff}
-.fab-wa{background:#327a60}
 .mobile-bar{background:#fffdf9;border-color:#dedbd2}
 .mobile-bar .mb-book{background:var(--navy)}
 .site-footer{background:#071714}
@@ -819,7 +800,7 @@ h3{font-size:1.15rem}
 }
 @media(max-width:720px){
   .hero{min-height:auto}
-  .hero::before{opacity:.13;background:linear-gradient(180deg,rgba(250,248,243,.92),rgba(250,248,243,.55)),url('/assets/images/hero-poster.jpg') center/cover}
+  .hero::before{content:none}
   .hero-grid{padding:3.6rem 0 4.5rem}
   .hero h1{font-size:clamp(2.45rem,12vw,3.7rem)}
   .hero-lede{font-size:1rem}
@@ -833,4 +814,85 @@ h3{font-size:1.15rem}
   .trust-strip{padding:1.4rem 0}
   .section{padding:4.6rem 0}
   .image-card>img{height:180px}
+}
+
+/* ---------- Accurate imagery, contact details and tablet/mobile layout ---------- */
+.hero::before{content:none}
+.section-dark::before{
+  background:radial-gradient(ellipse at 85% 20%,rgba(201,165,101,.18),transparent 42%),
+             radial-gradient(ellipse at 12% 85%,rgba(108,159,138,.14),transparent 45%);
+  mix-blend-mode:normal;opacity:1
+}
+.final-cta{background:linear-gradient(135deg,#071714,#173c31)}
+.final-cta>.container{position:relative;z-index:1}
+.image-card>img{object-fit:contain;background:#fff}
+.image-card:hover>img{transform:none;filter:saturate(.96)}
+.section-photo img,.wide-feature img,.side-feature img,.location-card>img,.hero-image-inset img{
+  object-fit:contain;background:#fff
+}
+.proc-card:not(.image-card){padding:1.6rem;justify-content:center}
+.cost-factor{min-height:220px;display:flex;flex-direction:column;gap:.65rem;padding:1.6rem}
+.cost-step{font-size:.66rem;font-weight:800;letter-spacing:.13em;color:var(--cyan-d)}
+.cost-factor .btn{margin-top:auto;align-self:flex-start}
+.faq-container{max-width:1040px}
+.faq-intro-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:2.5rem;align-items:center;margin-bottom:2.6rem}
+.faq-feature,.cost-feature{overflow:hidden;border:1px solid var(--line);border-radius:var(--r-lg);background:#fff;box-shadow:var(--sh-1)}
+.faq-feature img,.cost-feature img{width:100%;height:260px;object-fit:contain;background:#fff}
+.faq-feature figcaption,.cost-feature figcaption{font-size:.8rem;color:var(--muted);padding:.7rem 1rem}
+.footer-phone-list{display:flex;flex-direction:column;align-items:flex-start;gap:.15rem}
+.footer-phone-list strong:not(:first-child){margin-top:.55rem}
+.utility-inner .u-loc{display:flex;align-items:center;gap:.35rem}
+.u-loc svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.8;flex:none}
+.contact-options{grid-template-columns:1fr 1fr}
+.contact-option{min-width:0}
+.contact-option small{overflow-wrap:anywhere}
+.fab svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+
+@media (min-width:840px) and (max-width:1080px){
+  .main-nav{display:none!important}
+  .nav-toggle{display:flex}
+  .header-actions .btn{display:inline-flex}
+  .header-inner{gap:1rem}
+  .hero-grid{grid-template-columns:1.02fr .98fr;gap:1.2rem;padding:3.7rem 0}
+  .hero-visual{min-height:450px;max-width:none;margin:0}
+  .hero-image-stage{height:440px}
+  .hero-image-main{height:390px;right:1%;width:72%}
+  .hero-image-inset{bottom:38px;width:48%;height:145px}
+  .hero-image-inset img{height:100px}
+  .split-2{grid-template-columns:1fr 1fr;gap:2rem}
+  .checklist-layout{grid-template-columns:1.15fr .85fr}
+}
+@media (max-width:839px){
+  .hero-grid{grid-template-columns:1fr;gap:1rem;padding:3.2rem 0}
+  .hero-visual{max-width:520px;margin:0 auto}
+  .split-2{grid-template-columns:1fr;gap:1.7rem}
+}
+@media (max-width:720px){
+  body{padding-bottom:calc(62px + env(safe-area-inset-bottom))}
+  .utility-inner{justify-content:center}
+  .utility-inner .u-loc,.utility-inner .u-assoc,.utility-inner .u-contact a[href^="tel:"],.utility-inner .u-sep{display:none}
+  .u-contact{font-size:.7rem}
+  .hero-grid{padding:2.8rem 0 3.1rem}
+  .hero-visual{min-height:355px}
+  .hero-image-stage{height:355px}
+  .hero-image-main{height:315px}
+  .hero-image-inset{bottom:36px}
+  .trust-principles{gap:.6rem 1rem}
+  .trust-principles li{font-size:.68rem}
+  .faq-intro-grid{grid-template-columns:1fr;gap:1.3rem}
+  .faq-feature img,.cost-feature img{height:210px}
+  .cost-factor{min-height:0}
+  .contact-options{grid-template-columns:1fr}
+  .mobile-bar{min-height:62px;padding-bottom:env(safe-area-inset-bottom);align-items:stretch}
+  .mobile-bar a,.mobile-bar button{display:flex;align-items:center;justify-content:center;gap:.35rem;min-height:56px;padding:.55rem .2rem;font-size:.77rem}
+  .mobile-bar .mb-book{border-radius:0}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .side-feature img{height:220px}
+}
+@media (max-width:380px){
+  .brand-logo{width:145px}
+  .brand-logo img{width:140px}
+  .header-inner{gap:.3rem}
+  .hero-image-main{width:76%;right:0}
+  .hero-image-inset{width:52%}
 }

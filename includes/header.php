@@ -44,7 +44,7 @@ $noindex  = (SITE_ENV !== 'production');
 <!-- Utility bar -->
 <div class="utility-bar">
   <div class="container utility-inner">
-    <span class="u-item u-loc">📍 Shalimar Bagh, Delhi</span>
+    <span class="u-item u-loc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.2"/></svg><span>Shalimar Bagh, Delhi</span></span>
     <span class="u-item u-assoc"><?= e(ASSOCIATION_LINE) ?></span>
     <span class="u-item u-contact">
       <a href="<?= e(PHONE_LINK) ?>"><?= e(PHONE_DISPLAY) ?></a>
@@ -80,7 +80,7 @@ $noindex  = (SITE_ENV !== 'production');
                 <a href="/recovery">Recovery &amp; Aftercare</a>
               </div>
               <div class="mega-preview" aria-hidden="false">
-                <img src="/assets/images/mega-evaluation.webp" alt="" width="520" height="360" loading="lazy">
+                <img src="/assets/images/topography.jpg" alt="" width="1000" height="667" loading="lazy">
                 <p><strong>Every journey starts with an evaluation.</strong><br>No online quiz can confirm suitability — a detailed eye examination comes first.</p>
                 <a class="btn btn-sm btn-ghost" href="/lasik-evaluation">Learn responsibly</a>
               </div>
@@ -93,25 +93,25 @@ $noindex  = (SITE_ENV !== 'production');
             <div class="mega-grid mega-4">
               <div class="mega-col" data-preview="lasik">
                 <h3>Laser-based</h3>
-                <a href="/procedures" data-img="/assets/images/mega-lasik.webp" data-title="LASIK & Femto LASIK" data-desc="Flap-based laser vision correction — the most widely performed refractive procedure worldwide." data-time="6 min read" data-link="/procedures">LASIK / Femto LASIK</a>
-                <a href="/procedures" data-img="/assets/images/mega-custom.webp" data-title="Customised / Topography-guided" data-desc="Personalised ablation profiles designed from detailed corneal mapping." data-time="7 min read" data-link="/procedures">Customised / Topography-guided</a>
-                <a href="/procedures" data-img="/assets/images/mega-smile.webp" data-title="SMILE / SILK" data-desc="Flapless small-incision lenticule procedures. Availability subject to confirmation." data-time="6 min read" data-link="/procedures">SMILE / SILK <span class="tag-edu">education</span></a>
+                <a href="/procedures" data-img="/assets/images/refractive-surgery-preview.jpg" data-title="LASIK & Femto LASIK" data-desc="Flap-based laser vision correction. Suitability depends on clinical measurements." data-time="6 min read" data-link="/procedures">LASIK / Femto LASIK</a>
+                <a href="/procedures" data-img="/assets/images/topography.jpg" data-title="Customised / Topography-guided" data-desc="Treatment planning that uses detailed corneal mapping when clinically appropriate." data-time="7 min read" data-link="/procedures">Customised / Topography-guided</a>
+                <a href="/procedures" data-title="SMILE / SILK" data-desc="An educational overview of flapless lenticule procedures; availability at the centre must be confirmed." data-time="6 min read" data-link="/procedures">SMILE / SILK <span class="tag-edu">education</span></a>
               </div>
               <div class="mega-col" data-preview="surface">
                 <h3>Surface procedures</h3>
-                <a href="/procedures" data-img="/assets/images/mega-prk.webp" data-title="PRK / TransPRK" data-desc="No-flap surface ablation — often considered when corneal thickness is limited." data-time="6 min read" data-link="/procedures">PRK / TransPRK</a>
+                <a href="/procedures" data-img="/assets/images/fundus-camera.jpg" data-title="PRK / TransPRK" data-desc="No-flap surface ablation using an excimer laser; an evaluation determines whether it may fit." data-time="6 min read" data-link="/procedures">PRK / TransPRK</a>
               </div>
               <div class="mega-col" data-preview="lens">
                 <h3>Lens-based</h3>
-                <a href="/procedures" data-img="/assets/images/mega-icl.webp" data-title="Phakic IOL / ICL" data-desc="An implantable lens for powers that may be beyond safe laser correction." data-time="7 min read" data-link="/procedures">Phakic IOL / ICL</a>
+                <a href="/procedures" data-title="Phakic IOL / ICL" data-desc="An implantable lens option that is discussed only after a clinical evaluation." data-time="7 min read" data-link="/procedures">Phakic IOL / ICL</a>
               </div>
               <div class="mega-col" data-preview="eval">
                 <h3>Before you choose</h3>
-                <a href="/lasik-evaluation" data-img="/assets/images/mega-evaluation.webp" data-title="The Evaluation" data-desc="Refraction, corneal mapping, tear film and retinal checks as indicated — suitability first." data-time="5 min read" data-link="/lasik-evaluation">Suitability &amp; Evaluation</a>
-                <a href="/recovery" data-img="/assets/images/mega-recovery.webp" data-title="Recovery & Safety" data-desc="What to expect in the first hours, days and weeks — in calm, honest language." data-time="6 min read" data-link="/recovery">Recovery &amp; Safety</a>
+                <a href="/lasik-evaluation" data-img="/assets/images/topography.jpg" data-title="The Evaluation" data-desc="Refraction, corneal mapping, tear film and other checks as indicated — suitability first." data-time="5 min read" data-link="/lasik-evaluation">Suitability &amp; Evaluation</a>
+                <a href="/recovery" data-title="Recovery & Safety" data-desc="General aftercare guidance for the first hours, days and weeks; your surgeon's instructions take priority." data-time="6 min read" data-link="/recovery">Recovery &amp; Safety</a>
               </div>
               <div class="mega-preview">
-                <img id="megaImg" src="/assets/images/mega-lasik.webp" alt="" width="520" height="360">
+                <img id="megaImg" src="/assets/images/refractive-surgery-preview.jpg" alt="" width="900" height="603">
                 <div class="mega-preview-text">
                   <strong id="megaTitle">LASIK & Femto LASIK</strong>
                   <p id="megaDesc">Flap-based laser vision correction — the most widely performed refractive procedure worldwide.</p>

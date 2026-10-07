@@ -166,14 +166,14 @@ CREATE TABLE IF NOT EXISTS audit_logs (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB;
 
--- Default admin (CHANGE PASSWORD IMMEDIATELY): admin@lasiksurgeryindelhi.com / Admin@12345
+-- Default admin record uses the approved centre email; set a unique password before enabling admin access.
 INSERT INTO admins (name, email, password_hash, role) VALUES
-('Super Admin', 'admin@lasiksurgeryindelhi.com', '$2y$10$W0u0u0u0u0u0u0u0u0u0uO0u0u0u0u0u0u0u0u0u0u0u0u0u0u0u', 'super_admin')
+('Super Admin', 'info@jaineye.com', '$2y$10$W0u0u0u0u0u0u0u0u0u0uO0u0u0u0u0u0u0u0u0u0u0u0u0u0u0u0u0u0u', 'super_admin')
 ON DUPLICATE KEY UPDATE email=email;
 
 INSERT INTO settings (`key`,`value`) VALUES
 ('site_env','staging'),('noindex','1'),
-('phone_display', '+0412 500 063'),('phone_link','tel:+0412500063'),
-('email_main','info@jaineyehospitals.com'),
+('phone_display', '011 4378 4377'),('phone_link','tel:01143784377'),
+('email_main','info@jaineye.com'),
 ('whatsapp_number',''),('address','AG 152, Shalimar Bagh, Delhi 110088')
 ON DUPLICATE KEY UPDATE `key`=`key`;

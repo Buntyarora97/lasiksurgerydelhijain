@@ -12,15 +12,15 @@ page_start('about','About This Platform — ' . SITE_NAME,
     <h1 style="margin-bottom:.4em">About this platform</h1>
     <p class="section-lede">Eight honest answers about who we are, why this site exists and how we handle your trust.</p>
     <figure class="editorial-banner">
-      <img src="/assets/images/about-story.jpg" alt="A calm, welcoming eye-care consultation environment" width="1000" height="1162" loading="eager">
-      <figcaption>Patient education begins with a clear, comfortable conversation.</figcaption>
+      <img src="/assets/images/dr-rajat-jain.jpg" alt="<?= e(DOCTOR_NAME) ?>" width="900" height="1048" loading="eager">
+      <figcaption><?= e(DOCTOR_NAME) ?> · Refractive-surgery consultation</figcaption>
     </figure>
 
     <h2>1 · Why this focused website exists</h2>
     <p>Searching for LASIK in Delhi returns a flood of price ads, ranking claims and pressure tactics. This website was created to be the opposite: a calm, focused resource that helps you understand refractive vision correction before you commit to anything. It covers candidacy, evaluation, procedure differences, recovery, risks and cost factors — the questions thoughtful patients actually ask.</p>
 
     <h2>2 · Relationship with Jain Eye Hospital &amp; Laser Centre</h2>
-    <p><?= e(ASSOCIATION_LINE) ?> Consultations and procedures are connected with <?= e(HOSPITAL_NAME) ?>, <?= e(HOSPITAL_TAG) ?>, at <?= e(ADDRESS_LINE) ?>. We state this openly on every page — there is no fictional clinic and no disguised provider. For the hospital's full departments, facilities and broad eye-care services, visit <a href="<?= e(HOSPITAL_URL) ?>" target="_blank" rel="noopener">jaineyehospitalasercentre.com</a>.</p>
+    <p><?= e(ASSOCIATION_LINE) ?> The centre is at <?= e(ADDRESS_LINE) ?>. We state this association openly on every page. Procedure availability should be confirmed directly after evaluation. For wider services and current facility information, visit <a href="<?= e(HOSPITAL_URL) ?>" target="_blank" rel="noopener noreferrer">jaineye.com</a>.</p>
 
     <h2>3 · Care philosophy: suitability before selling</h2>
     <p>Refractive surgery is elective. The correct outcome of an evaluation is sometimes "not now," "not this procedure," or occasionally "not surgery at all." We consider that a successful consultation. Any centre that treats every visitor as a candidate is not doing its job — corneal thickness, tear film, prescription stability and ocular health all draw boundaries that marketing cannot.</p>
@@ -35,7 +35,7 @@ page_start('about','About This Platform — ' . SITE_NAME,
     <p>Platforms assist; clinical judgment decides. We describe technology only when its availability is verified, and we refuse the industry's habit of treating every new platform name as automatically superior. The best technology is the one that fits your measurements — sometimes the simpler option is the safer one.</p>
 
     <h2>7 · Patient safety, privacy and accessibility</h2>
-    <p>This site collects the minimum data needed to respond to an enquiry, stores it securely, and never publishes patient information. Content is written to WCAG 2.2 AA accessibility standards, and medical pages carry named reviewer and review dates. Our privacy practices are documented in the <a href="/privacy">privacy policy</a>.</p>
+    <p>This site asks only for details needed to respond to an enquiry and does not publish enquiry details. How information is handled is explained in the <a href="/privacy">privacy policy</a>. We aim to make the pages usable with assistive technology and on mobile devices.</p>
 
     <h2>8 · What to expect before, during and after a consultation</h2>
     <p>Before: you'll be asked about goals, history and current correction. During: measurements, honest discussion of options and time for your questions. After: a written plan, clear preparation guidance and scheduled follow-up. At no point are you obligated to proceed — the consultation itself is the product.</p>

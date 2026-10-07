@@ -16,7 +16,11 @@ page_start('appointment','Book a LASIK Evaluation in Delhi | ' . SITE_NAME,
       <?php if (!empty($_GET['sent']) && !empty($_SESSION['appt_ref'])): ?>
       <div class="form-success"><strong>Request received.</strong> Your reference is
         <strong><?= e($_SESSION['appt_ref']) ?></strong>. This is <em>not</em> a confirmation —
-        our team will contact you shortly on the number you provided.</div>
+        call the centre if you need to confirm receipt.</div>
+      <?php if (!empty($_SESSION['appt_mail_notice'])): ?>
+        <div class="form-note" role="status"><?= e($_SESSION['appt_mail_notice']) ?></div>
+        <?php unset($_SESSION['appt_mail_notice']); ?>
+      <?php endif; ?>
       <?php endif; ?>
       <?php $err = flash('form_error'); if ($err): ?><div class="form-error" role="alert"><?= e($err) ?></div><?php endif; ?>
 
@@ -43,7 +47,7 @@ page_start('appointment','Book a LASIK Evaluation in Delhi | ' . SITE_NAME,
         </div>
         <div class="form-row">
           <label>Preferred contact *
-            <select name="preferred_contact" required><option value="">Select…</option><option>Phone call</option><option>WhatsApp</option><option>Email</option></select>
+            <select name="preferred_contact" required><option value="">Select…</option><option>Phone call</option><option>Email</option></select>
           </label>
           <label>Preferred date / time<input name="preferred_slot" placeholder="e.g. Saturday morning"></label>
         </div>
@@ -51,18 +55,21 @@ page_start('appointment','Book a LASIK Evaluation in Delhi | ' . SITE_NAME,
         <label class="check"><input type="checkbox" name="consent_privacy" required value="1"> <span>I agree to the <a href="/privacy" target="_blank">privacy policy</a> and consent to being contacted about my enquiry. *</span></label>
         <label class="check"><input type="checkbox" name="consent_non_emergency" required value="1"> <span>I understand this form is not for emergencies or urgent symptoms. *</span></label>
         <button class="btn btn-primary btn-block" type="submit">Request Evaluation</button>
-        <p class="form-note">Your details are stored securely and used only to respond to this enquiry.</p>
+        <p class="form-note">Your appointment is not confirmed until the team responds. Please do not include medical records or sensitive reports.</p>
       </form>
     </div>
     <aside>
       <figure class="side-feature">
-        <img src="/assets/images/patient-care-1.jpg" alt="Patient care team preparing for a consultation" width="1000" height="667" loading="eager">
-        <figcaption>Bring your questions. The first step is a clear evaluation.</figcaption>
+        <img src="/assets/images/topography.jpg" alt="Illustrative instruments for corneal imaging and eye measurements" width="1000" height="667" loading="eager">
+        <figcaption>Illustrative diagnostic equipment. Your evaluation is based on your own history and measurements.</figcaption>
       </figure>
       <div class="card" style="margin-bottom:1.2rem">
         <h3>Visit us</h3>
         <address class="address-block"><strong><?= e(HOSPITAL_NAME) ?></strong><br><?= e(ADDRESS_LINE) ?></address>
-        <p><a href="<?= e(PHONE_LINK) ?>"><?= e(PHONE_DISPLAY) ?></a><br><a href="mailto:<?= e(EMAIL_MAIN) ?>"><?= e(EMAIL_MAIN) ?></a></p>
+        <p class="footer-phone-list"><strong>Call</strong>
+          <?php foreach (PHONE_NUMBERS as $number): ?><a href="<?= e($number['href']) ?>"><?= e($number['display']) ?></a><?php endforeach; ?>
+          <a href="mailto:<?= e(EMAIL_MAIN) ?>"><?= e(EMAIL_MAIN) ?></a>
+        </p>
       </div>
       <div class="card">
         <h3>What happens next</h3>

@@ -32,23 +32,30 @@ var megaTitle = document.getElementById('megaTitle');
 var megaDesc = document.getElementById('megaDesc');
 var megaTime = document.getElementById('megaTime');
 var megaLink = document.getElementById('megaLink');
-if (megaImg) {
-  document.querySelectorAll('.mega a[data-img]').forEach(function (a) {
+if (megaTitle && megaDesc && megaTime && megaLink) {
+  document.querySelectorAll('.mega a[data-title]').forEach(function (a) {
     function swap() {
-      megaImg.style.opacity = 0;
+      if (megaImg) megaImg.style.opacity = 0;
       setTimeout(function () {
-        megaImg.src = a.dataset.img;
+        if (megaImg) {
+          if (a.dataset.img) {
+            megaImg.src = a.dataset.img;
+            megaImg.hidden = false;
+          } else {
+            megaImg.hidden = true;
+          }
+        }
         megaTitle.textContent = a.dataset.title;
         megaDesc.textContent = a.dataset.desc;
         megaTime.textContent = a.dataset.time;
         megaLink.href = a.dataset.link;
-        megaImg.style.opacity = 1;
+        if (megaImg && !megaImg.hidden) megaImg.style.opacity = 1;
       }, reduceMotion ? 0 : 120);
     }
     a.addEventListener('mouseenter', swap);
     a.addEventListener('focus', swap);
   });
-  megaImg.style.transition = 'opacity .18s ease';
+  if (megaImg) megaImg.style.transition = 'opacity .18s ease';
 }
 
 /* ---------- Appointment modal ---------- */
@@ -66,23 +73,17 @@ if (modal) {
   });
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && modal.classList.contains('open')) {
-      modal.classList.remove('open'); document.body.style.overflow = ''; }
+      modal.classList.remove('open'); modal.setAttribute('aria-hidden','true'); document.body.style.overflow = ''; }
   });
 }
 
 /* ---------- Contact hub popup ---------- */
 var contactModal = document.getElementById('contactModal');
-var contactModalSub = document.getElementById('contactModalSub');
-function openContact(name) {
+function openContact() {
   if (!contactModal) return;
   contactModal.classList.add('open');
   contactModal.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
-  if (contactModalSub) {
-    contactModalSub.textContent = name
-      ? name + ' is visible here, but the official account/number still needs client confirmation before publishing.'
-      : 'Choose the quickest option for your enquiry. Appointment requests are not confirmed until the team responds.';
-  }
 }
 function closeContact() {
   if (!contactModal) return;
@@ -92,13 +93,7 @@ function closeContact() {
 }
 document.querySelectorAll('[data-open-contact]').forEach(function (trigger) {
   trigger.addEventListener('click', function () {
-    openContact(trigger.dataset.pendingName || '');
-  });
-});
-document.querySelectorAll('[data-pending-name]').forEach(function (trigger) {
-  if (trigger.hasAttribute('data-open-contact')) return;
-  trigger.addEventListener('click', function () {
-    openContact(trigger.dataset.pendingName || '');
+    openContact();
   });
 });
 if (contactModal) {
@@ -108,12 +103,6 @@ if (contactModal) {
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && contactModal.classList.contains('open')) closeContact();
   });
-  window.setTimeout(function () {
-    if (!sessionStorage.getItem('contactHubSeen')) {
-      openContact();
-      sessionStorage.setItem('contactHubSeen', '1');
-    }
-  }, 7000);
 }
 
 /* ---------- Reveal on scroll ---------- */
@@ -357,25 +346,4 @@ if (canvas && !reduceMotion) {
   canvas.style.background = 'radial-gradient(circle, rgba(37,199,217,.25), transparent 60%)';
 }
 
-/* ---------- Hero slide dots (visual sequence labels) ---------- */
-var dots = document.querySelectorAll('.hero-slide-dots button');
-if (dots.length) {
-  var imgs = [
-    '/assets/images/dr-rajat-jain.jpg',
-    '/assets/images/hospital-interior.jpg',
-    '/assets/images/technology-1.jpg'
-  ];
-  var portrait = document.querySelector('.hero-image-main img');
-  var cur = 0, timer;
-  function setSlide(i) {
-    cur = i;
-    dots.forEach(function (d, j) { d.setAttribute('aria-selected', j === i ? 'true' : 'false'); });
-    if (portrait) { portrait.style.opacity = 0;
-      setTimeout(function () { portrait.src = imgs[i]; portrait.style.opacity = 1; }, reduceMotion ? 0 : 250); }
-  }
-  dots.forEach(function (d, i) { d.addEventListener('click', function () { setSlide(i); restart(); }); });
-  if (portrait) portrait.style.transition = 'opacity .3s ease';
-  function restart() { clearInterval(timer); }
-  restart();
-}
 })();
