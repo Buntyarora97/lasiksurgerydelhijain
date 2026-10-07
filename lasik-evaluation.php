@@ -12,7 +12,7 @@ page_start('evaluation','LASIK Evaluation in Delhi — What Actually Gets Checke
     <h1>LASIK Evaluation: what actually gets checked</h1>
     <p class="section-lede">LASIK reshapes the cornea with a laser to correct refractive errors such as myopia, hyperopia and astigmatism. But it is only safe for eyes that meet specific measurements — which is why a detailed evaluation, not an online quiz, always comes first.</p>
     <figure class="wide-feature">
-      <img src="/assets/images/topography.jpg" alt="Illustrative instruments for corneal imaging and eye measurements" width="1000" height="667" loading="eager">
+      <img src="/assets/images/clinic-equipment.jpg" alt="Ophthalmic diagnostic equipment in a clinical room" width="1600" height="900" loading="eager">
       <figcaption>Measurements support the conversation; they do not replace clinical judgement.</figcaption>
     </figure>
 
@@ -34,9 +34,9 @@ page_start('evaluation','LASIK Evaluation in Delhi — What Actually Gets Checke
     <h2>After the evaluation</h2>
     <p>You'll leave with a clear answer: suitable and for which procedure, suitable with conditions, or unsuitable — with the alternatives explained. Any estimate of cost is provided in writing, based on your actual plan, never from a headline price.</p>
 
-    <div class="card" style="margin-top:2rem">
-      <strong>Medical review</strong>
-      <p class="muted-sm">Reviewed by <?= e(DOCTOR_NAME) ?> · Last reviewed <?= date('F Y') ?> · Next review due <?= date('F Y', strtotime('+12 months')) ?></p>
+    <div class="card medical-note" style="margin-top:2rem">
+      <strong>Educational information</strong>
+      <p class="muted-sm">This guide is for general education and is not a substitute for an examination or advice from your treating clinician.</p>
     </div>
     <div class="btn-row" style="margin-top:2rem">
       <a class="btn btn-primary" href="/appointment">Book LASIK Evaluation</a>

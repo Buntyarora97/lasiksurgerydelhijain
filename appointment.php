@@ -60,7 +60,7 @@ page_start('appointment','Book a LASIK Evaluation in Delhi | ' . SITE_NAME,
     </div>
     <aside>
       <figure class="side-feature">
-        <img src="/assets/images/topography.jpg" alt="Illustrative instruments for corneal imaging and eye measurements" width="1000" height="667" loading="eager">
+        <img src="/assets/images/clinic-exam-room.jpg" alt="Eye examination room at the associated centre" width="1600" height="900" loading="eager">
         <figcaption>Illustrative diagnostic equipment. Your evaluation is based on your own history and measurements.</figcaption>
       </figure>
       <div class="card" style="margin-bottom:1.2rem">

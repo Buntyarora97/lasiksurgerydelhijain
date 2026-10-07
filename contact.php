@@ -13,13 +13,12 @@ page_start('contact','Contact Us — ' . SITE_NAME,
       <h1>Talk to us</h1>
       <p class="section-lede">Questions about suitability, procedures or planning an evaluation? Reach out — a real conversation beats a hundred web pages.</p>
       <figure class="side-feature">
-        <img src="/assets/images/dr-rajat-jain.jpg" alt="<?= e(DOCTOR_NAME) ?>" width="900" height="1048" loading="eager">
-        <figcaption><?= e(DOCTOR_NAME) ?> · <?= e(HOSPITAL_NAME) ?></figcaption>
+        <img src="/assets/images/clinic-waiting-room.jpg" alt="Patient waiting lounge at the associated eye centre" width="1600" height="900" loading="eager">
+        <figcaption><?= e(HOSPITAL_NAME) ?> · <?= e(ADDRESS_LINE) ?></figcaption>
       </figure>
       <div class="card" style="margin-bottom:1.2rem">
         <h3>Centre</h3>
         <address class="address-block"><strong><?= e(HOSPITAL_NAME) ?></strong><br><?= e(ADDRESS_LINE) ?></address>
-        <p><span class="muted-sm">Address:</span> <?= e(ADDRESS_LINE) ?></p>
       </div>
       <div class="card" style="margin-bottom:1.2rem">
         <h3>Direct</h3>

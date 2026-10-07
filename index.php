@@ -29,12 +29,8 @@ page_start('home',
         <canvas id="apertureCanvas" width="560" height="560" aria-label="Abstract aperture focusing light — decorative"></canvas>
         <div class="hero-image-stage">
           <figure class="hero-image-main">
-            <img src="/assets/images/dr-rajat-jain.jpg" alt="<?= e(DOCTOR_NAME) ?>, refractive surgery specialist" width="900" height="1100">
-            <figcaption><strong>Dr. Rajat Jain</strong><span>Cornea &amp; refractive surgery</span></figcaption>
-          </figure>
-          <figure class="hero-image-inset">
-             <img src="/assets/images/topography.jpg" alt="Illustrative eye-diagnostic equipment used to explain corneal measurements" width="1000" height="667">
-             <figcaption><span>Eye measurements guide the discussion</span></figcaption>
+            <img src="/assets/images/clinic-patient-care.jpg" alt="A care team member checking a patient's blood pressure in a clinical setting" width="1600" height="900">
+            <figcaption><strong>Patient-first care</strong><span>Health history and examination come before treatment decisions</span></figcaption>
           </figure>
        </div>
     </div>
@@ -80,7 +76,7 @@ page_start('home',
          <a class="btn btn-primary" href="/lasik-evaluation">Understand the full evaluation</a>
        </div>
        <figure class="section-photo section-photo-tall">
-         <img src="/assets/images/lasik-eligibility.jpg" alt="Illustrative close-up of an eye used to explain suitability" width="1600" height="1056" loading="lazy">
+          <img src="/assets/images/clinic-exam-room.jpg" alt="Eye examination equipment at the associated centre" width="1600" height="900" loading="lazy">
          <figcaption>Suitability is decided by measurements, not a quiz.</figcaption>
        </figure>
     </div>
@@ -98,7 +94,7 @@ page_start('home',
        <div class="services-viewport">
          <div class="services-track">
       <article class="card proc-card image-card">
-        <img src="/assets/images/refractive-surgery-preview.jpg" alt="Illustrative view of refractive surgery planning" width="900" height="603" loading="lazy">
+        <img src="/assets/images/clinic-theatre.jpg" alt="Illustrative ophthalmic operating theatre; not a depiction of a specific procedure" width="1600" height="900" loading="lazy">
          <h3>LASIK / Femto LASIK <span class="tag-edu">Education</span></h3>
          <p>A corneal flap is created and the underlying tissue is reshaped with an excimer laser. The exact technique depends on the platform and the surgeon's plan.</p>
         <p class="muted">May suit: stable prescription, adequate corneal thickness.</p>
@@ -106,7 +102,7 @@ page_start('home',
         <a class="card-link" href="/procedures">Learn responsibly →</a>
       </article>
       <article class="card proc-card image-card">
-         <img src="/assets/images/topography.jpg" alt="Illustrative corneal-topography equipment used to explain eye mapping" width="1000" height="667" loading="lazy">
+         <img src="/assets/images/clinic-equipment.jpg" alt="Ophthalmic diagnostic equipment in a clinical examination room" width="1600" height="900" loading="lazy">
          <h3>Customised / Topography-guided <span class="tag-edu">Education</span></h3>
         <p>Treatment profiles designed from detailed corneal mapping, aiming to address subtle optical irregularities beyond a standard prescription.</p>
         <p class="muted">May suit: higher astigmatism or irregular corneal optics.</p>
@@ -114,14 +110,14 @@ page_start('home',
         <a class="card-link" href="/compare">Compare approaches →</a>
       </article>
       <article class="card proc-card edu image-card">
-         <img src="/assets/images/refractive-surgery-preview.jpg" alt="Illustrative eye image for refractive-surgery education, not a depiction of SMILE or SILK" width="900" height="603" loading="lazy">
+         <img src="/assets/images/clinic-exam-room.jpg" alt="Eye examination room for clinical context; not a depiction of SMILE or SILK" width="1600" height="900" loading="lazy">
         <h3>SMILE / SILK <span class="tag-edu">Education only</span></h3>
         <p>Flapless small-incision lenticule extraction. Availability at this centre requires confirmation — this page explains the concept honestly.</p>
         <p class="muted">May suit: certain prescriptions where flapless is preferred.</p>
         <a class="card-link" href="/compare">Read the comparison →</a>
       </article>
       <article class="card proc-card image-card">
-         <img src="/assets/images/fundus-camera.jpg" alt="Illustrative refractive-laser equipment panel showing an excimer laser used for LASIK and PRK" width="1000" height="667" loading="lazy">
+         <img src="/assets/images/clinic-theatre.jpg" alt="Illustrative ophthalmic operating theatre; not a depiction of a specific laser procedure" width="1600" height="900" loading="lazy">
          <h3>PRK / TransPRK <span class="tag-edu">Education</span></h3>
         <p>No-flap surface ablation — the laser reshapes the cornea directly. Often discussed when corneal thickness is limited.</p>
         <p class="muted">May suit: thinner corneas, certain contact sports.</p>
@@ -163,7 +159,7 @@ page_start('home',
         <li><span class="t-num">05</span><h3>Discussion &amp; decision</h3><p>Options, trade-offs, risks and your questions — then you decide.</p></li>
       </ol>
       <figure class="section-photo journey-photo">
-          <img src="/assets/images/topography.jpg" alt="Illustrative diagnostic instruments for corneal mapping and eye measurements" width="1000" height="667" loading="lazy">
+          <img src="/assets/images/clinic-equipment.jpg" alt="Eye-care diagnostic equipment in a clinical room" width="1600" height="900" loading="lazy">
          <figcaption>Examples of diagnostic equipment; the tests needed depend on each patient's examination.</figcaption>
       </figure>
     </div>
@@ -198,7 +194,7 @@ page_start('home',
     <h2>Compare without confusion</h2>
     <p class="section-lede">The most advanced-sounding option is not automatically the most suitable. Compare on what actually matters:</p>
     <div class="compare-widget card compare-feature" id="compareWidget">
-      <img src="/assets/images/lasik-eligibility.jpg" alt="Illustrative eye assessment imagery" width="1600" height="1056" loading="lazy">
+          <img src="/assets/images/clinic-equipment.jpg" alt="Diagnostic instruments used in eye assessment" width="1600" height="900" loading="lazy">
       <div class="compare-tabs" role="tablist">
         <button role="tab" aria-selected="true" data-cmp="0">Approach</button>
         <button role="tab" aria-selected="false" data-cmp="1">Candidacy</button>
@@ -253,8 +249,8 @@ page_start('home',
     <h2>What to ask before you decide</h2>
     <p class="section-lede">There are no testimonials or guaranteed outcomes here. Use these questions to understand your own measurements, options and next steps.</p>
     <div class="card-grid three">
-      <article class="card image-card"><img src="/assets/images/topography.jpg" alt="Illustrative corneal diagnostic equipment" width="1000" height="667" loading="lazy"><h3>What do my measurements show?</h3><p>Ask how prescription stability, corneal shape and thickness, tear film and eye health affect suitability.</p></article>
-      <article class="card image-card"><img src="/assets/images/fundus-camera.jpg" alt="Illustrative laser equipment panel, including an excimer laser for LASIK and PRK" width="1000" height="667" loading="lazy"><h3>What are the alternatives?</h3><p>Ask which procedures may fit, how they differ, what their risks are, and whether glasses remain the better choice.</p></article>
+      <article class="card image-card"><img src="/assets/images/clinic-equipment.jpg" alt="Ophthalmic equipment used during a clinical eye assessment" width="1600" height="900" loading="lazy"><h3>What do my measurements show?</h3><p>Ask how prescription stability, corneal shape and thickness, tear film and eye health affect suitability.</p></article>
+      <article class="card image-card"><img src="/assets/images/clinic-theatre.jpg" alt="Illustrative ophthalmic operating theatre; not a depiction of a specific refractive procedure" width="1600" height="900" loading="lazy"><h3>What are the alternatives?</h3><p>Ask which procedures may fit, how they differ, what their risks are, and whether glasses remain the better choice.</p></article>
       <article class="card image-card"><img src="/assets/images/dr-rajat-jain.jpg" alt="<?= e(DOCTOR_NAME) ?>" width="900" height="1048" loading="lazy"><h3>What happens after I decide?</h3><p>Clarify the written estimate, preparation, follow-up schedule, recovery advice and who to contact with concerns.</p></article>
     </div>
     <h3 class="faq-head">Quick answers</h3>
@@ -287,7 +283,7 @@ page_start('home',
       </div>
     </div>
        <div class="card appt-card location-card">
-         <img src="/assets/images/topography.jpg" alt="Illustrative eye-diagnostic instruments; not a photograph of the hospital" width="1000" height="667" loading="lazy">
+         <img src="/assets/images/clinic-waiting-room.jpg" alt="Patient waiting area at the associated eye centre" width="1600" height="900" loading="lazy">
       <h3>Request an evaluation</h3>
       <p class="muted">Not confirmed until our team responds.</p>
        <?php $homeFormError = flash('form_error'); if ($homeFormError): ?><div class="form-error" role="alert"><?= e($homeFormError) ?></div><?php endif; ?>

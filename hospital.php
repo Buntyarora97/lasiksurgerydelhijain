@@ -24,8 +24,8 @@ page_start('hospital','Jain Eye Hospital & Laser Centre — Our Associated Centr
       </div>
     </div>
     <figure class="doc-figure">
-        <img src="/assets/images/topography.jpg" alt="Illustrative eye-diagnostic equipment, including corneal imaging instruments" width="1000" height="667" loading="eager">
-        <figcaption>Illustrative diagnostic equipment — this is not a photograph of the hospital or a promise that every test is available.</figcaption>
+        <img src="/assets/images/clinic-waiting-room.jpg" alt="Patient waiting lounge at the associated eye centre" width="1600" height="900" loading="eager">
+        <figcaption>Patient waiting area at the centre.</figcaption>
     </figure>
   </div>
   <div class="container" style="max-width:820px;margin-top:3rem">

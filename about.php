@@ -12,8 +12,8 @@ page_start('about','About This Platform — ' . SITE_NAME,
     <h1 style="margin-bottom:.4em">About this platform</h1>
     <p class="section-lede">Eight honest answers about who we are, why this site exists and how we handle your trust.</p>
     <figure class="editorial-banner">
-      <img src="/assets/images/dr-rajat-jain.jpg" alt="<?= e(DOCTOR_NAME) ?>" width="900" height="1048" loading="eager">
-      <figcaption><?= e(DOCTOR_NAME) ?> · Refractive-surgery consultation</figcaption>
+      <img src="/assets/images/clinic-patient-care.jpg" alt="A care team member speaking with a patient at the centre" width="1600" height="900" loading="eager">
+      <figcaption>Patient care at the associated centre.</figcaption>
     </figure>
 
     <h2>1 · Why this focused website exists</h2>

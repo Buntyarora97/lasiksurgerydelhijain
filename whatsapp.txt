@@ -1,0 +1,17 @@
+*Jain Eye Hospital website update — 7 Oct 2026*
+
+Aaj ki website progress:
+• Aaj ke repository record mein appointment form submission/styling aur PHP/Replit configuration updates bhi shamil hain.
+• Desktop aur mobile ke liye header, navigation, contact strip, sticky actions aur footer ko improve kiya.
+• Sections ki spacing, image crop, alignment aur responsive layout ko consistent kiya; homepage hero ko clean banner banaya.
+• `new-images all` se 5 clinic photos optimize karke relevant pages par lagaye.
+• Public pages ke SEO title, description, keywords, canonical URL aur social metadata ko page ke hisaab se set kiya.
+• Shared contact details ko approved list tak rakha:
+  011 4378 4377 · 09643536373 · 9643 900 900 · info@jaineye.com
+• Evaluation page se unverified doctor-review/date claim hataya; contact page ka repeated address bhi saaf kiya.
+
+*Checks:* 17 public page routes, 33 PHP files, desktop/mobile preview aur contact details verify kiye. Sab 17 routes HTTP 200 return karte hain; PHP syntax aur diff checks pass hue.
+
+*Client confirmation baaki:* `new-images all` ke Dr. Rajat naam wale portrait par uniform mein “Dr. Rahul Jain” / “Dr. Raj Jain” likha hai. Galat doctor photo lagane se bachne ke liye existing Dr. Rajat portrait rakha hai—sahi approved photo chahiye. Doctor credentials, services, fees, timings aur privacy details bhi publish se pehle verify hon.
+
+*Publish status:* Website staging/noindex par hi hai; Google indexing ya production publish enable nahi kiya.

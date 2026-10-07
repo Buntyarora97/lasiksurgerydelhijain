@@ -11,6 +11,10 @@ page_start('recovery','LASIK Recovery Timeline & Aftercare Guide | ' . SITE_NAME
     <p class="eyebrow">Patient guide</p>
     <h1>Recovery &amp; aftercare: the realistic timeline</h1>
     <p class="section-lede">Recovery varies by procedure and by person. The timeline below is general education — your surgeon's instructions for your specific case always take priority.</p>
+    <figure class="guide-feature">
+      <img src="/assets/images/clinic-exam-room.jpg" alt="Eye examination room at the associated centre" width="1600" height="900" loading="eager">
+      <figcaption>Follow-up and aftercare instructions should be tailored to the procedure and the individual.</figcaption>
+    </figure>
 
     <ol class="timeline" style="grid-template-columns:1fr">
       <li><span class="t-num">01</span><h3>First 24 hours</h3><p>Rest your eyes. Vision is often noticeably clearer quickly, but fluctuation is normal. Use prescribed drops, avoid rubbing, and arrange your ride home — don't drive yourself.</p></li>

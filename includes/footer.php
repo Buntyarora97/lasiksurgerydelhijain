@@ -43,9 +43,12 @@
     <div class="f-col">
       <h3>Centre</h3>
       <p><?= e(ADDRESS_LINE) ?></p>
-      <p class="footer-phone-list"><strong>Phone</strong>
-      <?php foreach (PHONE_NUMBERS as $number): ?><a href="<?= e($number['href']) ?>"><?= e($number['display']) ?></a><?php endforeach; ?>
-      <a href="mailto:<?= e(EMAIL_MAIN) ?>"><?= e(EMAIL_MAIN) ?></a></p>
+      <div class="footer-phone-list">
+        <strong>Phone</strong>
+        <?php foreach (PHONE_NUMBERS as $number): ?><a href="<?= e($number['href']) ?>"><?= e($number['display']) ?></a><?php endforeach; ?>
+        <strong>Email</strong>
+        <a href="mailto:<?= e(EMAIL_MAIN) ?>"><?= e(EMAIL_MAIN) ?></a>
+      </div>
       <a href="<?= e(HOSPITAL_URL) ?>" target="_blank" rel="noopener"><?= e(HOSPITAL_NAME) ?> ↗</a>
       <a href="<?= e(DOCTOR_URL) ?>" target="_blank" rel="noopener"><?= e(DOCTOR_NAME) ?> ↗</a>
     </div>
