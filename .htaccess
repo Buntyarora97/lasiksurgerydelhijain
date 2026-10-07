@@ -11,6 +11,8 @@ ServerSignature Off
 # ---- Clean URLs: strip .php ----
 <IfModule mod_rewrite.c>
 RewriteEngine On
+# LASIK education articles share a server-rendered PHP template.
+RewriteRule ^guides/([a-z0-9-]+)/?$ guides.php?slug=$1 [L,QSA]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php [L]

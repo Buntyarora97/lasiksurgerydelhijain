@@ -9,6 +9,7 @@ $desc     = $pageMeta['description'] ?? 'Focused LASIK and refractive-surgery ed
 $canonical= $pageMeta['canonical'] ?? SITE_URL . '/';
 $keywords = $pageMeta['keywords'] ?? '';
 $ogImage  = $pageMeta['og_image'] ?? SITE_URL . '/assets/images/og-default.jpg';
+$ogType   = $pageMeta['og_type'] ?? 'website';
 $noindex  = $pageMeta['noindex'] ?? (SITE_ENV !== 'production');
 ?>
 <!DOCTYPE html>
@@ -21,7 +22,7 @@ $noindex  = $pageMeta['noindex'] ?? (SITE_ENV !== 'production');
 <?php if ($keywords !== ''): ?><meta name="keywords" content="<?= e($keywords) ?>"><?php endif; ?>
 <?php if ($noindex): ?><meta name="robots" content="noindex,nofollow"><?php endif; ?>
 <?php if ($canonical !== ''): ?><link rel="canonical" href="<?= e($canonical) ?>"><?php endif; ?>
-<meta property="og:type" content="website">
+<meta property="og:type" content="<?= e($ogType) ?>">
 <meta property="og:locale" content="en_IN">
 <meta property="og:site_name" content="<?= e(SITE_NAME) ?>">
 <meta property="og:title" content="<?= e($title) ?>">
@@ -45,6 +46,9 @@ $noindex  = $pageMeta['noindex'] ?? (SITE_ENV !== 'production');
   'inLanguage' => 'en-IN',
   'isPartOf' => ['@type' => 'WebSite', 'name' => SITE_NAME, 'url' => SITE_URL . '/'],
 ], JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?></script>
+<?php if (isset($pageMeta['schema']) && is_array($pageMeta['schema'])): ?>
+<script type="application/ld+json"><?= json_encode($pageMeta['schema'], JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?></script>
+<?php endif; ?>
 </head>
 <body class="page page-<?= e($pageKey) ?>">
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -134,7 +138,7 @@ $noindex  = $pageMeta['noindex'] ?? (SITE_ENV !== 'production');
         <li><a href="/compare" <?= $pageKey==='compare'?'aria-current="page"':'' ?>>Compare</a></li>
         <li><a href="/cost" <?= $pageKey==='cost'?'aria-current="page"':'' ?>>Cost</a></li>
         <li><a href="/doctor" <?= $pageKey==='doctor'?'aria-current="page"':'' ?>>Dr. Rajat Jain</a></li>
-        <li><a href="/faq" <?= $pageKey==='faq'?'aria-current="page"':'' ?>>Guides &amp; FAQs</a></li>
+         <li><a href="/guides" <?= in_array($pageKey, ['guides','guide'], true)?'aria-current="page"':'' ?>>Guides &amp; FAQs</a></li>
         <li><a href="/hospital" <?= $pageKey==='hospital'?'aria-current="page"':'' ?>>About the Centre</a></li>
       </ul>
     </nav>
@@ -163,7 +167,8 @@ $noindex  = $pageMeta['noindex'] ?? (SITE_ENV !== 'production');
       <a href="/doctor">Dr. Rajat Jain</a>
       <a href="/recovery">Recovery &amp; Aftercare</a>
       <a href="/risks">Risks &amp; Safety</a>
-      <a href="/faq">Guides &amp; FAQs</a>
+       <a href="/guides">LASIK Education Guides</a>
+       <a href="/faq">Frequently Asked Questions</a>
       <a href="/hospital">About the Centre</a>
       <a href="/contact">Contact</a>
     </nav>

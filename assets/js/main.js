@@ -145,6 +145,131 @@ if (checklist) {
   boxes.forEach(function (b) { b.addEventListener('change', evaluate); });
 }
 
+/* ---------- Patient education guide search ---------- */
+var guideSearch = document.querySelector('[data-guide-search]');
+if (guideSearch) {
+  var guideCards = Array.prototype.slice.call(document.querySelectorAll('[data-guide-card]'));
+  var guideCount = document.querySelector('[data-guide-count]');
+  var guideEmpty = document.querySelector('[data-guide-empty]');
+  var guideGroups = document.querySelectorAll('.guide-group');
+  function filterGuides() {
+    var query = guideSearch.value.trim().toLowerCase();
+    var visible = 0;
+    guideCards.forEach(function (card) {
+      var matches = !query || (card.dataset.search || '').indexOf(query) !== -1;
+      card.hidden = !matches;
+      if (matches) visible++;
+    });
+    guideGroups.forEach(function (group) {
+      group.hidden = group.querySelectorAll('[data-guide-card]:not([hidden])').length === 0;
+    });
+    if (guideCount) guideCount.textContent = visible + (visible === 1 ? ' guide' : ' guides');
+    if (guideEmpty) guideEmpty.hidden = visible !== 0;
+  }
+  guideSearch.addEventListener('input', filterGuides);
+}
+
+/* ---------- Accessible hero carousel ---------- */
+var heroCarousel = document.querySelector('[data-hero-carousel]');
+if (heroCarousel) {
+  var heroSlides = Array.prototype.slice.call(heroCarousel.querySelectorAll('[data-hero-slide]'));
+  var heroDots = Array.prototype.slice.call(heroCarousel.querySelectorAll('[data-slide-to]'));
+  var heroPrev = heroCarousel.querySelector('[data-hero-prev]');
+  var heroNext = heroCarousel.querySelector('[data-hero-next]');
+  var heroToggle = heroCarousel.querySelector('[data-hero-toggle]');
+  var heroIndex = 0;
+  var heroTimer = null;
+  var heroUserPaused = reduceMotion;
+  var heroTemporarilyPaused = false;
+  var heroInterval = 6500;
+
+  function stopHeroTimer() {
+    if (heroTimer) window.clearInterval(heroTimer);
+    heroTimer = null;
+  }
+  function startHeroTimer() {
+    stopHeroTimer();
+    if (heroSlides.length < 2 || heroUserPaused || heroTemporarilyPaused || document.hidden) return;
+    heroTimer = window.setInterval(function () {
+      showHeroSlide(heroIndex + 1, false);
+    }, heroInterval);
+  }
+  function showHeroSlide(index, userAction) {
+    if (!heroSlides.length) return;
+    heroIndex = (index + heroSlides.length) % heroSlides.length;
+    heroSlides.forEach(function (slide, i) {
+      var active = i === heroIndex;
+      slide.classList.toggle('is-active', active);
+      slide.setAttribute('aria-hidden', active ? 'false' : 'true');
+      slide.setAttribute('aria-label', (i + 1) + ' of ' + heroSlides.length);
+    });
+    heroDots.forEach(function (dot, i) {
+      dot.setAttribute('aria-pressed', i === heroIndex ? 'true' : 'false');
+    });
+    if (userAction) startHeroTimer();
+  }
+  if (heroPrev) heroPrev.addEventListener('click', function () { showHeroSlide(heroIndex - 1, true); });
+  if (heroNext) heroNext.addEventListener('click', function () { showHeroSlide(heroIndex + 1, true); });
+  heroDots.forEach(function (dot) {
+    dot.addEventListener('click', function () { showHeroSlide(Number(dot.dataset.slideTo) || 0, true); });
+  });
+  if (heroToggle) {
+    function renderHeroToggle() {
+      var playing = !heroUserPaused;
+      heroToggle.textContent = playing ? 'Pause' : 'Play';
+      heroToggle.setAttribute('aria-label', playing ? 'Pause automatic slides' : 'Start automatic slides');
+      heroToggle.setAttribute('aria-pressed', playing ? 'false' : 'true');
+    }
+    heroToggle.addEventListener('click', function () {
+      heroUserPaused = !heroUserPaused;
+      renderHeroToggle();
+      startHeroTimer();
+    });
+    renderHeroToggle();
+  }
+  heroCarousel.addEventListener('mouseenter', function () {
+    heroTemporarilyPaused = true;
+    stopHeroTimer();
+  });
+  heroCarousel.addEventListener('mouseleave', function () {
+    heroTemporarilyPaused = false;
+    startHeroTimer();
+  });
+  heroCarousel.addEventListener('focusin', function () {
+    heroTemporarilyPaused = true;
+    stopHeroTimer();
+  });
+  heroCarousel.addEventListener('focusout', function (event) {
+    if (!heroCarousel.contains(event.relatedTarget)) {
+      heroTemporarilyPaused = false;
+      startHeroTimer();
+    }
+  });
+  heroCarousel.addEventListener('keydown', function (event) {
+    if (event.key === 'ArrowLeft') {
+      event.preventDefault();
+      showHeroSlide(heroIndex - 1, true);
+    } else if (event.key === 'ArrowRight') {
+      event.preventDefault();
+      showHeroSlide(heroIndex + 1, true);
+    }
+  });
+  var touchStartX = null;
+  heroCarousel.addEventListener('touchstart', function (event) {
+    if (event.target.closest('button')) return;
+    touchStartX = event.changedTouches[0].clientX;
+  }, { passive: true });
+  heroCarousel.addEventListener('touchend', function (event) {
+    if (touchStartX === null) return;
+    var delta = event.changedTouches[0].clientX - touchStartX;
+    touchStartX = null;
+    if (Math.abs(delta) > 48) showHeroSlide(heroIndex + (delta < 0 ? 1 : -1), true);
+  }, { passive: true });
+  document.addEventListener('visibilitychange', startHeroTimer);
+  showHeroSlide(0, false);
+  startHeroTimer();
+}
+
 /* ---------- Services carousel ---------- */
 var serviceSlider = document.querySelector('[data-services-slider]');
 if (serviceSlider) {
@@ -255,95 +380,6 @@ if (mapBtn) {
     document.getElementById('mapConsent').innerHTML =
       '<iframe title="Map to ' + 'Jain Eye Hospital' + '" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=' + q + '&output=embed"></iframe>';
   });
-}
-
-/* =========================================================
-   Clarity Aperture — WebGL-free canvas animation
-   Translucent corneal rings + travelling light beam that
-   resolves from blur to focus as the user scrolls.
-   ========================================================= */
-var canvas = document.getElementById('apertureCanvas');
-if (canvas && !reduceMotion) {
-  var ctx = canvas.getContext('2d');
-  var W = canvas.width, H = canvas.height, cx = W / 2, cy = H / 2;
-  var pointer = { x: 0, y: 0 }, focus = 0.25, t = 0;
-  var running = true;
-
-  if (finePointer) {
-    window.addEventListener('mousemove', function (e) {
-      pointer.x = (e.clientX / window.innerWidth - 0.5) * 12;   // max 12px parallax
-      pointer.y = (e.clientY / window.innerHeight - 0.5) * 12;
-    }, { passive: true });
-  }
-  window.addEventListener('scroll', function () {
-    var h = document.getElementById('hero');
-    if (h) focus = Math.min(1, Math.max(0.25, 1 - (window.scrollY / (h.offsetHeight || 1)) * 0.9));
-  }, { passive: true });
-
-  if ('IntersectionObserver' in window) {
-    new IntersectionObserver(function (en) { running = en[0].isIntersecting; }, { threshold: 0 })
-      .observe(canvas);
-  }
-
-  function ring(r, alpha, lw) {
-    ctx.beginPath();
-    ctx.arc(cx + pointer.x * (r / 200), cy + pointer.y * (r / 200), r, 0, Math.PI * 2);
-    ctx.strokeStyle = 'rgba(37,199,217,' + alpha + ')';
-    ctx.lineWidth = lw;
-    ctx.stroke();
-  }
-  function draw() {
-    requestAnimationFrame(draw);
-    if (!running) return;
-    t += 0.008;
-    ctx.clearRect(0, 0, W, H);
-
-    // corneal rings — blur decreases as focus increases
-    var blur = (1 - focus) * 6;
-    ctx.save();
-    ctx.filter = blur > 0.4 ? 'blur(' + blur.toFixed(1) + 'px)' : 'none';
-    var pulse = Math.sin(t * 2) * 4;
-    ring(240 + pulse, 0.16, 1.5);
-    ring(196, 0.26, 1.5);
-    ring(158 - pulse * 0.5, 0.40, 2);
-    ring(120, 0.55, 2);
-    // aperture blades
-    for (var i = 0; i < 6; i++) {
-      var a = t * 0.6 + i * Math.PI / 3;
-      ctx.beginPath();
-      ctx.moveTo(cx + Math.cos(a) * 66, cy + Math.sin(a) * 66);
-      ctx.lineTo(cx + Math.cos(a + 0.5) * 118, cy + Math.sin(a + 0.5) * 118);
-      ctx.strokeStyle = 'rgba(84,184,138,0.35)';
-      ctx.lineWidth = 2;
-      ctx.stroke();
-    }
-    ctx.restore();
-
-    // travelling light beam — converging to focal point
-    var bx = W * 0.08, by = cy - 60;
-    var grad = ctx.createLinearGradient(bx, by, cx, cy);
-    grad.addColorStop(0, 'rgba(37,199,217,0)');
-    grad.addColorStop(1, 'rgba(37,199,217,' + (0.25 + focus * 0.6) + ')');
-    ctx.beginPath();
-    ctx.moveTo(bx, by - 26);
-    ctx.quadraticCurveTo(W * 0.5, cy - (1 - focus) * 90 - 8, cx, cy);
-    ctx.lineTo(cx, cy);
-    ctx.quadraticCurveTo(W * 0.5, cy + (1 - focus) * 90 + 8, bx, by + 26);
-    ctx.closePath();
-    ctx.fillStyle = grad;
-    ctx.fill();
-
-    // focal point glow
-    var glow = ctx.createRadialGradient(cx, cy, 0, cx, cy, 46);
-    glow.addColorStop(0, 'rgba(140,234,244,' + (0.35 + focus * 0.55) + ')');
-    glow.addColorStop(1, 'rgba(140,234,244,0)');
-    ctx.fillStyle = glow;
-    ctx.beginPath(); ctx.arc(cx, cy, 46, 0, Math.PI * 2); ctx.fill();
-  }
-  draw();
-} else if (canvas) {
-  // Static fallback for reduced motion / no rAF
-  canvas.style.background = 'radial-gradient(circle, rgba(37,199,217,.25), transparent 60%)';
 }
 
 })();

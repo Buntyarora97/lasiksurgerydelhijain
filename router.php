@@ -14,6 +14,11 @@ if ($path !== '/' && is_file($root . $path)) {
 }
 
 $route = trim($path, '/');
+if (preg_match('#^guides/([a-z0-9-]+)/?$#i', $route, $guideMatch)) {
+    $_GET['slug'] = strtolower($guideMatch[1]);
+    require $root . '/guides.php';
+    return true;
+}
 $target = $route === '' ? 'index.php' : $route . '.php';
 
 if (is_file($root . '/' . $target)) {

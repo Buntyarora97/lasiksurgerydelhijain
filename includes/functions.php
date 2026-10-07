@@ -161,7 +161,7 @@ function page_seo_defaults(string $pageKey): array {
 }
 
 /* ---------- Headers / page chrome ---------- */
-function page_start(string $pageKey, string $title, string $desc, array $crumbs = []): void {
+function page_start(string $pageKey, string $title, string $desc, array $crumbs = [], array $metaOverrides = []): void {
     $storedMeta = page_meta($pageKey);
     $defaults = page_seo_defaults($pageKey);
     $finalTitle = !empty($storedMeta['title']) ? $storedMeta['title'] : ($defaults['title'] ?? $title);
@@ -186,14 +186,15 @@ function page_start(string $pageKey, string $title, string $desc, array $crumbs 
     }
     $GLOBALS['PAGE_KEY'] = $pageKey;
     $GLOBALS['CRUMBS'] = $crumbs;
-    $GLOBALS['PAGE_META'] = [
+    $GLOBALS['PAGE_META'] = array_merge([
         'title' => $finalTitle,
         'description' => $finalDesc,
         'keywords' => $defaults['keywords'] ?? '',
         'canonical' => $canonical,
         'og_image' => $ogPath,
+        'og_type' => 'website',
         'noindex' => SITE_ENV !== 'production' || in_array($pageKey, ['404', '500'], true),
-    ];
+    ], $metaOverrides);
     require __DIR__ . '/header.php';
 }
 function page_end(): void { require __DIR__ . '/footer.php'; }

@@ -36,6 +36,7 @@
       <h3>Patient guides</h3>
       <a href="/recovery">Recovery &amp; Aftercare</a>
       <a href="/risks">Risks &amp; Safety</a>
+      <a href="/guides">20 LASIK Education Guides</a>
       <a href="/faq">FAQs</a>
       <a href="/appointment">Book Evaluation</a>
       <a href="/contact">Contact</a>
