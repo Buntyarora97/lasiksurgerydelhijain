@@ -3,6 +3,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/includes/config.php';
 require_once __DIR__ . '/includes/functions.php';
 $guides = require __DIR__ . '/includes/guide-content.php';
+$guideCount = count($guides);
 $slug = strtolower(trim((string)($_GET['slug'] ?? '')));
 $requestedSlug = preg_match('/^[a-z0-9-]+$/', $slug) ? $slug : '';
 
@@ -20,6 +21,7 @@ $groups = [
     'Cost & planning' => 'Cost and planning',
     'Special situations' => 'Special situations',
     'Prescription & life stages' => 'Prescription and life stages',
+    'Common LASIK questions' => 'Common LASIK questions',
 ];
 
 if ($requestedSlug === '') {
@@ -36,8 +38,8 @@ if ($requestedSlug === '') {
     }
     page_start(
         'guides',
-        'LASIK Patient Education Guides: 20 Practical Topics | Jain Eye',
-        'Explore 20 practical guides to LASIK candidacy, eye tests, procedure comparisons, cost, recovery, risks and common patient questions.',
+        'LASIK Patient Education Guides: ' . $guideCount . ' Practical Topics | Jain Eye',
+        'Explore ' . $guideCount . ' practical guides to LASIK candidacy, eye tests, procedure comparisons, cost, recovery, risks and common patient questions.',
         [['LASIK Education Guides', '/guides']],
         [
             'keywords' => 'LASIK guides, LASIK questions, LASIK eligibility, LASIK recovery, refractive surgery education Delhi',
@@ -66,7 +68,7 @@ if ($requestedSlug === '') {
         <div class="guide-search">
           <label for="guideSearch">Find a topic</label>
           <input id="guideSearch" type="search" placeholder="Try “recovery”, “dry eye” or “cost”" data-guide-search>
-          <p class="muted-sm" data-guide-count aria-live="polite"><?= count($guides) ?> guides</p>
+        <p class="muted-sm" data-guide-count aria-live="polite"><?= $guideCount ?> guides</p>
         </div>
         <?php foreach ($groups as $groupKey => $groupTitle): ?>
           <?php $groupGuides = array_filter($guides, static fn(array $g): bool => $g['group'] === $groupKey); ?>
@@ -198,7 +200,7 @@ page_start(
       <section class="related-guides" aria-labelledby="related-title">
         <div class="section-heading-row">
           <div><p class="eyebrow">Continue learning</p><h2 id="related-title">Related LASIK guides</h2></div>
-          <a class="ulink" href="/guides">Browse all 20 topics →</a>
+          <a class="ulink" href="/guides">Browse all patient education topics →</a>
         </div>
         <div class="card-grid three"><?php foreach ($relatedGuides as $relatedSlug): $related = $guides[$relatedSlug]; ?>
           <article class="card guide-teaser">

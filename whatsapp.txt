@@ -15,3 +15,16 @@ Aaj ki website progress:
 *Image note:* Uploaded, client-approved portrait doctor profile aur homepage par laga diya. Photo ke uniform par “Dr. Rahul Jain” naam visible hai. Doctor credentials, services, fees, timings aur privacy details publish se pehle verify hon.
 
 *Publish status:* Website staging/noindex par hi hai; Google indexing ya production publish enable nahi kiya.
+
+*Additional mobile + patient-guide update — 7 Oct 2026*
+• Mobile top strip ko compact location + call button layout diya; baaki contact choices neeche fixed Call / Email / Book bar mein available hain.
+• Homepage carousel mein mobile par photo, heading/text aur controls alag rows mein hain; photo ratio consistent hai, isliye text face/photo ke upar nahi aata.
+• Vision-correction cards ko phone par full-width layout, consistent image crop aur swipe navigation diya; Phakic IOL / ICL education card mein missing illustrative image add ki.
+• 5 referenced LASIK patient guides add kiye: pain, procedure duration, permanence, repeat LASIK aur driving ke baad surgery. Guide listing ab 25 topics dikhati hai, aur sitemap mein guide links bhi hain.
+• Naye pages U.S. FDA aur American Academy of Ophthalmology ke public patient sources cite karte hain; har jagah suitability/risks ke liye in-person clinician assessment ko priority di gayi hai.
+
+*Checks:* 40 PHP files syntax, JavaScript syntax aur `git diff --check` pass; 5 naye guide pages, guide listing aur sitemap HTTP 200 return karte hain. Guide library mein 25 valid image/article records verify hue. Desktop aur 320/390/402px mobile preview dekha.
+
+*Search-volume note:* 5 titles common/high-intent patient questions par based hain. Is environment mein monthly Google keyword-search volume data available nahi tha, isliye unhe measured “top searched” claims nahi kiya.
+
+*Publish status:* Staging/noindex status unchanged. Public patient information ko local ophthalmologist review ke bina clinician approval ke roop mein present nahi kiya gaya.

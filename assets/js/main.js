@@ -322,6 +322,30 @@ if (serviceSlider) {
     serviceIndex = Number(target.dataset.serviceIndex) || 0;
     renderServices();
   });
+  var serviceTouchStartX = null;
+  var serviceTouchStartY = null;
+  var serviceViewport = serviceSlider.querySelector('.services-viewport');
+  if (serviceViewport) {
+    serviceViewport.addEventListener('touchstart', function (event) {
+      if (event.target.closest('a,button,input,textarea,select')) return;
+      serviceTouchStartX = event.changedTouches[0].clientX;
+      serviceTouchStartY = event.changedTouches[0].clientY;
+    }, { passive: true });
+    serviceViewport.addEventListener('touchend', function (event) {
+      if (serviceTouchStartX === null || serviceTouchStartY === null) return;
+      var deltaX = event.changedTouches[0].clientX - serviceTouchStartX;
+      var deltaY = event.changedTouches[0].clientY - serviceTouchStartY;
+      serviceTouchStartX = null;
+      serviceTouchStartY = null;
+      if (Math.abs(deltaX) > 48 && Math.abs(deltaX) > Math.abs(deltaY)) {
+        moveServices(deltaX < 0 ? 1 : -1);
+      }
+    }, { passive: true });
+    serviceViewport.addEventListener('touchcancel', function () {
+      serviceTouchStartX = null;
+      serviceTouchStartY = null;
+    }, { passive: true });
+  }
   window.addEventListener('resize', renderServices, { passive: true });
   renderServices();
 }

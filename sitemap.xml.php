@@ -5,12 +5,16 @@ header('Content-Type: application/xml; charset=utf-8');
 
 $static = ['', 'about', 'lasik-evaluation', 'procedures', 'compare', 'cost', 'recovery',
            'risks', 'faq', 'doctor', 'hospital', 'appointment', 'contact',
-           'privacy', 'terms', 'medical-disclaimer', 'accessibility'];
+           'privacy', 'terms', 'medical-disclaimer', 'accessibility', 'guides'];
 
 echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
 echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
 foreach ($static as $p) {
     echo '  <url><loc>' . SITE_URL . '/' . $p . '</loc><changefreq>weekly</changefreq><priority>' . ($p === '' ? '1.0' : '0.7') . '</priority></url>' . "\n";
+}
+$guides = require __DIR__ . '/includes/guide-content.php';
+foreach ($guides as $slug => $guide) {
+    echo '  <url><loc>' . SITE_URL . '/guides/' . rawurlencode($slug) . '</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>' . "\n";
 }
 try {
     require_once __DIR__ . '/includes/db.php';

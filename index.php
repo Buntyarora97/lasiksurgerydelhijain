@@ -2,6 +2,7 @@
 declare(strict_types=1);
 require_once __DIR__ . '/includes/config.php';
 require_once __DIR__ . '/includes/functions.php';
+$educationGuideCount = count(require __DIR__ . '/includes/guide-content.php');
 page_start('home',
     'LASIK Surgery in Delhi: Start With the Right Evaluation | ' . SITE_NAME,
     'Understand LASIK, compare suitable options and meet refractive-surgery specialist Dr. Rajat Jain in Shalimar Bagh, Delhi. Clear decisions before clearer vision.');
@@ -152,6 +153,7 @@ page_start('home',
         <a class="card-link" href="/procedures">Learn responsibly →</a>
       </article>
       <article class="card proc-card image-card">
+        <img src="/assets/images/lasik-hero-eye-exam.jpg" alt="Illustrative eye assessment before considering an implantable lens; not a depiction of an ICL procedure" width="1600" height="900" loading="lazy">
         <h3>Phakic IOL / ICL</h3>
         <p>A lens implanted inside the eye, in front of the natural lens — an option when power is beyond safe laser correction.</p>
         <p class="muted">May suit: very high myopia or thin corneas.</p>
@@ -301,15 +303,15 @@ page_start('home',
         <h2>Start with the question on your mind</h2>
         <p class="section-lede">Clear, practical explainers on candidacy, procedures, recovery and cost—written to help you prepare for a real clinical conversation.</p>
       </div>
-      <a class="btn btn-ghost" href="/guides">See all 20 guides</a>
+      <a class="btn btn-ghost" href="/guides">See all <?= $educationGuideCount ?> guides</a>
     </div>
     <div class="card-grid three guide-card-grid">
       <article class="card guide-teaser"><span class="guide-number">01 · SUITABILITY</span><h3>Am I a good candidate for LASIK?</h3><p>Learn why age, prescription stability, corneal measurements, dry eye and overall health all matter.</p><a class="card-link" href="/guides/lasik-eligibility">Read the candidacy guide →</a></article>
       <article class="card guide-teaser"><span class="guide-number">02 · COMPARISONS</span><h3>LASIK vs SMILE: what is different?</h3><p>Compare the way each procedure is performed, recovery considerations and questions to ask.</p><a class="card-link" href="/guides/lasik-vs-smile">Read the comparison →</a></article>
-      <article class="card guide-teaser"><span class="guide-number">03 · PLANNING</span><h3>LASIK cost in Delhi: what to ask</h3><p>Understand the parts of a written estimate without relying on unverified headline prices.</p><a class="card-link" href="/guides/lasik-cost-delhi">Read the cost guide →</a></article>
+      <article class="card guide-teaser"><span class="guide-number">03 · COMMON QUESTION</span><h3>Does LASIK hurt?</h3><p>Know what numbing drops do, what sensations are possible and which symptoms need a prompt call.</p><a class="card-link" href="/guides/does-lasik-hurt">Read the patient guide →</a></article>
       <article class="card guide-teaser"><span class="guide-number">04 · RECOVERY</span><h3>LASIK recovery, day by day</h3><p>Plan for follow-up, prescribed drops, time away from work and normal variation in healing.</p><a class="card-link" href="/guides/lasik-recovery">Read the recovery guide →</a></article>
-      <article class="card guide-teaser"><span class="guide-number">05 · SAFETY</span><h3>LASIK risks and side effects</h3><p>Understand common temporary symptoms, less common complications and informed consent.</p><a class="card-link" href="/guides/lasik-risks-side-effects">Read the safety guide →</a></article>
-      <article class="card guide-teaser guide-teaser-cta"><span class="guide-number">20 TOPIC-SPECIFIC GUIDES</span><h3>Get the full picture</h3><p>Explore the complete library, including pregnancy, dry eye, astigmatism and alternatives.</p><a class="btn btn-light" href="/guides">Open the guide library</a></article>
+      <article class="card guide-teaser"><span class="guide-number">05 · LONG-TERM VISION</span><h3>Is LASIK permanent?</h3><p>Understand what the laser changes—and why natural ageing or a later prescription shift can still matter.</p><a class="card-link" href="/guides/is-lasik-permanent">Read the long-term guide →</a></article>
+      <article class="card guide-teaser guide-teaser-cta"><span class="guide-number"><?= $educationGuideCount ?> TOPIC-SPECIFIC GUIDES</span><h3>Get the full picture</h3><p>Explore the complete library, including eligibility, procedure choices, recovery and long-term questions.</p><a class="btn btn-light" href="/guides">Open the guide library</a></article>
     </div>
   </div>
 </section>
