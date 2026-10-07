@@ -181,7 +181,7 @@ page_start('home',
       <p class="muted-sm">Detailed biography, credentials and publications: <a class="ulink" href="<?= e(DOCTOR_URL) ?>" target="_blank" rel="noopener">drrajatjain.com ↗</a></p>
     </div>
     <figure class="doc-figure">
-      <img src="/assets/images/dr-rajat-jain.jpg" alt="<?= e(DOCTOR_NAME) ?>" width="900" height="1048" loading="lazy">
+      <img src="/assets/images/dr-rajat-jain-approved.jpg" alt="Portrait of <?= e(DOCTOR_NAME) ?>" width="1200" height="1200" loading="lazy">
        <figcaption>Consultation at <?= e(HOSPITAL_NAME) ?> · <?= e(ADDRESS_LINE) ?></figcaption>
     </figure>
   </div>
@@ -251,7 +251,7 @@ page_start('home',
     <div class="card-grid three">
       <article class="card image-card"><img src="/assets/images/clinic-equipment.jpg" alt="Ophthalmic equipment used during a clinical eye assessment" width="1600" height="900" loading="lazy"><h3>What do my measurements show?</h3><p>Ask how prescription stability, corneal shape and thickness, tear film and eye health affect suitability.</p></article>
       <article class="card image-card"><img src="/assets/images/clinic-theatre.jpg" alt="Illustrative ophthalmic operating theatre; not a depiction of a specific refractive procedure" width="1600" height="900" loading="lazy"><h3>What are the alternatives?</h3><p>Ask which procedures may fit, how they differ, what their risks are, and whether glasses remain the better choice.</p></article>
-      <article class="card image-card"><img src="/assets/images/dr-rajat-jain.jpg" alt="<?= e(DOCTOR_NAME) ?>" width="900" height="1048" loading="lazy"><h3>What happens after I decide?</h3><p>Clarify the written estimate, preparation, follow-up schedule, recovery advice and who to contact with concerns.</p></article>
+      <article class="card image-card"><img src="/assets/images/dr-rajat-jain-approved.jpg" alt="Portrait of <?= e(DOCTOR_NAME) ?>" width="1200" height="1200" loading="lazy"><h3>What happens after I decide?</h3><p>Clarify the written estimate, preparation, follow-up schedule, recovery advice and who to contact with concerns.</p></article>
     </div>
     <h3 class="faq-head">Quick answers</h3>
     <div class="accordion">
