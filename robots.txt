@@ -1,0 +1,11 @@
+User-agent: *
+# Staging mode — REMOVE the Disallow below only after the verification gate passes.
+Disallow: /
+Disallow: /admin/
+Disallow: /actions/
+Disallow: /includes/
+Disallow: /database/
+Disallow: /storage/
+Disallow: /search?
+
+Sitemap: https://lasiksurgeryindelhi.com/sitemap.xml.php

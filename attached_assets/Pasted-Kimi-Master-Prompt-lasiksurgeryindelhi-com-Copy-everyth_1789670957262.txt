@@ -1,0 +1,800 @@
+Kimi Master Prompt — lasiksurgeryindelhi.com
+
+Copy everything from MASTER PROMPT START to MASTER PROMPT END and give it to Kimi in one message.
+
+MASTER PROMPT START
+
+Act as a senior healthcare brand strategist, refractive-surgery patient-education writer, medical SEO/AEO/GEO architect, conversion UX specialist, Awwwards-level 3D web designer, accessibility expert, and expert Core PHP/MySQL developer. Build a completely new, production-ready, multi-page authority website from scratch for the domain lasiksurgeryindelhi.com.
+
+This must be the focused LASIK and refractive-vision-correction website of Jain Eye Hospital & Laser Centre, New Delhi, with Dr. Rajat Jain as the principal refractive-surgery expert, subject to final client verification. It must not be a one-page lead-generation landing page, copied hospital website, doorway domain, thin SEO microsite, generic clinic template, mock-up, or incomplete demo. Build a genuine patient resource that explains suitability, evaluation, options, limitations, safety, preparation, recovery, costs and decision-making responsibly while generating qualified consultation requests.
+
+Return the complete working website: all PHP files, MySQL schema, original page content, CSS, JavaScript, media specifications, animation logic, forms, secure admin panel, SEO metadata, structured data, accessibility, security, testing documentation and shared-hosting deployment instructions. Do not stop after a homepage or a design concept. No lorem ipsum, dead buttons, empty cards, fake counters or unfinished placeholders may appear in the production build.
+
+1. Brand role and domain strategy
+
+Treat the four related domains as a deliberate ecosystem rather than duplicate websites:
+
+lasiksurgeryindelhi.com owns LASIK/refractive patient intent, candidacy education, comparison guides, recovery guidance, pricing-explanation intent and consultation requests for vision-correction surgery in Delhi.
+
+jaineyehospitalasercentre.com owns the Jain Eye Hospital brand, facility, complete doctor team, all eye departments, general hospital appointments, insurance, gallery and broad eye-hospital queries.
+
+drrajatjain.com owns Dr. Rajat Jain’s professional identity, biography, credentials, cornea/cataract/refractive expertise, publications, academic work and doctor-name searches.
+
+drnehamohan.com owns Dr. Neha Mohan’s retina, vitreoretina, uvea and ROP expertise; do not force irrelevant retina content into this LASIK website.
+
+Write original copy for every domain. Never copy paragraphs from related sites. Use contextual reciprocal links only where useful. Each page must have a self-referencing canonical. Cross-domain canonicals are permitted only for unavoidable identical content and should normally not be needed. Avoid keyword cannibalisation: this domain targets procedure and patient-decision queries, while the hospital and doctor sites retain their own branded intent.
+
+Prominently but elegantly state: “A focused patient-education and consultation platform associated with Jain Eye Hospital & Laser Centre.” Do not disguise the provider, create a fictional clinic, or imply an independent hospital branch.
+
+2. Source hierarchy, accuracy and medical-safety rules
+
+Use facts in this priority order:
+
+Client-approved written confirmations, procedure list, price policy and media
+
+Signed doctor CV, qualifications, medical registration and hospital documents
+
+Approved Jain Eye Hospital content
+
+Official device/manufacturer documentation for confirmed equipment only
+
+Peer-reviewed or recognised ophthalmology guidance for educational statements
+
+Internal verification placeholders when a fact remains unresolved
+
+Known relationship and contact context, subject to pre-launch verification:
+
+Provider: Jain Eye Hospital & Laser Centre
+
+Positioning: Advanced Super-Speciality Eye Care
+
+Principal specialist: Dr. Rajat Jain — Medical Director & Consultant; Cornea & Anterior Segment, Cataract Surgery, LASIK & Refractive Surgery
+
+Address: A-14, G. T. Karnal Road, Adarsh Nagar, Opp. Adarsh Nagar Metro Station, New Delhi – 110033, India
+
+Email: info@jaineyehospitals.com
+
+Supplied display telephone: +0412 500 063
+
+Supplied telephone link: tel:+0412500063
+
+Hospital website: https://jaineyehospitalasercentre.com/
+
+Doctor website: https://drrajatjain.com/
+
+The supplied telephone format is unusual for Delhi. Store it centrally and mark it [VERIFY COUNTRY CODE AND DIGITS BEFORE GO-LIVE]. Do not automatically use it for WhatsApp. Use [VERIFY WHATSAPP NUMBER IN E.164 FORMAT], hidden from production until confirmed. Do not publish timings, consultation fees, EMI, insurance/cashless coverage, branch locations or emergency availability without confirmation.
+
+Use internal tokens such as [VERIFY PROCEDURE], [VERIFY DEVICE MODEL], [VERIFY PRICE], [VERIFY QUALIFICATION], [VERIFY REGISTRATION], [UPLOAD APPROVED IMAGE] and [APPROVE CLAIM]. Tokens must appear only in admin QA mode and the launch report, never on public production pages.
+
+Never invent or exaggerate:
+
+“Best,” “No. 1,” “top,” “most trusted,” “100% safe,” “bladeless means risk-free,” or guaranteed spectacle removal
+
+Success rates, surgery counts, patients treated, years of experience, awards, testimonials or ratings
+
+Eligibility without examination, permanent outcomes, zero pain, instant recovery or a promise of 6/6 vision
+
+Device, laser, diagnostic platform, procedure, certification, accreditation, finance or insurance availability
+
+Package price, discount, limited-time offer or “lowest cost” claim
+
+Explain that LASIK is elective surgery, suitability varies, alternatives may be preferable and no procedure is risk-free. Use “may,” “can,” “subject to clinical evaluation,” and “individual recovery and outcomes vary.” Include a visible educational disclaimer and a clear instruction to seek urgent eye care for sudden vision loss, severe pain, trauma, flashes/floaters with a curtain-like shadow or other acute symptoms; this website is not an emergency service.
+
+3. Strategic positioning and audience
+
+Primary promise: “Clear decisions before clearer vision.”
+
+Supporting message: “Understand your eyes, compare appropriate options and meet a refractive-surgery specialist before deciding.”
+
+Target audiences:
+
+Adults in Delhi/NCR considering freedom from glasses or contact lenses
+
+Students, working professionals, athletes and travellers seeking lifestyle convenience
+
+People rejected for LASIK who need responsible explanation of PRK, phakic IOL/ICL or non-surgical alternatives
+
+Parents researching vision-correction options for adult children
+
+Contact-lens users with discomfort who need an evidence-led evaluation
+
+Patients comparing LASIK, Femto LASIK, customised/topography-guided procedures, SMILE/SILK, PRK/TransPRK or ICL—but show only services verified as available
+
+Outstation patients planning consultation, tests, procedure and follow-up in Delhi
+
+The voice must be reassuring, precise, human and non-salesy. Answer anxiety before pushing a form. Avoid fear marketing. Use plain English with optional client-approved Hindi summaries on high-intent pages. Never mix languages awkwardly in headings.
+
+4. Visual identity: “The Clarity Aperture”
+
+Create a unique premium visual system named The Clarity Aperture. It should represent light passing through a precise optical pathway and resolving into sharp focus. Do not reuse the “Living Iris Portal,” “Corneal Focus Prism” or “Retinal Light Atlas” from related websites.
+
+Palette:
+
+Deep optic navy #071A2B for cinematic sections
+
+Clinical white #FFFFFF
+
+Ice blue #EAF7FB
+
+Laser cyan #25C7D9
+
+Jain-associated fresh green #54B88A as a restrained relationship accent
+
+Warm amber #F3A64A only for tiny highlights/CTA emphasis connected to hospital branding
+
+Ink #132536 and muted text #5D6B78
+
+Use Manrope or Plus Jakarta Sans for display and Inter for body copy, locally hosted when licensing permits. Body copy 16–18px, comfortable line height, maximum reading width 70–75 characters. Use a 12-column desktop grid, fluid spacing, 18–30px radii and controlled shadows. No excessive glassmorphism, neon, rotating eyeballs, floating medical equipment, gimmicky cursor, scroll hijacking or animation on every object.
+
+Signature visual: a lightweight WebGL/CSS hybrid aperture composed of translucent corneal rings and a thin travelling light beam. As the user moves or scrolls, the beam changes from a soft blur to a clean focal point. It must be abstract, elegant and anatomically non-deceptive. Do not show a laser entering an eye in a frightening way. Provide static WebP/AVIF fallback, reduced-motion mode and automatic WebGL disable on low-power devices.
+
+Use original approved photography: Dr. Rajat Jain, consultation, diagnostic evaluation, counselling, hospital exterior/interior and appropriate technology only. Use stock/AI lifestyle images only as illustrative assets; never present generated patients, staff, machines, outcomes or facilities as real. Label or avoid simulations that could be mistaken for clinical results.
+
+5. Mandatory technical stack
+
+Build for Hostinger/MilesWeb/cPanel-style shared hosting using only:
+
+Core PHP 8.1+
+
+MySQL 8 or compatible MariaDB
+
+Semantic HTML5
+
+Modular custom CSS3 with variables
+
+Vanilla JavaScript and Fetch/AJAX
+
+GSAP + ScrollTrigger for restrained animation
+
+Swiper.js for accessible sliders
+
+Optional lightweight Three.js for the Clarity Aperture only
+
+PHPMailer using authenticated SMTP
+
+Apache .htaccess for clean URLs, HTTPS, security headers, compression, caching and error routing
+
+Do not use WordPress, Elementor, Laravel, CodeIgniter, React, Next.js, Vue, Angular, Node backend, Firebase, MongoDB, Bootstrap, Tailwind or a purchased theme. Do not depend on a build server after deployment. Third-party front-end libraries may be served locally or through a controlled CDN with version pinning and fallback.
+
+Use reusable PHP components for configuration, database, header, mega menu, mobile navigation, breadcrumbs, doctor strip, page hero, comparison cards, FAQs, related articles, appointment modal, consent fields, floating actions, structured data and footer. Keep all contact data in one configuration record editable from admin.
+
+Recommended structure:
+
+/
+├── index.php
+├── about.php
+├── lasik-evaluation.php
+├── procedures.php
+├── compare.php
+├── cost.php
+├── recovery.php
+├── risks.php
+├── faq.php
+├── doctor.php
+├── hospital.php
+├── appointment.php
+├── contact.php
+├── articles.php
+├── article-detail.php
+├── procedure-detail.php
+├── condition-detail.php
+├── location-detail.php
+├── search.php
+├── privacy.php
+├── terms.php
+├── medical-disclaimer.php
+├── accessibility.php
+├── 404.php
+├── admin/
+├── actions/
+├── includes/
+├── assets/css/
+├── assets/js/
+├── assets/images/
+├── assets/video/
+├── storage/logs/
+├── uploads/approved/
+├── database/schema.sql
+├── sitemap.xml.php
+├── robots.txt
+└── .htaccess
+
+Use routing through clean URLs such as /lasik-surgery-delhi/, /lasik-evaluation/, /compare/lasik-vs-smile/ and /guide/lasik-recovery/; no .php in public URLs.
+
+6. Header and advanced image-preview mega menu
+
+Create a slim top utility bar with verified phone, email, location cue and accessibility controls. Main sticky header contains logo, navigation, search, Call and Book LASIK Evaluation. On mobile, show an accessible full-height drawer and sticky bottom bar with Call, Directions and Book; show WhatsApp only after verification.
+
+Desktop navigation:
+
+Home
+
+Start Here
+
+Procedures
+
+Compare Options
+
+Cost & Planning
+
+Dr. Rajat Jain
+
+Patient Guides
+
+About the Centre
+
+Resources
+
+Contact / Book Evaluation
+
+The Procedures mega menu must be full width, keyboard accessible and divided into columns: laser-based procedures, surface procedures, lens-based alternatives, suitability/evaluation and recovery/safety. When the cursor or keyboard focus enters a treatment link, update the right-side 520×360 visual, short explanation, expected page reading time and “Learn responsibly” CTA. Use preloaded AVIF/WebP images and no layout shift.
+
+Never show an unverified procedure as offered. The CMS needs status values verified_offered, education_only, not_offered, and draft. Education-only comparison pages must explicitly say availability requires confirmation and should not display a booking CTA implying provision.
+
+7. Homepage — exactly 12 primary sections
+
+Do not merge or omit these sections. Header and footer do not count.
+
+Section 1 — Cinematic split hero
+
+Use a muted, locally hosted 8–12 second background video: abstract light, soft Delhi dawn, consultation details and optical reflections; no surgery close-ups. Add dark overlay and poster fallback. Left: H1 “LASIK Surgery in Delhi: Start With the Right Evaluation”, supporting copy, Book Evaluation and Explore Options CTAs, plus “No online quiz can confirm suitability.” Right: movable Clarity Aperture containing an approved Dr. Rajat portrait and 3-slide visual sequence—evaluation, explanation, personalised pathway. Mouse/parallax movement maximum 8–12px; touch devices use gentle timed motion.
+
+Section 2 — Trust and relationship strip
+
+Show Jain Eye Hospital association, Dr. Rajat’s verified core expertise, Adarsh Nagar location and four trust principles: detailed screening, option-neutral counselling, informed consent and planned follow-up. No numeric claims.
+
+Section 3 — “Could LASIK be right for me?”
+
+Interactive educational checklist covering age/legal adulthood, stable prescription, corneal health, dry eye, pregnancy/breastfeeding context, systemic/autoimmune issues, expectations and occupation. It must never output “You are eligible.” Result options: “An examination is required,” “Discuss additional factors,” or “Another option may be considered.” Save nothing unless the user explicitly submits a consultation form.
+
+Section 4 — Vision-correction pathways
+
+Cards for verified pathways only. Candidate set for admin verification: standard LASIK, Femto/bladeless LASIK, customised/topography-guided treatment, SMILE/SILK, PRK/TransPRK and phakic IOL/ICL. Each card explains mechanism at a high level, who may be assessed, recovery pattern and important limitation. Unverified cards remain hidden or education-only.
+
+Section 5 — The evaluation journey
+
+An animated five-stage horizontal-to-vertical timeline: goals/history → refraction and eye examination → corneal and tear-film assessment → retinal/ocular-health checks as indicated → surgeon discussion and decision. Do not claim a fixed test bundle until confirmed. Explain contact-lens discontinuation only as surgeon-specific guidance.
+
+Section 6 — Meet Dr. Rajat Jain
+
+Doctor portrait, verified title, focused expertise and 150–200 word original biography. Add View Doctor Profile and Request Consultation. Qualification, fellowship, registration and years must come from approved evidence. Link contextually to drrajatjain.com for detailed professional information.
+
+Section 7 — “Compare without confusion” studio
+
+An interactive comparison selector with columns for incision/flap approach, broad candidacy considerations, usual recovery pattern, strengths, trade-offs and questions to ask. Avoid declaring a universal winner. Include “The most advanced-sounding option is not automatically the most suitable.”
+
+Section 8 — Cost explained transparently
+
+Explain what can influence total cost: assessment, procedure category, consumables/technology, one or both eyes, medication and planned follow-up. Do not post a price until approved. If approved, show date-stamped ranges, what is included/excluded and no bait pricing. CTA: Request a Written Estimate After Evaluation.
+
+Section 9 — Safety, expectations and recovery
+
+Three layers: common temporary experiences, less common risks requiring discussion and urgent warning signs. Use calm language. Show a recovery timeline as general education, not a personal promise. Link to complete risk and recovery pages.
+
+Section 10 — Patient education stories and FAQs
+
+Use verified patient stories only with signed consent and no outcome guarantee. If none exist, use anonymised “decision journeys” clearly labelled as educational composites rather than testimonials. Add 6–8 concise FAQs with links to expanded answers.
+
+Section 11 — Location and appointment planner
+
+Show the verified address, landmark, public-transport cue, map only after consent or click, parking/accessibility fields subject to verification, clinic contact details and a short appointment form. The request must say it is not confirmed until the team responds.
+
+Section 12 — Final clarity CTA and resource footer bridge
+
+Dark cinematic band with a softly focusing aperture, heading “Your procedure choice should begin with your eyes—not a trend.” CTAs: Book LASIK Evaluation, Call the Centre and Read the Preparation Guide. Add medical disclaimer, privacy reassurance and hospital relationship.
+
+8. About page — exactly 8 primary sections
+
+Write 2,500–3,200 original, useful words across exactly eight sections:
+
+Why this focused website exists
+
+Relationship with Jain Eye Hospital & Laser Centre
+
+Care philosophy: suitability before selling
+
+Dr. Rajat Jain’s verified refractive role
+
+The evaluation and informed-consent standard
+
+Technology philosophy—platforms assist; clinical judgment decides
+
+Patient safety, privacy and accessibility
+
+What patients can expect before, during and after a consultation
+
+Do not turn About into a repeated sales page. Use approved real facility photographs only and link to the hospital site for broader hospital information.
+
+9. Complete sitemap and page requirements
+
+Create and fully populate these page families.
+
+Foundation pages
+
+Home
+
+About This Platform
+
+Dr. Rajat Jain
+
+Jain Eye Hospital Association
+
+LASIK Evaluation
+
+Procedures Overview
+
+Compare Options
+
+Cost & Finance Guide
+
+Risks & Safety
+
+Recovery & Aftercare
+
+FAQs
+
+Patient Guides
+
+Articles/Knowledge Centre
+
+Contact
+
+Book Evaluation
+
+Search
+
+Privacy Policy
+
+Terms of Use
+
+Medical Disclaimer
+
+Accessibility Statement
+
+HTML Sitemap
+
+Custom 404 and 500 pages
+
+Procedure pages — publish only when verified
+
+LASIK Surgery in Delhi
+
+Femto/Bladeless LASIK
+
+Customised or Topography-Guided LASIK
+
+Wavefront-Guided Vision Correction
+
+SMILE Eye Surgery
+
+SILK Vision Correction
+
+PRK
+
+TransPRK/No-Touch Surface Treatment
+
+Phakic IOL/ICL
+
+Enhancement/Retreatment Evaluation
+
+Use exact approved nomenclature. Do not imply SMILE, SILK, Contoura, wavefront, TransPRK or ICL availability merely because they are popular keywords. If not offered, create an honest comparison/education article or exclude the page from the service sitemap.
+
+Candidacy and condition pages
+
+Am I Suitable for LASIK?
+
+LASIK Age and Stable Prescription
+
+Thin Cornea and Vision Correction
+
+Dry Eye Before LASIK
+
+High Myopia/High Power Options
+
+Astigmatism and Laser Vision Correction
+
+Contact-Lens Intolerance
+
+Keratoconus Screening Before Refractive Surgery
+
+Pregnancy/Breastfeeding and Elective Vision Correction
+
+Diabetes and LASIK Assessment
+
+Previous Eye Surgery and Refractive Evaluation
+
+Occupation, Sports and Lifestyle Considerations
+
+These pages educate; they do not diagnose or approve candidacy.
+
+Comparison pages
+
+LASIK vs Femto LASIK
+
+LASIK vs SMILE
+
+LASIK vs SILK
+
+LASIK vs PRK
+
+LASIK vs ICL
+
+Contoura/Topography-Guided vs Conventional LASIK
+
+Flap vs Flapless Procedures
+
+Laser Vision Correction vs Contact Lenses
+
+Every comparison must define terms, explain why the comparison is not one-size-fits-all, use balanced criteria, disclose availability and end with questions to discuss with a surgeon. Never use winner badges.
+
+Patient-journey guides
+
+First Consultation
+
+Tests Before LASIK
+
+How to Prepare
+
+Procedure Day
+
+First 24 Hours
+
+First Week
+
+Returning to Work, Screens, Driving, Exercise, Makeup and Travel
+
+Eye Drops and Follow-up
+
+Managing Dryness and Glare/Halos
+
+When to Contact the Clinic Urgently
+
+Outstation Patient Planner
+
+Questions to Ask Your LASIK Surgeon
+
+Location pages
+
+Primary page: LASIK Surgery in Adarsh Nagar, Delhi. Create additional Delhi/NCR area pages only when they contain genuinely local, useful content such as travel route, landmark and appointment planning; never mass-generate doorway pages. Candidate areas require client approval and unique content. No fake clinic address or local schema for areas where the provider has no physical branch.
+
+10. Long-form content specification
+
+Every published procedure, candidacy, condition and major comparison page must contain at least 2,500 original words, normally 2,500–3,500 words. Quality overrides mechanical padding. Foundation pages may be shorter where appropriate. Each major page must include:
+
+Clear H1 and 50–80 word plain-language answer
+
+Definition and visual overview
+
+Why someone may consider the option
+
+Who may be assessed and who may need alternatives
+
+Evaluation/tests explained without inventing available equipment
+
+Step-by-step pathway using non-graphic language
+
+Benefits framed as possible goals, not promises
+
+Limitations, contraindications and alternatives
+
+Risks and side effects in balanced language
+
+Preparation guidance
+
+Recovery and follow-up expectations
+
+Cost factors without unverified prices
+
+Questions to ask the surgeon
+
+10–15 non-duplicated FAQs
+
+Short medical-review box with reviewer, review date and next review date
+
+Related pages and consultation CTA
+
+References/medical editorial sources where appropriate
+
+Do not repeat templated paragraphs to reach word count. Do not spin city names. Each page must satisfy the intent specific to that question. Maintain an editorial glossary so flap, ablation, cornea, refraction, dioptre, topography and wavefront are explained consistently.
+
+11. Doctor and hospital pages
+
+The Dr. Rajat Jain page must include only verified professional details: approved portrait, role, qualifications, training, areas of focus, care philosophy, publications/awards where documented, consultation context and link to drrajatjain.com. Do not publish private personal data. Do not recreate the full personal site.
+
+The hospital-association page must explain that consultations/procedures are connected with Jain Eye Hospital & Laser Centre, show approved hospital imagery, exact verified address, accessibility/travel information, safety processes and links to the hospital site. Do not copy the full hospital About page or list unrelated departments in depth.
+
+If other surgeons participate in refractive care, add them only after approved profile data and registration verification. Admin must support multiple doctors without making an unverified team public.
+
+12. Conversion and form system
+
+Primary CTA language: Book LASIK Evaluation, not “Book Surgery.” Use a two-step accessible modal and full appointment page.
+
+Fields: name, age range, phone, email optional, city, current spectacle/contact-lens use, broad prescription range optional, preferred contact method, preferred date/time range, message, privacy consent and non-emergency acknowledgement. Never request medical records, Aadhaar, exact diagnosis or sensitive reports in the initial form. If report upload is later enabled, require explicit consent, strict MIME/size validation, non-public storage, malware screening and retention policy.
+
+On submit:
+
+Validate client and server side
+
+Use CSRF token, honeypot, timestamp trap and rate limiting
+
+Save securely to MySQL
+
+Send branded admin email through PHPMailer SMTP
+
+Send patient acknowledgement without claiming confirmation
+
+Show unique enquiry reference
+
+Store consent text/version, source URL, campaign fields and minimal technical anti-abuse data
+
+Do not expose patient details in email subject lines or URLs
+
+Do not send full medical message over WhatsApp
+
+Add click-to-call, directions and verified WhatsApp actions. WhatsApp opens only a neutral pre-filled message: “Hello, I would like information about booking a refractive-surgery evaluation.” It must not disclose medical history.
+
+13. Secure admin panel
+
+Create /admin/ with protected login, password_hash/password_verify, secure sessions, session regeneration, CSRF, inactivity timeout, rate limiting and optional email OTP/2FA when configured. No default credentials in production. Roles: Super Admin, Content Editor, Medical Reviewer and Enquiry Manager with least privilege.
+
+Dashboard modules:
+
+Appointments/enquiries with filters, notes, status, assignment and CSV export
+
+Procedure catalogue and verification status
+
+Page builder using structured fields, not unsafe arbitrary code
+
+Doctor profiles and credentials
+
+FAQs, comparisons, guides, blog categories and articles
+
+Medical reviewer and review-date workflow
+
+SEO titles, descriptions, canonical overrides, OG image and schema fields
+
+Media library with alt text, caption, consent/source and compression status
+
+Contact/location/settings manager
+
+CTA, email-template and navigation manager
+
+Redirect manager and broken-link report
+
+Testimonials/educational composites with consent status
+
+User/role management and audit log
+
+Backup guidance and system health
+
+Use prepared statements with PDO, output escaping, server-side validation, allowlists for uploads, randomised filenames, uploads outside public web root where possible, login throttling, secure cookies and no detailed production errors. Protect logs and configuration. Secrets go in an environment/config file outside version control.
+
+Suggested database tables: admins, roles, permissions, appointments, enquiry_notes, pages, page_sections, procedures, procedure_status, doctors, doctor_credentials, faqs, comparisons, articles, categories, media, media_consents, locations, testimonials, seo_meta, redirects, settings, form_rate_limits, audit_logs, and medical_reviews. Include created_at, updated_at, publication status and safe indexes. Provide schema.sql plus an idempotent installer.
+
+14. Animation and interaction specification
+
+Animation should communicate focus and precision:
+
+Hero aperture responds subtly to pointer and scroll
+
+Light-beam blur decreases as the hero copy enters focus
+
+Section reveals use 16–28px movement, 0.45–0.8 second duration and calm easing
+
+Procedure cards use layered depth, not dramatic 3D flips
+
+Evaluation timeline draws a thin optical path on scroll
+
+Comparison rows animate only when values change
+
+Mega-menu preview crossfades in 180–260ms
+
+CTAs use small magnetic movement only on fine-pointer devices
+
+Page transitions use a brief aperture close/open under 450ms
+
+Respect prefers-reduced-motion; remove parallax, autoplay and scrub animations when requested. Pause offscreen animation with IntersectionObserver. Never hide essential information behind hover. Maintain keyboard operation and visible focus states. Target 60fps on capable devices with no main-thread-heavy continuous loops.
+
+15. Asset and media plan
+
+Prepare an asset manifest containing filename, purpose, recommended dimensions, crop, format, alt text, real/illustrative status, consent/source and fallback.
+
+Required assets:
+
+Logo suite: full wordmark, compact mark, monochrome, favicon and app icons
+
+Hero background video 1920×1080 plus mobile 1080×1350 and poster images
+
+Dr. Rajat approved portrait set: transparent, consultation, landscape and square
+
+Approved hospital exterior, reception, consultation and diagnostic images
+
+Abstract cornea/aperture renders, comparison illustrations and journey icons
+
+Procedure diagrams that are anatomically reviewed and clearly illustrative
+
+Location image and optional click-to-load map
+
+10–15 article thumbnails in a coherent editorial style
+
+OG templates at 1200×630
+
+Serve AVIF with WebP/JPEG fallback; use responsive srcset, explicit width/height, lazy loading below the fold and meaningful alt text. Decorative images get empty alt. Do not place text permanently inside images except logos. No before/after simulation, blood, needles, exposed surgery or anxious close-ups.
+
+16. SEO, AEO and GEO
+
+Build technically clean search visibility, not keyword stuffing.
+
+Primary intent clusters:
+
+LASIK surgery in Delhi
+
+LASIK eye surgery Delhi
+
+laser eye surgery Delhi
+
+LASIK consultation/evaluation Delhi
+
+LASIK surgeon in Delhi connected to Dr. Rajat Jain
+
+LASIK cost in Delhi, explained without unverified price claims
+
+LASIK eligibility, recovery, risks and comparisons
+
+Adarsh Nagar refractive-surgery evaluation
+
+Every indexable page requires unique title, meta description, H1, canonical, OG/Twitter data, breadcrumb, descriptive URL, internal links, image alt text and last medical-review date. Generate dynamic XML sitemap and segmented sitemaps for pages, procedures, guides and articles. Configure robots correctly. Do not block CSS/JS or the entire site. Prevent indexing of admin, search results, form-success URLs, QA previews, parameters and thin filter pages.
+
+Implement relevant Schema.org JSON-LD using only accurate data: MedicalOrganization or appropriate provider entity, Physician for verified doctors, MedicalProcedure, MedicalCondition, FAQPage only when visible FAQs exist, Article, BreadcrumbList, WebSite and WebPage. Do not use aggregate ratings without authentic review data. Do not give location pages LocalBusiness data unless a genuine staffed physical location exists there.
+
+AEO requirements: answer-first introductions, question headings, concise definitions, comparison tables, FAQ answers, reviewer boxes and speakable-friendly summaries where appropriate. GEO requirements: clear entity relationships among domain, hospital, doctor and location; consistent names/contact data; cited medical references; authored/reviewed dates; original explanations; no fake consensus or AI-generated sources.
+
+Create an internal-linking map so LASIK core page links to evaluation, suitability, risks, recovery, cost, comparisons, Dr. Rajat and booking. Comparison pages link back to relevant procedure pages. Articles support—not compete with—money pages. Add 301 redirects for any existing domain URLs discovered before launch. Preserve valuable backlinks and submit the final sitemap in Google Search Console.
+
+17. Performance, accessibility and privacy
+
+Targets on representative mobile devices: LCP under 2.5s, INP under 200ms, CLS under 0.1 and Lighthouse goals of 90+ Performance, 95+ Accessibility, 95+ Best Practices and 95+ SEO. Optimise video, fonts, CSS and JavaScript; defer noncritical libraries, preload only genuine critical assets and avoid huge Three.js bundles.
+
+Meet WCAG 2.2 AA: semantic landmarks, skip link, correct heading order, keyboard-accessible navigation/modals/sliders, focus trapping and return, 44×44 touch targets, high contrast, error summaries, labels, autocomplete attributes, captions/transcripts and non-colour status indicators. Include text resize and reduced-motion support without accessibility gimmicks.
+
+Privacy: collect minimum data; display purpose and retention notice; use consent-based analytics and click-to-load maps/video embeds; never expose enquiries; avoid medical claims in tracking parameters; document deletion/export workflow. Add an India-appropriate privacy draft for legal review, terms, cookie controls and medical disclaimer. Do not state legal compliance as guaranteed; require counsel/client review.
+
+18. Security and shared-hosting deployment
+
+Provide production .htaccess with HTTPS enforcement, canonical host choice, clean routing, directory listing disabled, protected sensitive extensions, security headers, compression, cache rules and custom errors. Set CSP compatible with approved assets, HSTS only after HTTPS is stable, X-Content-Type-Options, Referrer-Policy, frame restrictions and Permissions Policy.
+
+Provide deployment documentation for cPanel/shared hosting:
+
+PHP/MySQL prerequisites
+
+Database/user creation and least-privilege grant
+
+Environment/config placement
+
+Schema import or installer
+
+SMTP configuration
+
+Upload/storage permissions without unsafe 777
+
+Domain, DNS and SSL setup
+
+Canonical www or non-www decision
+
+Cron for backups/review reminders where supported
+
+Cache/compression checks
+
+Form/email testing
+
+Search Console, analytics consent and sitemap submission
+
+Backup and rollback process
+
+Post-launch crawl and broken-link test
+
+Never hard-code production passwords, SMTP credentials or API keys. Supply .env.example or a protected config example with placeholders.
+
+19. Mandatory pre-launch verification gate
+
+The website must remain in noindex/staging mode until a responsible person verifies:
+
+Domain ownership and canonical host
+
+Hospital association and exact provider name
+
+Dr. Rajat’s current role, qualifications, registration and approved portrait
+
+Every displayed procedure and diagnostic technology
+
+Phone, country code, email, WhatsApp and appointment hours
+
+Full address, map pin, access details and branch status
+
+Any prices, financing, insurance or offer
+
+Every statistic, award, review and testimonial
+
+Medical reviewer for each major content page
+
+Privacy/terms/consent wording
+
+Forms, email delivery, CSRF, rate limits and backups
+
+Robots, sitemaps, canonicals, redirects and structured data
+
+Create a machine-readable verification-register.csv and an admin verification dashboard. No unresolved token may leak publicly. A procedure marked unverified must not appear as offered or receive transactional schema.
+
+20. Testing and acceptance criteria
+
+Test desktop, tablet and mobile widths; current Chrome, Safari, Firefox and Edge; keyboard-only use; screen-reader landmarks; reduced motion; slow network; WebGL unavailable; JavaScript limited; form success/failure; email failure; duplicate submit; invalid upload; session expiry; role permissions; 404/500; sitemap; schema; redirects; canonical consistency; broken links; contrast and focus.
+
+The project is accepted only when:
+
+All listed public pages exist with complete original copy
+
+Homepage has exactly 12 primary sections
+
+About has exactly 8 primary sections
+
+Every published major treatment/candidacy/comparison page has at least 2,500 useful words
+
+Mega menu changes preview on hover and keyboard focus
+
+Hero video, mobile fallback and Clarity Aperture work without harming readability
+
+Forms save to database and send configured emails
+
+Admin CRUD and medical-review workflow function
+
+Every CTA leads somewhere valid
+
+No unverified claim or production token is visible
+
+No horizontal overflow or unreadable text exists
+
+Performance and accessibility fallbacks work
+
+Database, source files, documentation and deployment guide are included
+
+21. Final Kimi output order
+
+Return the complete work in this exact sequence:
+
+Assumptions and verification register
+
+Information architecture and URL map
+
+Brand system and component tokens
+
+UX flows and exact 12-section homepage specification
+
+Exact 8-section About specification
+
+Page-by-page content plan
+
+Complete production copy for every page
+
+Asset manifest and image/video generation briefs
+
+Database ER summary and complete schema.sql
+
+Full file/folder tree
+
+Every PHP include, page, action and admin file
+
+Complete CSS and JavaScript
+
+SEO metadata, schema and internal-linking map
+
+Security/privacy/accessibility implementation
+
+.htaccess, robots and sitemap implementation
+
+Installation and shared-hosting deployment guide
+
+Testing report and pre-launch checklist
+
+Do not respond with only an outline, snippets, sample sections, pseudo-code or “continue in the next message.” If output limits are reached, continue automatically in numbered parts while preserving filenames and code continuity. Do not omit long-form content or replace it with instructions for the client to write later. The final result must be a coherent, uploadable Core PHP/MySQL project and a trustworthy LASIK decision resource—not a thin SEO site.
+
+MASTER PROMPT END
