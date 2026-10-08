@@ -44,7 +44,7 @@ if ($requestedSlug === '') {
         [
             'keywords' => 'LASIK guides, LASIK questions, LASIK eligibility, LASIK recovery, refractive surgery education Delhi',
             'canonical' => $canonical,
-            'og_image' => SITE_URL . '/assets/images/lasik-hero-questions.jpg',
+            'og_image' => client_photo_url('hospital pic (15).png'),
             'schema' => [
                 '@context' => 'https://schema.org',
                 '@type' => 'CollectionPage',
@@ -129,7 +129,7 @@ $articleSchema = [
     'wordCount' => $wordCount,
     'mainEntityOfPage' => ['@type' => 'WebPage', '@id' => $canonical],
     'url' => $canonical,
-    'image' => SITE_URL . '/assets/images/' . $guide['image'],
+    'image' => client_photo_url($guide['image']),
     'publisher' => ['@type' => 'Organization', 'name' => HOSPITAL_NAME, 'url' => HOSPITAL_URL],
 ];
 page_start(
@@ -140,7 +140,7 @@ page_start(
     [
         'keywords' => $guide['keywords'],
         'canonical' => $canonical,
-        'og_image' => SITE_URL . '/assets/images/' . $guide['image'],
+        'og_image' => client_photo_url($guide['image']),
         'og_type' => 'article',
         'schema' => $articleSchema,
     ]
@@ -155,8 +155,8 @@ page_start(
       <p class="guide-byline">General educational information <span aria-hidden="true">·</span> <?= $readMinutes ?> min read</p>
     </header>
     <figure class="guide-feature">
-      <img src="/assets/images/<?= e($guide['image']) ?>" alt="<?= e($guide['image_alt']) ?>" width="1600" height="900" fetchpriority="high">
-      <figcaption>Illustrative image created for patient education; not a photograph of a patient, treatment outcome or specific facility.</figcaption>
+      <img src="<?= e(client_photo_src($guide['image'])) ?>" alt="<?= e($guide['image_alt']) ?>" fetchpriority="high">
+      <figcaption>Clinic photograph for context; it does not represent your individual treatment plan or outcome.</figcaption>
     </figure>
     <div class="guide-article-layout">
       <article class="guide-article">

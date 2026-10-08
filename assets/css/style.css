@@ -81,8 +81,9 @@ p{max-width:70ch}
 .brand-mark{width:42px;height:42px;border-radius:50%;position:relative;flex:none;
   background:conic-gradient(from 40deg,var(--cyan),#7fe3ef,var(--green),var(--cyan));
   box-shadow:0 0 0 3px #fff,0 0 0 5px var(--cyan),var(--sh-1)}
-.brand-mark span{position:absolute;inset:26%;background:#fff;border-radius:50%;
-  box-shadow:inset 0 0 0 3px var(--navy)}
+.brand-mark::after{content:"JE";position:absolute;inset:23%;display:grid;place-items:center;
+  border-radius:50%;background:#fff;color:var(--navy);font:800 .58rem/1 var(--font-display);
+  letter-spacing:-.06em;box-shadow:inset 0 0 0 2px var(--navy)}
 .brand-text{line-height:1.1;display:flex;flex-direction:column}
 .brand-text strong{font-family:var(--font-display);font-size:1.06rem;letter-spacing:-.01em}
 .brand-text em{font-style:normal;color:var(--cyan-d)}
@@ -1695,4 +1696,98 @@ body.page:not(.page-home) main>section.section:first-of-type .section-lede{
   .services-slider>.slider-next{right:7px}
   .services-slider>.slider-dots button{width:22px}
   .guide-toc ul{grid-template-columns:1fr}
+}
+
+/* Use the supplied photographs at their natural aspect ratio; never crop them. */
+img{
+  max-width:100%;
+  height:auto!important;
+  aspect-ratio:auto!important;
+  object-fit:contain!important;
+  object-position:center!important;
+}
+.hero-image-main img{
+  width:100%;
+  height:100%!important;
+  object-fit:contain!important;
+}
+.image-card:hover>img{transform:none!important}
+.brand{gap:.55rem;min-width:0}
+.brand-text strong{font-size:clamp(.77rem,3.5vw,1.06rem);white-space:nowrap}
+.brand-text small{font-size:clamp(.53rem,2.3vw,.68rem)}
+@media(max-width:380px){
+  .brand-mark{width:36px;height:36px}
+}
+
+/* Keep hero copy below the full, uncropped photo on desktop and mobile. */
+.hero-image-stage{
+  display:flex!important;
+  flex-direction:column;
+  gap:.75rem;
+  height:auto!important;
+  min-height:0!important;
+  overflow:visible!important;
+}
+.hero-slide.hero-image-main{
+  position:absolute;
+  inset:0 auto auto 0;
+  width:100%;
+  height:auto!important;
+  min-height:0!important;
+  display:flex;
+  flex-direction:column;
+  border:1px solid var(--line);
+  border-radius:18px;
+  overflow:hidden;
+  opacity:0;
+  visibility:hidden;
+  transform:none;
+  background:#fff;
+  box-shadow:var(--sh-2);
+}
+.hero-slide.hero-image-main.is-active{
+  position:relative;
+  inset:auto;
+  opacity:1;
+  visibility:visible;
+  transform:none;
+  z-index:1;
+}
+.hero-slide.hero-image-main img{
+  display:block;
+  flex:none;
+  width:100%;
+  height:clamp(220px,35vw,360px)!important;
+  aspect-ratio:auto!important;
+  object-fit:contain!important;
+  object-position:center!important;
+  background:#f2f0e9;
+}
+.hero-slide.hero-image-main::after{display:none!important}
+.hero-slide.hero-image-main figcaption{
+  position:static!important;
+  inset:auto!important;
+  z-index:auto!important;
+  width:100%;
+  max-width:none;
+  margin:0;
+  padding:1rem 1.15rem;
+  border:0;
+  border-radius:0;
+  background:var(--navy);
+  box-shadow:none;
+  color:#fff;
+  text-align:left;
+  backdrop-filter:none;
+}
+.hero-carousel-controls{
+  position:static!important;
+  inset:auto!important;
+  width:100%;
+  margin:0;
+}
+.hero-image-stage .hero-slide-dots{
+  position:static!important;
+  inset:auto!important;
+  flex:1;
 }

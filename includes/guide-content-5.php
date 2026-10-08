@@ -8,8 +8,8 @@ return [
         'description' => 'Learn what people may feel during LASIK, why numbing drops are used and which symptoms after surgery should be reported promptly.',
         'keywords' => 'does LASIK hurt, LASIK pain, LASIK surgery discomfort, numbing drops LASIK, pain after LASIK',
         'group' => 'Common LASIK questions',
-        'image' => 'lasik-hero-consultation.jpg',
-        'image_alt' => 'Illustrative discussion between a patient and an eye doctor before vision-correction surgery',
+        'image' => 'rajat jain (3).png',
+        'image_alt' => 'Portrait of Dr Rajat Jain at the clinic',
         'intro' => '“Does LASIK hurt?” is a reasonable question to ask before an elective eye procedure. Numbing drops are used, but a person may still notice pressure, light or brief discomfort, and the experience differs with the technique and the individual. Mild irritation or blur can occur afterward. A surgeon should explain the exact plan and what symptoms need a prompt call; no article can promise a pain-free experience.',
         'sections' => [
             ['heading' => 'What the numbing drops do', 'paragraphs' => [
@@ -48,8 +48,8 @@ return [
         'description' => 'Understand why the laser procedure time is not the same as the full clinic visit, and what to plan before and after a LASIK appointment.',
         'keywords' => 'how long does LASIK take, LASIK procedure time, LASIK appointment duration, LASIK surgery visit',
         'group' => 'Common LASIK questions',
-        'image' => 'lasik-hero-eye-exam.jpg',
-        'image_alt' => 'Illustrative eye examination before a vision-correction consultation',
+        'image' => 'Ophthalmic Microsurgery Preparation.png',
+        'image_alt' => 'Ophthalmic surgeon and colleague preparing for a microsurgical procedure',
         'intro' => 'People searching “how long does LASIK take?” may mean the laser procedure or the whole appointment. They are not the same. The U.S. FDA describes the surgery itself as taking less than 30 minutes, but preparation, checks, recovery instructions and follow-up add time. Your clinic should give you its own schedule for the proposed technique and your examination.',
         'sections' => [
             ['heading' => 'Separate procedure time from clinic time', 'paragraphs' => [
@@ -88,8 +88,8 @@ return [
         'description' => 'Learn what LASIK changes in the cornea, why later prescription changes can still happen and how ageing affects near vision.',
         'keywords' => 'is LASIK permanent, does LASIK last forever, LASIK long term results, vision changes after LASIK',
         'group' => 'Common LASIK questions',
-        'image' => 'lasik-hero-vision-choice.jpg',
-        'image_alt' => 'Illustrative conversation about expectations and long-term vision after eye surgery',
+        'image' => 'Precision Ophthalmic Surgery in the Clinic.png',
+        'image_alt' => 'Ophthalmic surgery taking place in a clinical setting',
         'intro' => 'LASIK permanently reshapes the cornea, but that does not guarantee unchanged eyesight for the rest of a person’s life. A prescription can shift, other eye conditions can develop, and the natural lens changes with age. The most accurate answer is that the surgical change is lasting while vision and visual needs can still change. Discuss realistic expectations and long-term eye care with an ophthalmologist.',
         'sections' => [
             ['heading' => 'What “permanent” means for the cornea', 'paragraphs' => [
@@ -128,8 +128,8 @@ return [
         'description' => 'Understand why a second LASIK treatment is not automatic, what measurements are reconsidered and which alternatives a surgeon may discuss.',
         'keywords' => 'can LASIK be done twice, repeat LASIK, LASIK enhancement, second LASIK surgery, LASIK retreatment',
         'group' => 'Common LASIK questions',
-        'image' => 'lasik-hero-mapping.jpg',
-        'image_alt' => 'Illustrative consultation about corneal mapping and refractive surgery options',
+        'image' => 'Precision Ophthalmic Surgery Close-Up.png',
+        'image_alt' => 'Close view of a surgical instrument during an ophthalmic procedure',
         'intro' => 'A second laser treatment after LASIK is sometimes called an enhancement or retreatment. It is not a routine touch-up and is not suitable for everyone. The surgeon must find out why vision has changed, confirm that measurements are reliable and assess the remaining corneal tissue and eye health. Glasses, contact lenses or no further surgery may be the safer answer.',
         'sections' => [
             ['heading' => 'First find out why vision is changing', 'paragraphs' => [
@@ -168,8 +168,8 @@ return [
         'description' => 'Learn why you should arrange a ride after LASIK and wait for clinical guidance before driving, even when vision seems clearer.',
         'keywords' => 'when can I drive after LASIK, driving after laser eye surgery, LASIK recovery driving, drive after LASIK surgery',
         'group' => 'Common LASIK questions',
-        'image' => 'lasik-hero-questions.jpg',
-        'image_alt' => 'Illustrative patient asking an eye doctor about safe activities after surgery',
+        'image' => 'neha mohan (2).png',
+        'image_alt' => 'Eye-care professional discussing an examination with a patient',
         'intro' => 'There is no single online date that makes driving safe for every person after LASIK. Vision may be blurry or fluctuate, and medicine used around the procedure can affect driving. Arrange a ride on the day of surgery and follow the treating team’s instructions. Resume driving only when the surgeon says your recovery and vision meet the requirements for your situation and local licensing rules.',
         'sections' => [
             ['heading' => 'Arrange a ride on the day of surgery', 'paragraphs' => [

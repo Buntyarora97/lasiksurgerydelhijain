@@ -12,8 +12,8 @@ page_start('about','About This Platform — ' . SITE_NAME,
     <h1 style="margin-bottom:.4em">About this platform</h1>
     <p class="section-lede">Eight honest answers about who we are, why this site exists and how we handle your trust.</p>
     <figure class="editorial-banner">
-      <img src="/assets/images/clinic-patient-care.jpg" alt="A care team member speaking with a patient at the centre" width="1600" height="900" loading="eager">
-      <figcaption>Patient care at the associated centre.</figcaption>
+      <img src="<?= e(client_photo_src('neha mohan (2).png')) ?>" alt="Eye-care professional discussing an examination with a patient" fetchpriority="high">
+      <figcaption>Clinic photograph from an eye-care consultation.</figcaption>
     </figure>
 
     <h2>1 · Why this focused website exists</h2>

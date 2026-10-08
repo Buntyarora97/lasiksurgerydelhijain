@@ -13,4 +13,4 @@
 - `includes/config.php` is the central public configuration file. It is intentionally in staging/noindex mode until the launch verification checklist is completed.
 - The final centre address is `AG 152, Shalimar Bagh, Delhi 110088`; keep all new location copy aligned with `ADDRESS_LINE`.
 - Appointment persistence and the admin dashboard require the MySQL schema in `database/schema.sql` and database credentials supplied through environment variables.
-- Supplied media lives in `assets/images/`. Use only approved real photography as real clinical/facility imagery; abstract procedure illustrations should remain clearly educational.
+- All website photographs must come from the client-provided `new-images all/` folder. Do not use generated, external, or other local images. Preserve the full image without cropping.

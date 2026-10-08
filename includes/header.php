@@ -8,7 +8,7 @@ $title    = $pageMeta['title'] ?? SITE_NAME;
 $desc     = $pageMeta['description'] ?? 'Focused LASIK and refractive-surgery education in Delhi.';
 $canonical= $pageMeta['canonical'] ?? SITE_URL . '/';
 $keywords = $pageMeta['keywords'] ?? '';
-$ogImage  = $pageMeta['og_image'] ?? SITE_URL . '/assets/images/og-default.jpg';
+$ogImage  = $pageMeta['og_image'] ?? client_photo_url('hospital pic (14).png');
 $ogType   = $pageMeta['og_type'] ?? 'website';
 $noindex  = $pageMeta['noindex'] ?? (SITE_ENV !== 'production');
 ?>
@@ -33,7 +33,7 @@ $noindex  = $pageMeta['noindex'] ?? (SITE_ENV !== 'production');
 <meta name="twitter:title" content="<?= e($title) ?>">
 <meta name="twitter:description" content="<?= e($desc) ?>">
 <meta name="twitter:image" content="<?= e($ogImage) ?>">
-<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="<?= e(client_photo_src('rajat jain (3).png')) ?>" type="image/png">
 <link rel="preload" href="/assets/css/style.css" as="style">
 <link rel="stylesheet" href="/assets/css/style.css">
 <?= breadcrumb_schema($crumbs) ?>
@@ -71,7 +71,8 @@ $noindex  = $pageMeta['noindex'] ?? (SITE_ENV !== 'production');
 <header class="site-header" id="siteHeader">
   <div class="container header-inner">
     <a href="/" class="brand" aria-label="Jain Eye Hospital & Laser Centre — home">
-      <span class="brand-logo"><img src="/assets/images/jain-eye-hospital-logo.webp" alt="Jain Eye Hospital & Laser Centre" width="256" height="64"></span>
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text"><strong>Jain Eye Hospital</strong><small>&amp; Laser Centre</small></span>
     </a>
     <nav class="main-nav" aria-label="Primary">
       <ul>
@@ -93,7 +94,7 @@ $noindex  = $pageMeta['noindex'] ?? (SITE_ENV !== 'production');
                 <a href="/recovery">Recovery &amp; Aftercare</a>
               </div>
               <div class="mega-preview" aria-hidden="false">
-                <img src="/assets/images/clinic-exam-room.jpg" alt="" width="1600" height="900" loading="lazy">
+                <img src="<?= e(client_photo_src('hospital pic (15).png')) ?>" alt="" loading="lazy">
                 <p><strong>Every journey starts with an evaluation.</strong><br>No online quiz can confirm suitability — a detailed eye examination comes first.</p>
                 <a class="btn btn-sm btn-ghost" href="/lasik-evaluation">Learn responsibly</a>
               </div>
@@ -106,13 +107,13 @@ $noindex  = $pageMeta['noindex'] ?? (SITE_ENV !== 'production');
             <div class="mega-grid mega-4">
               <div class="mega-col" data-preview="lasik">
                 <h3>Laser-based</h3>
-                <a href="/procedures" data-img="/assets/images/clinic-theatre.jpg" data-title="LASIK & Femto LASIK" data-desc="Flap-based laser vision correction. Suitability depends on clinical measurements." data-time="6 min read" data-link="/procedures">LASIK / Femto LASIK</a>
-                <a href="/procedures" data-img="/assets/images/clinic-equipment.jpg" data-title="Customised / Topography-guided" data-desc="Treatment planning that uses detailed corneal mapping when clinically appropriate." data-time="7 min read" data-link="/procedures">Customised / Topography-guided</a>
+                <a href="/procedures" data-img="<?= e(client_photo_src('Ophthalmic Microsurgery in a Clinical Theatre.png')) ?>" data-title="LASIK & Femto LASIK" data-desc="Flap-based laser vision correction. Suitability depends on clinical measurements." data-time="6 min read" data-link="/procedures">LASIK / Femto LASIK</a>
+                <a href="/procedures" data-img="<?= e(client_photo_src('hospital pic (17).png')) ?>" data-title="Customised / Topography-guided" data-desc="Treatment planning that uses detailed corneal mapping when clinically appropriate." data-time="7 min read" data-link="/procedures">Customised / Topography-guided</a>
                 <a href="/procedures" data-title="SMILE / SILK" data-desc="An educational overview of flapless lenticule procedures; availability at the centre must be confirmed." data-time="6 min read" data-link="/procedures">SMILE / SILK <span class="tag-edu">education</span></a>
               </div>
               <div class="mega-col" data-preview="surface">
                 <h3>Surface procedures</h3>
-                <a href="/procedures" data-img="/assets/images/clinic-theatre.jpg" data-title="PRK / TransPRK" data-desc="No-flap surface ablation using an excimer laser; an evaluation determines whether it may fit." data-time="6 min read" data-link="/procedures">PRK / TransPRK</a>
+                <a href="/procedures" data-img="<?= e(client_photo_src('Microsurgery Under the Surgical Microscope.png')) ?>" data-title="PRK / TransPRK" data-desc="No-flap surface ablation using an excimer laser; an evaluation determines whether it may fit." data-time="6 min read" data-link="/procedures">PRK / TransPRK</a>
               </div>
               <div class="mega-col" data-preview="lens">
                 <h3>Lens-based</h3>
@@ -120,11 +121,11 @@ $noindex  = $pageMeta['noindex'] ?? (SITE_ENV !== 'production');
               </div>
               <div class="mega-col" data-preview="eval">
                 <h3>Before you choose</h3>
-                <a href="/lasik-evaluation" data-img="/assets/images/clinic-exam-room.jpg" data-title="The Evaluation" data-desc="Refraction, corneal mapping, tear film and other checks as indicated — suitability first." data-time="5 min read" data-link="/lasik-evaluation">Suitability &amp; Evaluation</a>
+                <a href="/lasik-evaluation" data-img="<?= e(client_photo_src('hospital pic (16).png')) ?>" data-title="The Evaluation" data-desc="Refraction, corneal mapping, tear film and other checks as indicated — suitability first." data-time="5 min read" data-link="/lasik-evaluation">Suitability &amp; Evaluation</a>
                 <a href="/recovery" data-title="Recovery & Safety" data-desc="General aftercare guidance for the first hours, days and weeks; your surgeon's instructions take priority." data-time="6 min read" data-link="/recovery">Recovery &amp; Safety</a>
               </div>
               <div class="mega-preview">
-                <img id="megaImg" src="/assets/images/clinic-theatre.jpg" alt="" width="1600" height="900">
+                <img id="megaImg" src="<?= e(client_photo_src('Ophthalmic Microsurgery in a Clinical Theatre.png')) ?>" alt="" loading="lazy">
                 <div class="mega-preview-text">
                   <strong id="megaTitle">LASIK & Femto LASIK</strong>
                   <p id="megaDesc">Flap-based laser vision correction — the most widely performed refractive procedure worldwide.</p>

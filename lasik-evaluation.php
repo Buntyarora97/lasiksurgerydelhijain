@@ -12,7 +12,7 @@ page_start('evaluation','LASIK Evaluation in Delhi — What Actually Gets Checke
     <h1>LASIK Evaluation: what actually gets checked</h1>
     <p class="section-lede">LASIK reshapes the cornea with a laser to correct refractive errors such as myopia, hyperopia and astigmatism. But it is only safe for eyes that meet specific measurements — which is why a detailed evaluation, not an online quiz, always comes first.</p>
     <figure class="wide-feature">
-      <img src="/assets/images/clinic-equipment.jpg" alt="Ophthalmic diagnostic equipment in a clinical room" width="1600" height="900" loading="eager">
+      <img src="<?= e(client_photo_src('hospital pic (16).png')) ?>" alt="Ophthalmic diagnostic equipment in a clinical room" fetchpriority="high">
       <figcaption>Measurements support the conversation; they do not replace clinical judgement.</figcaption>
     </figure>
 

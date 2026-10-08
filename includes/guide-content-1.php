@@ -8,8 +8,8 @@ return [
         'description' => 'Understand how LASIK reshapes the cornea, what an evaluation checks, common recovery experiences and the risks to discuss before deciding.',
         'keywords' => 'LASIK surgery, how LASIK works, LASIK procedure steps, LASIK recovery, LASIK risks',
         'group' => 'Understand LASIK',
-        'image' => 'lasik-hero-consultation.jpg',
-        'image_alt' => 'Illustrative patient and eye doctor discussing a possible vision-correction evaluation',
+        'image' => 'neha mohan (2).png',
+        'image_alt' => 'Eye-care professional examining a patient with diagnostic equipment',
         'intro' => 'LASIK is an elective refractive procedure that reshapes the cornea to change how light focuses on the retina. Its aim is to reduce dependence on glasses or contact lenses; it does not guarantee perfect vision, prevent every future eye condition, or stop age-related changes. This guide explains the general process and gives you a practical list of questions for an ophthalmologist. Only an examination of your own eyes can establish whether LASIK—or any other option—could be appropriate.',
         'sections' => [
             ['heading' => 'What LASIK changes in the eye', 'paragraphs' => [
@@ -57,8 +57,8 @@ return [
         'description' => 'See what clinicians consider when assessing LASIK eligibility, including stable prescription, corneal health, dry eye, medicines and expectations.',
         'keywords' => 'LASIK eligibility, LASIK candidate, who can get LASIK, LASIK suitability, LASIK screening',
         'group' => 'Candidacy & evaluation',
-        'image' => 'lasik-hero-eye-exam.jpg',
-        'image_alt' => 'Illustrative routine examination used to discuss vision-correction suitability',
+        'image' => 'neha mohan (4).png',
+        'image_alt' => 'Ophthalmologist examining a patient with an eye-testing instrument',
         'intro' => 'There is no reliable online checklist that can approve someone for LASIK. Suitability is a clinical decision made after reviewing a stable prescription, corneal measurements, the surface of the eye, general eye health and personal circumstances. A factor that needs extra discussion does not always mean “never”; it may mean treatment first, more testing, another procedure or no surgery. Use this guide to understand the conversation—not to diagnose yourself.',
         'sections' => [
             ['heading' => 'Prescription stability and treatment range', 'paragraphs' => [
@@ -107,8 +107,8 @@ return [
         'description' => 'Learn why LASIK evaluations look beyond glasses power and may include refraction, corneal mapping, thickness, tear-film and eye-health checks.',
         'keywords' => 'LASIK evaluation tests, LASIK eye test, corneal mapping LASIK, LASIK screening, pre LASIK checkup',
         'group' => 'Candidacy & evaluation',
-        'image' => 'lasik-hero-mapping.jpg',
-        'image_alt' => 'Illustrative explanation of a corneal map during an eye evaluation',
+        'image' => 'hospital pic (17).png',
+        'image_alt' => 'Ophthalmic diagnostic equipment in an examination room',
         'intro' => 'A LASIK evaluation is not a single scan or a pass/fail computer printout. The purpose is to understand the eye, check for conditions that change risk and decide whether a procedure is appropriate. The exact tests vary with the person, the equipment and the clinician’s findings. This overview explains common categories of assessment so you can ask what each measurement means for your own plan.',
         'sections' => [
             ['heading' => 'History and refraction', 'paragraphs' => [
@@ -156,8 +156,8 @@ return [
         'description' => 'Understand how minimum-age rules, prescription stability, eye health and age-related near vision influence a LASIK discussion.',
         'keywords' => 'LASIK age limit, minimum age for LASIK, LASIK age requirement, LASIK after 40, LASIK age',
         'group' => 'Candidacy & evaluation',
-        'image' => 'lasik-hero-vision-choice.jpg',
-        'image_alt' => 'Illustrative discussion about vision needs at different ages',
+        'image' => 'rajat jain (2).png',
+        'image_alt' => 'Doctor in a consultation room, seated at a table',
         'intro' => 'People often search for one age number that decides whether they can have LASIK. The real answer is more individual. Local rules and the laser’s approved use set minimums, while prescription stability, corneal health, the natural lens and the person’s visual goals shape the clinical recommendation. Age can start a useful conversation, but it cannot replace testing.',
         'sections' => [
             ['heading' => 'Why minimum age is only a starting point', 'paragraphs' => [
@@ -201,8 +201,8 @@ return [
         'description' => 'Plan a LASIK consultation in Delhi with a clear estimate checklist: procedure, both eyes, tests, medicines, follow-up and aftercare.',
         'keywords' => 'LASIK cost Delhi, LASIK price in Delhi, laser eye surgery cost, LASIK estimate, LASIK surgery charges',
         'group' => 'Cost & planning',
-        'image' => 'lasik-hero-questions.jpg',
-        'image_alt' => 'Illustrative discussion between a clinician and patient before a treatment decision',
+        'image' => 'hospital pic (6).png',
+        'image_alt' => 'Hospital reception counter with staff attending patients',
         'intro' => 'A trustworthy LASIK cost answer is a written estimate for a specific clinical plan—not a headline price detached from the person’s eyes. Charges can depend on the procedure, technology, one or both eyes, tests and what follow-up includes. This page does not quote a clinic price because current fees have not been verified for publication. Use the checklist to compare estimates fairly and avoid choosing an elective operation on cost alone.',
         'sections' => [
             ['heading' => 'Why prices vary between estimates', 'paragraphs' => [

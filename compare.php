@@ -12,7 +12,7 @@ page_start('compare','Compare LASIK, PRK, SMILE & ICL — Without the Hype | ' .
     <h1>Compare options without confusion</h1>
     <p class="section-lede">The most advanced-sounding option is not automatically the most suitable. Here's a balanced comparison across what actually matters. No winner badges — because the right answer depends on your eyes.</p>
     <figure class="guide-feature">
-      <img src="/assets/images/clinic-equipment.jpg" alt="Ophthalmic diagnostic equipment in a clinical examination room" width="1600" height="900" loading="eager">
+      <img src="<?= e(client_photo_src('hospital pic (17).png')) ?>" alt="Ophthalmic diagnostic equipment in an examination room" fetchpriority="high">
       <figcaption>Clinical measurements help inform a discussion; they do not select a procedure on their own.</figcaption>
     </figure>
 

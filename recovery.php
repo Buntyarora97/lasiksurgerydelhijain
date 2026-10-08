@@ -12,7 +12,7 @@ page_start('recovery','LASIK Recovery Timeline & Aftercare Guide | ' . SITE_NAME
     <h1>Recovery &amp; aftercare: the realistic timeline</h1>
     <p class="section-lede">Recovery varies by procedure and by person. The timeline below is general education — your surgeon's instructions for your specific case always take priority.</p>
     <figure class="guide-feature">
-      <img src="/assets/images/clinic-exam-room.jpg" alt="Eye examination room at the associated centre" width="1600" height="900" loading="eager">
+      <img src="<?= e(client_photo_src('hospital pic (13).png')) ?>" alt="Patient waiting area at the hospital" fetchpriority="high">
       <figcaption>Follow-up and aftercare instructions should be tailored to the procedure and the individual.</figcaption>
     </figure>
 

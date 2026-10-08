@@ -18,7 +18,7 @@ page_start('faq','LASIK FAQs — Eligibility, Pain, Recovery, Cost & More | ' . 
         <p class="section-lede">Straight answers, no sales language. If your question isn't here, ask it at your consultation — that's what consultations are for.</p>
       </div>
       <figure class="faq-feature">
-        <img src="/assets/images/clinic-exam-room.jpg" alt="Ophthalmic diagnostic instrument in an examination room" width="1600" height="900" loading="lazy">
+        <img src="<?= e(client_photo_src('rajat jain (5).png')) ?>" alt="Ophthalmologist examining a patient with diagnostic equipment" loading="lazy">
         <figcaption>Tests are selected for your eyes; an online guide cannot confirm suitability.</figcaption>
       </figure>
     </div>

@@ -8,8 +8,8 @@ return [
         'description' => 'Compare LASIK and SMILE by surgical approach, candidacy, recovery and trade-offs. An eye examination is needed to discuss suitability.',
         'keywords' => 'LASIK vs SMILE, SMILE vs LASIK, laser eye surgery comparison, small incision lenticule extraction',
         'group' => 'Compare procedures',
-        'image' => 'lasik-hero-mapping.jpg',
-        'image_alt' => 'Illustrative eye-care consultation about different refractive surgery options',
+        'image' => 'Ophthalmic Microsurgery in a Clinical Theatre.png',
+        'image_alt' => 'Ophthalmic team working under a microscope in a clinical theatre',
         'intro' => 'LASIK and SMILE are different corneal refractive procedures, not two names for the same operation. In LASIK, a flap is created and an excimer laser reshapes underlying corneal tissue. SMILE removes a small piece of tissue through a small incision without creating the same broad flap. Neither is automatically best. Prescription, corneal maps, eye surface, approved treatment range, equipment and surgeon experience all matter.',
         'sections' => [
             ['heading' => 'How each procedure works', 'paragraphs' => [
@@ -58,8 +58,8 @@ return [
         'description' => 'Learn how LASIK and PRK differ in corneal treatment, early healing, recovery planning and the questions to take to an eye surgeon.',
         'keywords' => 'LASIK vs PRK, PRK vs LASIK recovery, LASIK or PRK, surface ablation, TransPRK',
         'group' => 'Compare procedures',
-        'image' => 'lasik-hero-eye-exam.jpg',
-        'image_alt' => 'Illustrative eye examination before comparing LASIK and PRK',
+        'image' => 'hospital pic (10).png',
+        'image_alt' => 'Ophthalmic equipment arranged in a clinical operating theatre',
         'intro' => 'LASIK and PRK both use an excimer laser to reshape the cornea, but they reach the treatment area in different ways. LASIK uses a flap; PRK treats the corneal surface after its outer epithelial layer is removed or displaced, then that surface heals. This difference influences candidacy and the early recovery experience. A clinician must interpret your scans and health history before recommending either option.',
         'sections' => [
             ['heading' => 'The central difference: flap versus surface treatment', 'paragraphs' => [
@@ -107,8 +107,8 @@ return [
         'description' => 'Learn how a femtosecond laser is used in Femto LASIK, what “bladeless” describes and which safety questions still need answers.',
         'keywords' => 'Femto LASIK, bladeless LASIK, femtosecond laser LASIK, Femto LASIK procedure',
         'group' => 'Compare procedures',
-        'image' => 'lasik-hero-questions.jpg',
-        'image_alt' => 'Illustrative doctor explaining refractive surgery terminology to a patient',
+        'image' => 'Precision Microsurgery Under the Microscope.png',
+        'image_alt' => 'Ophthalmic procedure taking place beneath a surgical microscope',
         'intro' => '“Femto LASIK” and “bladeless LASIK” are terms people often see in advertisements. They usually refer to using a femtosecond laser to create the corneal flap rather than a mechanical microkeratome. The term does not mean that no incision or tissue change occurs, and it does not make LASIK risk-free. Ask which exact steps and devices a provider means when using the label.',
         'sections' => [
             ['heading' => 'What the femtosecond laser does', 'paragraphs' => [
@@ -152,8 +152,8 @@ return [
         'description' => 'Understand what topography-guided LASIK planning means, what corneal maps can show, and why a branded treatment is not right for everyone.',
         'keywords' => 'Contoura Vision, topography guided LASIK, customised LASIK, corneal topography treatment',
         'group' => 'Compare procedures',
-        'image' => 'lasik-hero-mapping.jpg',
-        'image_alt' => 'Illustrative clinician discussing an abstract corneal map, not a real scan',
+        'image' => 'hospital pic (16).png',
+        'image_alt' => 'Diagnostic equipment arranged in an eye examination room',
         'intro' => '“Contoura Vision” is a branded term associated with topography-guided laser vision correction. People often search whether it is better than regular LASIK. A name alone cannot answer that question: the device, local approval, treatment plan and a patient’s corneal maps all matter. This overview explains the concept without claiming that a particular platform is available at any specific centre.',
         'sections' => [
             ['heading' => 'What topography-guided planning aims to do', 'paragraphs' => [
@@ -198,8 +198,8 @@ return [
         'description' => 'Plan for general LASIK recovery, prescribed drops, follow-up and activity restrictions. Your surgeon’s case-specific instructions always take priority.',
         'keywords' => 'LASIK recovery, LASIK recovery time, LASIK healing, LASIK day by day recovery, after LASIK',
         'group' => 'Recovery & safety',
-        'image' => 'lasik-hero-vision-choice.jpg',
-        'image_alt' => 'Illustrative discussion about vision and daily activity after an eye evaluation',
+        'image' => 'neha mohan (2).png',
+        'image_alt' => 'Eye-care professional discussing an examination with a patient',
         'intro' => 'LASIK recovery is often described as quick, but individual healing and visual clarity vary. A general timeline can help with planning; it cannot replace the instructions of the surgeon who knows your procedure and examination. Keep your follow-up appointment, use only the drops you were prescribed, and contact your clinical team if symptoms worry you or worsen.',
         'sections' => [
             ['heading' => 'The day of the procedure', 'paragraphs' => [

@@ -14,7 +14,7 @@ page_start('cost','LASIK Cost in Delhi — What Actually Influences the Price | 
 
     <h2>What influences the total cost</h2>
     <figure class="cost-feature">
-      <img src="/assets/images/clinic-equipment.jpg" alt="Ophthalmic diagnostic equipment in a clinical room" width="1600" height="900" loading="lazy">
+      <img src="<?= e(client_photo_src('hospital pic (16).png')) ?>" alt="Ophthalmic diagnostic equipment in an examination room" loading="lazy">
       <figcaption>Which tests and treatment are appropriate depends on your clinical evaluation.</figcaption>
     </figure>
     <div class="card-grid three" style="margin:1.5rem 0 2rem">

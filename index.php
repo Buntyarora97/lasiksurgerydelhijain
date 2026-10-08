@@ -29,24 +29,24 @@ page_start('home',
     <div class="hero-visual">
       <div class="hero-image-stage" data-hero-carousel aria-roledescription="carousel" aria-label="LASIK education highlights">
         <figure class="hero-image-main hero-slide is-active" data-hero-slide aria-roledescription="slide" aria-label="1 of 5">
-          <img src="/assets/images/lasik-hero-consultation.jpg" alt="Illustrative scene of an eye doctor speaking with an adult patient; not a photograph of the centre" width="1600" height="900" fetchpriority="high">
-          <figcaption><span class="hero-slide-kicker">START WITH A CONVERSATION</span><strong>Every eye is different</strong><span>Share your goals and health history before discussing treatment.</span><small>Illustrative image</small></figcaption>
+          <img src="<?= e(client_photo_src('neha mohan (2).png')) ?>" alt="Eye-care professional examining a patient with diagnostic equipment" fetchpriority="high">
+          <figcaption><span class="hero-slide-kicker">START WITH A CONVERSATION</span><strong>Every eye is different</strong><span>Share your goals and health history before discussing treatment.</span><small>Clinic photograph</small></figcaption>
         </figure>
         <figure class="hero-image-main hero-slide" data-hero-slide aria-roledescription="slide" aria-label="2 of 5" aria-hidden="true">
-          <img src="/assets/images/lasik-hero-eye-exam.jpg" alt="Illustrative routine eye examination with an ophthalmologist; not a photograph of the centre" width="1600" height="900" loading="lazy">
-          <figcaption><span class="hero-slide-kicker">CHECK MORE THAN PRESCRIPTION</span><strong>Measurements matter</strong><span>Corneal shape, eye health and tear film help guide the conversation.</span><small>Illustrative image</small></figcaption>
+          <img src="<?= e(client_photo_src('hospital pic (17).png')) ?>" alt="Ophthalmic diagnostic equipment in a clinical examination room" loading="lazy">
+          <figcaption><span class="hero-slide-kicker">CHECK MORE THAN PRESCRIPTION</span><strong>Measurements matter</strong><span>Corneal shape, eye health and tear film help guide the conversation.</span><small>Clinic photograph</small></figcaption>
         </figure>
         <figure class="hero-image-main hero-slide" data-hero-slide aria-roledescription="slide" aria-label="3 of 5" aria-hidden="true">
-          <img src="/assets/images/lasik-hero-mapping.jpg" alt="Illustrative eye doctor explaining a corneal map; not a diagnostic result or photograph of the centre" width="1600" height="900" loading="lazy">
-          <figcaption><span class="hero-slide-kicker">UNDERSTAND YOUR OPTIONS</span><strong>Compare the trade-offs</strong><span>LASIK is one of several approaches—and may not be the right one for you.</span><small>Illustrative image</small></figcaption>
+          <img src="<?= e(client_photo_src('Ophthalmic Microsurgery in a Clinical Theatre.png')) ?>" alt="Eye-care team performing an ophthalmic procedure in a clinical theatre" loading="lazy">
+          <figcaption><span class="hero-slide-kicker">UNDERSTAND YOUR OPTIONS</span><strong>Compare the trade-offs</strong><span>LASIK is one of several approaches—and may not be the right one for you.</span><small>Clinic photograph</small></figcaption>
         </figure>
         <figure class="hero-image-main hero-slide" data-hero-slide aria-roledescription="slide" aria-label="4 of 5" aria-hidden="true">
-          <img src="/assets/images/lasik-hero-vision-choice.jpg" alt="Illustrative conversation about vision correction and glasses; not a patient testimonial" width="1600" height="900" loading="lazy">
-          <figcaption><span class="hero-slide-kicker">MAKE AN INFORMED CHOICE</span><strong>Glasses remain an option</strong><span>Surgery is elective; you can take time, ask questions and decide later.</span><small>Illustrative image</small></figcaption>
+          <img src="<?= e(client_photo_src('rajat jain (2).png')) ?>" alt="Doctor seated in a consultation room to discuss eye-care options" loading="lazy">
+          <figcaption><span class="hero-slide-kicker">MAKE AN INFORMED CHOICE</span><strong>Glasses remain an option</strong><span>Surgery is elective; you can take time, ask questions and decide later.</span><small>Clinic photograph</small></figcaption>
         </figure>
         <figure class="hero-image-main hero-slide" data-hero-slide aria-roledescription="slide" aria-label="5 of 5" aria-hidden="true">
-          <img src="/assets/images/lasik-hero-questions.jpg" alt="Illustrative doctor and patient reviewing information together; not a photograph of the centre" width="1600" height="900" loading="lazy">
-          <figcaption><span class="hero-slide-kicker">ASK EVERY QUESTION</span><strong>Understand recovery and risk</strong><span>Know the plan, alternatives and follow-up before you consent.</span><small>Illustrative image</small></figcaption>
+          <img src="<?= e(client_photo_src('hospital pic (15).png')) ?>" alt="Doctor checking a patient's blood pressure during a clinic visit" loading="lazy">
+          <figcaption><span class="hero-slide-kicker">ASK EVERY QUESTION</span><strong>Understand recovery and risk</strong><span>Know the plan, alternatives and follow-up before you consent.</span><small>Clinic photograph</small></figcaption>
         </figure>
         <div class="hero-carousel-controls">
           <button type="button" class="hero-carousel-arrow" data-hero-prev aria-label="Previous highlight">‹</button>
@@ -104,8 +104,8 @@ page_start('home',
          <a class="btn btn-primary" href="/lasik-evaluation">Understand the full evaluation</a>
        </div>
        <figure class="section-photo section-photo-tall">
-          <img src="/assets/images/lasik-hero-eye-exam.jpg" alt="Illustrative eye examination; not a photograph of Jain Eye Hospital" width="1600" height="900" loading="lazy">
-          <figcaption>Illustrative image. Suitability is decided by clinical measurements, not a quiz.</figcaption>
+          <img src="<?= e(client_photo_src('hospital pic (14).png')) ?>" alt="Eye examination room with clinical equipment" loading="lazy">
+          <figcaption>Clinic photograph. Suitability is decided by clinical measurements, not a quiz.</figcaption>
        </figure>
     </div>
   </div>
@@ -122,7 +122,7 @@ page_start('home',
        <div class="services-viewport">
          <div class="services-track">
       <article class="card proc-card image-card">
-        <img src="/assets/images/lasik-hero-vision-choice.jpg" alt="Illustrative patient discussion about vision correction, not a surgical scene" width="1600" height="900" loading="lazy">
+        <img src="<?= e(client_photo_src('Ophthalmic Microsurgery in a Clinical Theatre.png')) ?>" alt="Ophthalmic team working in a surgical theatre" loading="lazy">
          <h3>LASIK / Femto LASIK <span class="tag-edu">Education</span></h3>
          <p>A corneal flap is created and the underlying tissue is reshaped with an excimer laser. The exact technique depends on the platform and the surgeon's plan.</p>
         <p class="muted">May suit: stable prescription, adequate corneal thickness.</p>
@@ -130,7 +130,7 @@ page_start('home',
         <a class="card-link" href="/procedures">Learn responsibly →</a>
       </article>
       <article class="card proc-card image-card">
-         <img src="/assets/images/lasik-hero-mapping.jpg" alt="Illustrative discussion of eye measurements; no real diagnostic result shown" width="1600" height="900" loading="lazy">
+         <img src="<?= e(client_photo_src('hospital pic (17).png')) ?>" alt="Ophthalmic diagnostic equipment in the clinic" loading="lazy">
          <h3>Customised / Topography-guided <span class="tag-edu">Education</span></h3>
         <p>Treatment profiles designed from detailed corneal mapping, aiming to address subtle optical irregularities beyond a standard prescription.</p>
         <p class="muted">May suit: higher astigmatism or irregular corneal optics.</p>
@@ -138,14 +138,14 @@ page_start('home',
         <a class="card-link" href="/compare">Compare approaches →</a>
       </article>
       <article class="card proc-card edu image-card">
-          <img src="/assets/images/lasik-hero-eye-exam.jpg" alt="Illustrative eye examination scene; not a depiction of a SMILE or SILK procedure" width="1600" height="900" loading="lazy">
+          <img src="<?= e(client_photo_src('Precision Ophthalmic Surgery in Theatre.png')) ?>" alt="Ophthalmic procedure taking place under surgical microscopes" loading="lazy">
         <h3>SMILE / SILK <span class="tag-edu">Education only</span></h3>
         <p>Flapless small-incision lenticule extraction. Availability at this centre requires confirmation — this page explains the concept honestly.</p>
         <p class="muted">May suit: certain prescriptions where flapless is preferred.</p>
         <a class="card-link" href="/compare">Read the comparison →</a>
       </article>
       <article class="card proc-card image-card">
-          <img src="/assets/images/lasik-hero-consultation.jpg" alt="Illustrative consultation about refractive surgery; not a surgical scene" width="1600" height="900" loading="lazy">
+          <img src="<?= e(client_photo_src('Microsurgery Under the Surgical Microscope.png')) ?>" alt="Surgeon working with an ophthalmic microscope" loading="lazy">
          <h3>PRK / TransPRK <span class="tag-edu">Education</span></h3>
         <p>No-flap surface ablation — the laser reshapes the cornea directly. Often discussed when corneal thickness is limited.</p>
         <p class="muted">May suit: thinner corneas, certain contact sports.</p>
@@ -153,7 +153,7 @@ page_start('home',
         <a class="card-link" href="/procedures">Learn responsibly →</a>
       </article>
       <article class="card proc-card image-card">
-        <img src="/assets/images/lasik-hero-eye-exam.jpg" alt="Illustrative eye assessment before considering an implantable lens; not a depiction of an ICL procedure" width="1600" height="900" loading="lazy">
+        <img src="<?= e(client_photo_src('hospital pic (16).png')) ?>" alt="Diagnostic equipment in an ophthalmic examination room" loading="lazy">
         <h3>Phakic IOL / ICL</h3>
         <p>A lens implanted inside the eye, in front of the natural lens — an option when power is beyond safe laser correction.</p>
         <p class="muted">May suit: very high myopia or thin corneas.</p>
@@ -188,8 +188,8 @@ page_start('home',
         <li><span class="t-num">05</span><h3>Discussion &amp; decision</h3><p>Options, trade-offs, risks and your questions — then you decide.</p></li>
       </ol>
       <figure class="section-photo journey-photo">
-          <img src="/assets/images/lasik-hero-mapping.jpg" alt="Illustrative conversation about corneal measurements; not a diagnostic scan from the centre" width="1600" height="900" loading="lazy">
-          <figcaption>Illustrative image; the tests needed depend on each person's examination.</figcaption>
+          <img src="<?= e(client_photo_src('hospital pic (12).png')) ?>" alt="Ophthalmic examination instrument in a clinical room" loading="lazy">
+          <figcaption>Clinic photograph; the tests needed depend on each person's examination.</figcaption>
       </figure>
     </div>
   </div>
@@ -210,7 +210,7 @@ page_start('home',
       <p class="muted-sm">Detailed biography, credentials and publications: <a class="ulink" href="<?= e(DOCTOR_URL) ?>" target="_blank" rel="noopener">drrajatjain.com ↗</a></p>
     </div>
     <figure class="doc-figure">
-      <img src="/assets/images/dr-rajat-jain-approved.jpg" alt="Portrait of <?= e(DOCTOR_NAME) ?>" width="1200" height="1200" loading="lazy">
+      <img src="<?= e(client_photo_src('rajat jain (3).png')) ?>" alt="Portrait of <?= e(DOCTOR_NAME) ?>" loading="lazy">
        <figcaption>Consultation at <?= e(HOSPITAL_NAME) ?> · <?= e(ADDRESS_LINE) ?></figcaption>
     </figure>
   </div>
@@ -223,7 +223,7 @@ page_start('home',
     <h2>Compare without confusion</h2>
     <p class="section-lede">The most advanced-sounding option is not automatically the most suitable. Compare on what actually matters:</p>
     <div class="compare-widget card compare-feature" id="compareWidget">
-          <img src="/assets/images/lasik-hero-eye-exam.jpg" alt="Illustrative eye examination scene" width="1600" height="900" loading="lazy">
+          <img src="<?= e(client_photo_src('neha mohan (4).png')) ?>" alt="Ophthalmologist examining a patient with an eye-testing instrument" loading="lazy">
       <div class="compare-tabs" role="tablist">
         <button role="tab" aria-selected="true" data-cmp="0">Approach</button>
         <button role="tab" aria-selected="false" data-cmp="1">Candidacy</button>
@@ -278,9 +278,9 @@ page_start('home',
     <h2>What to ask before you decide</h2>
     <p class="section-lede">There are no testimonials or guaranteed outcomes here. Use these questions to understand your own measurements, options and next steps.</p>
     <div class="card-grid three">
-      <article class="card image-card"><img src="/assets/images/lasik-hero-mapping.jpg" alt="Illustrative doctor explaining eye measurements to a patient" width="1600" height="900" loading="lazy"><h3>What do my measurements show?</h3><p>Ask how prescription stability, corneal shape and thickness, tear film and eye health affect suitability.</p></article>
-      <article class="card image-card"><img src="/assets/images/lasik-hero-vision-choice.jpg" alt="Illustrative patient discussing vision-correction options" width="1600" height="900" loading="lazy"><h3>What are the alternatives?</h3><p>Ask which procedures may fit, how they differ, what their risks are, and whether glasses remain the better choice.</p></article>
-      <article class="card image-card"><img src="/assets/images/dr-rajat-jain-approved.jpg" alt="Portrait of <?= e(DOCTOR_NAME) ?>" width="1200" height="1200" loading="lazy"><h3>What happens after I decide?</h3><p>Clarify the written estimate, preparation, follow-up schedule, recovery advice and who to contact with concerns.</p></article>
+      <article class="card image-card"><img src="<?= e(client_photo_src('rajat jain (5).png')) ?>" alt="Ophthalmologist examining a patient's eyes with diagnostic equipment" loading="lazy"><h3>What do my measurements show?</h3><p>Ask how prescription stability, corneal shape and thickness, tear film and eye health affect suitability.</p></article>
+      <article class="card image-card"><img src="<?= e(client_photo_src('neha mohan (2).png')) ?>" alt="Eye-care professional discussing an examination with a patient" loading="lazy"><h3>What are the alternatives?</h3><p>Ask which procedures may fit, how they differ, what their risks are, and whether glasses remain the better choice.</p></article>
+      <article class="card image-card"><img src="<?= e(client_photo_src('rajat jain (3).png')) ?>" alt="Portrait of <?= e(DOCTOR_NAME) ?>" loading="lazy"><h3>What happens after I decide?</h3><p>Clarify the written estimate, preparation, follow-up schedule, recovery advice and who to contact with concerns.</p></article>
     </div>
     <h3 class="faq-head">Quick answers</h3>
     <div class="accordion">
@@ -334,7 +334,7 @@ page_start('home',
       </div>
     </div>
        <div class="card appt-card location-card">
-         <img src="/assets/images/lasik-hero-questions.jpg" alt="Illustrative doctor and patient reviewing questions; not a photograph of the centre" width="1600" height="900" loading="lazy">
+         <img src="<?= e(client_photo_src('rajat jain (2).png')) ?>" alt="Doctor in a consultation room ready to discuss eye-care questions" loading="lazy">
       <h3>Request an evaluation</h3>
       <p class="muted">Not confirmed until our team responds.</p>
        <?php $homeFormError = flash('form_error'); if ($homeFormError): ?><div class="form-error" role="alert"><?= e($homeFormError) ?></div><?php endif; ?>

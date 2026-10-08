@@ -8,8 +8,8 @@ return [
         'description' => 'Understand how astigmatism is assessed for LASIK, why corneal mapping matters and which alternatives may be discussed.',
         'keywords' => 'LASIK for astigmatism, astigmatism laser eye surgery, LASIK astigmatism treatment, corneal map astigmatism',
         'group' => 'Prescription & life stages',
-        'image' => 'lasik-hero-mapping.jpg',
-        'image_alt' => 'Illustrative discussion of corneal mapping and an astigmatism treatment plan',
+        'image' => 'hospital pic (12).png',
+        'image_alt' => 'Ophthalmic examination instrument in a clinical room',
         'intro' => 'Astigmatism is a focusing error that can make vision blurred or distorted at different distances. Some forms may be treated with corneal refractive surgery, but the prescription is only part of the assessment. The clinician also examines corneal shape, thickness, eye health and prescription stability. This page explains the terms to ask about; it cannot tell you whether your astigmatism is suitable for LASIK.',
         'sections' => [
             ['heading' => 'What astigmatism means', 'paragraphs' => [
@@ -54,8 +54,8 @@ return [
         'description' => 'Learn why higher myopia needs careful corneal and retinal assessment, how treatment limits work and what alternative paths may be discussed.',
         'keywords' => 'LASIK for high myopia, high minus power LASIK, severe myopia surgery, high myopia laser treatment',
         'group' => 'Prescription & life stages',
-        'image' => 'lasik-hero-eye-exam.jpg',
-        'image_alt' => 'Illustrative pre-operative eye assessment before discussing high myopia',
+        'image' => 'hospital pic (11).png',
+        'image_alt' => 'Ophthalmic equipment in a prepared operating room',
         'intro' => 'High myopia means a stronger short-sighted prescription, but there is no universal number on a glasses slip that determines whether LASIK is possible. More corneal tissue may need to be changed to treat a larger prescription, so the surgeon evaluates maps, thickness and the planned tissue profile. Myopia also has eye-health considerations beyond refractive surgery. A consultation should address both goals and limits.',
         'sections' => [
             ['heading' => 'Why a larger prescription changes the conversation', 'paragraphs' => [
@@ -104,8 +104,8 @@ return [
         'description' => 'Understand how presbyopia, lens changes, prescription stability and daily needs influence a LASIK discussion after age 40.',
         'keywords' => 'LASIK after 40, LASIK over 40, LASIK age 45, LASIK reading glasses, LASIK and near vision',
         'group' => 'Prescription & life stages',
-        'image' => 'lasik-hero-vision-choice.jpg',
-        'image_alt' => 'Illustrative adult discussing distance and reading vision with an eye clinician',
+        'image' => 'hospital pic (13).png',
+        'image_alt' => 'Patient lounge at the eye hospital',
         'intro' => 'Being over 40 does not automatically rule out LASIK, but the natural lens and near focus become more important when setting expectations. Presbyopia commonly makes close work harder with age, and LASIK reshapes the cornea rather than reversing that lens change. A detailed examination can show whether corneal surgery, a different strategy or glasses best matches a person’s goals.',
         'sections' => [
             ['heading' => 'What changes around midlife', 'paragraphs' => [
@@ -150,8 +150,8 @@ return [
         'description' => 'Learn why LASIK does not stop presbyopia, how near-vision goals affect planning and what approaches to discuss with an ophthalmologist.',
         'keywords' => 'LASIK and presbyopia, LASIK reading glasses, laser surgery presbyopia, near vision after LASIK',
         'group' => 'Prescription & life stages',
-        'image' => 'lasik-hero-vision-choice.jpg',
-        'image_alt' => 'Illustrative conversation about reading, distance and vision-correction goals',
+        'image' => 'rajat jain (4).png',
+        'image_alt' => 'Ophthalmologist examining a patient at a diagnostic instrument',
         'intro' => 'Presbyopia is the age-related loss of near focusing that makes small print harder to see at a comfortable distance. It is caused by changes in the natural lens, while LASIK reshapes the cornea. That means ordinary LASIK does not stop presbyopia or guarantee that reading glasses will never be needed. Knowing this distinction helps people ask better questions before choosing elective correction.',
         'sections' => [
             ['heading' => 'Corneal refractive error versus near-focus change', 'paragraphs' => [
@@ -196,8 +196,8 @@ return [
         'description' => 'Learn why contact lenses can affect corneal measurements and why your clinic—not a generic timetable—should set your pre-test plan.',
         'keywords' => 'contact lenses before LASIK, stop contacts before LASIK, LASIK evaluation contact lens timing, pre LASIK contact lens instructions',
         'group' => 'Candidacy & evaluation',
-        'image' => 'lasik-hero-eye-exam.jpg',
-        'image_alt' => 'Illustrative eye examination before corneal measurements',
+        'image' => 'hospital pic (8).png',
+        'image_alt' => 'Patient seating area beside the hospital reception',
         'intro' => 'People are often told to stop wearing contact lenses before LASIK measurements, but the appropriate interval varies with lens type, wearing pattern and the clinician’s findings. Contacts can temporarily influence corneal shape and tear-film comfort, which may affect the accuracy of measurements used for planning. Do not apply a number from a forum to your eyes; ask the clinic for instructions specific to your lenses.',
         'sections' => [
             ['heading' => 'Why contact lenses can change measurements', 'paragraphs' => [

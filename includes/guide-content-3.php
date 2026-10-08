@@ -8,8 +8,8 @@ return [
         'description' => 'A practical LASIK aftercare checklist for prescriptions, follow-up, eye protection and questions about daily activities after surgery.',
         'keywords' => 'LASIK aftercare, eye drops after LASIK, LASIK follow up, LASIK precautions, LASIK post operative care',
         'group' => 'Recovery & safety',
-        'image' => 'lasik-hero-questions.jpg',
-        'image_alt' => 'Illustrative conversation about instructions following an eye evaluation',
+        'image' => 'rajat jain (5).png',
+        'image_alt' => 'Ophthalmologist examining a patient with diagnostic equipment',
         'intro' => 'Aftercare is part of refractive surgery, not an optional add-on. The exact drop schedule, eye protection and activity limits should come from the surgeon who performed or planned your procedure. Instructions vary by technique and by patient. Use this checklist to prepare questions and organise your plan; do not use it to change prescribed treatment or decide whether a symptom can wait.',
         'sections' => [
             ['heading' => 'Get written instructions before you leave', 'paragraphs' => [
@@ -58,8 +58,8 @@ return [
         'description' => 'Review possible LASIK symptoms and complications, how personal factors matter and what to ask before giving informed consent.',
         'keywords' => 'LASIK risks, LASIK side effects, LASIK complications, risks of laser eye surgery, LASIK safety',
         'group' => 'Recovery & safety',
-        'image' => 'lasik-hero-questions.jpg',
-        'image_alt' => 'Illustrative patient asking a clinician questions about surgery risks',
+        'image' => 'Surgeon at the Operating Microscope.png',
+        'image_alt' => 'Ophthalmic surgeon using an operating microscope',
         'intro' => 'LASIK can reduce reliance on glasses or contact lenses for some people, but no surgery is risk-free and no online page can estimate your personal odds. Common symptoms, less common complications and rare serious harms belong in the consent discussion. The surgeon should explain which findings in your eyes change risk, what alternatives exist and how problems would be evaluated. Balanced information includes potential benefits and limitations, not only marketing claims.',
         'sections' => [
             ['heading' => 'Temporary symptoms and changes in vision', 'paragraphs' => [
@@ -109,8 +109,8 @@ return [
         'description' => 'Learn how dry-eye symptoms can affect LASIK screening and recovery, what to tell your clinician and why treatment advice must be individual.',
         'keywords' => 'dry eye after LASIK, LASIK dry eyes, dry eye before LASIK, LASIK and tear film, eye dryness after surgery',
         'group' => 'Recovery & safety',
-        'image' => 'lasik-hero-eye-exam.jpg',
-        'image_alt' => 'Illustrative examination discussion about eye comfort and tear film',
+        'image' => 'hospital pic (14).png',
+        'image_alt' => 'Eye examination room with diagnostic instruments',
         'intro' => 'Dryness is one of the symptoms people ask about most before refractive surgery. The ocular surface and tear film help keep vision comfortable and measurements reliable. Existing dry-eye symptoms may need assessment before treatment, and dryness can occur or worsen after some procedures. The right next step depends on the cause, examination and treatment plan—not on a single home test or an online promise.',
         'sections' => [
             ['heading' => 'What dry-eye symptoms can feel like', 'paragraphs' => [
@@ -155,8 +155,8 @@ return [
         'description' => 'Understand why glare, halos or starbursts matter in LASIK planning and what to discuss if night driving is part of your routine.',
         'keywords' => 'LASIK night vision, halos after LASIK, glare after LASIK, starbursts LASIK, night driving after laser eye surgery',
         'group' => 'Recovery & safety',
-        'image' => 'lasik-hero-questions.jpg',
-        'image_alt' => 'Illustrative consultation about night-vision expectations before eye surgery',
+        'image' => 'neha mohan.png',
+        'image_alt' => 'Eye-care professional seated beside diagnostic equipment',
         'intro' => 'Halos, glare, starbursts and ghost images can affect how a person sees lights, particularly in dim conditions. They may be present before surgery, occur during recovery or persist in some people. Because night driving and low-light work are important for many patients, describe those needs during the evaluation. A chart-based vision result alone does not describe every visual experience.',
         'sections' => [
             ['heading' => 'What patients mean by halos and glare', 'paragraphs' => [
@@ -201,8 +201,8 @@ return [
         'description' => 'Learn why refractive surgery is generally deferred during pregnancy or breastfeeding and what to ask about stable vision and timing.',
         'keywords' => 'LASIK pregnancy, LASIK while pregnant, LASIK breastfeeding, laser eye surgery pregnancy, pregnancy vision changes',
         'group' => 'Special situations',
-        'image' => 'lasik-hero-consultation.jpg',
-        'image_alt' => 'Illustrative clinician discussion about the timing of elective vision correction',
+        'image' => 'hospital pic (7).png',
+        'image_alt' => 'Clinic staff speaking with a visitor at the reception desk',
         'intro' => 'Pregnancy and breastfeeding can coincide with temporary changes in vision and dry-eye symptoms. Because LASIK is elective and relies on stable measurements, professional patient guidance generally advises against having it during pregnancy or breastfeeding. The appropriate time to revisit surgery depends on stability and an individual examination. Discuss vision changes with an eye-care professional and contact an obstetric clinician for concerns about pregnancy-related symptoms.',
         'sections' => [
             ['heading' => 'Why timing can change measurements', 'paragraphs' => [

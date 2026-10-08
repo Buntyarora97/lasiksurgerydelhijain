@@ -19,7 +19,8 @@
   <div class="container footer-grid">
     <div class="f-col f-brand">
       <div class="brand brand-light">
-        <span class="brand-logo"><img src="/assets/images/jain-eye-hospital-logo.webp" alt="Jain Eye Hospital & Laser Centre" width="256" height="64"></span>
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text"><strong>Jain Eye Hospital</strong><small>&amp; Laser Centre</small></span>
       </div>
       <p><?= e(ASSOCIATION_LINE) ?></p>
       <p class="f-disclaimer"><strong>Medical disclaimer:</strong> Content on this site is educational and is not a substitute for clinical examination. LASIK and other refractive procedures are elective — suitability varies, and no procedure is risk-free. For sudden vision loss, severe pain, eye trauma, or flashes/floaters with a curtain-like shadow, seek urgent eye care immediately. This website is not an emergency service.</p>

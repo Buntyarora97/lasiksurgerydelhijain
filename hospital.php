@@ -24,8 +24,8 @@ page_start('hospital','Jain Eye Hospital & Laser Centre — Our Associated Centr
       </div>
     </div>
     <figure class="doc-figure">
-        <img src="/assets/images/clinic-waiting-room.jpg" alt="Patient waiting lounge at the associated eye centre" width="1600" height="900" loading="eager">
-        <figcaption>Patient waiting area at the centre.</figcaption>
+        <img src="<?= e(client_photo_src('hospital pic (2).png')) ?>" alt="Exterior of Jain Eye Hospital and Laser Centre" fetchpriority="high">
+        <figcaption>Exterior photograph of the hospital.</figcaption>
     </figure>
   </div>
   <div class="container" style="max-width:820px;margin-top:3rem">

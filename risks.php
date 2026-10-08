@@ -12,8 +12,8 @@ page_start('risks','LASIK Risks & Safety — Balanced, Honest Information | ' . 
     <h1>Risks &amp; safety, without the sugar-coating</h1>
     <p class="section-lede">Refractive surgery is safe for well-selected patients — but "safe" has never meant "risk-free". This page explains the full picture so you can give genuinely informed consent.</p>
     <figure class="guide-feature">
-      <img src="/assets/images/clinic-theatre.jpg" alt="Illustrative ophthalmic operating theatre, not a specific refractive-surgery procedure" width="1600" height="900" loading="eager">
-      <figcaption>Illustrative theatre photograph only. Every procedure has distinct risks to discuss with a clinician.</figcaption>
+      <img src="<?= e(client_photo_src('Precision Ophthalmic Surgery Close-Up.png')) ?>" alt="Close view of an ophthalmic procedure under a surgical microscope" fetchpriority="high">
+      <figcaption>Clinic photograph for context, not a representation of your individual treatment plan or outcome. Every procedure has distinct risks to discuss with a clinician.</figcaption>
     </figure>
 
     <h2>Common, usually temporary experiences</h2>

@@ -13,7 +13,7 @@ page_start('contact','Contact Us — ' . SITE_NAME,
       <h1>Talk to us</h1>
       <p class="section-lede">Questions about suitability, procedures or planning an evaluation? Reach out — a real conversation beats a hundred web pages.</p>
       <figure class="side-feature">
-        <img src="/assets/images/clinic-waiting-room.jpg" alt="Patient waiting lounge at the associated eye centre" width="1600" height="900" loading="eager">
+        <img src="<?= e(client_photo_src('hospital pic (9).png')) ?>" alt="Patient waiting area at the hospital" fetchpriority="high">
         <figcaption><?= e(HOSPITAL_NAME) ?> · <?= e(ADDRESS_LINE) ?></figcaption>
       </figure>
       <div class="card" style="margin-bottom:1.2rem">

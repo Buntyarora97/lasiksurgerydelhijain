@@ -9,7 +9,7 @@ page_start('doctor','Dr. Rajat Jain — Refractive Surgery Specialist in Delhi |
 <section class="section">
   <div class="container split-2">
     <figure class="doc-figure">
-       <img src="/assets/images/dr-rajat-jain-approved.jpg" alt="Portrait of <?= e(DOCTOR_NAME) ?>" width="1200" height="1200" loading="eager">
+       <img src="<?= e(client_photo_src('rajat jain (3).png')) ?>" alt="Portrait of <?= e(DOCTOR_NAME) ?>" fetchpriority="high">
        <figcaption><?= e(HOSPITAL_NAME) ?> · <?= e(ADDRESS_LINE) ?></figcaption>
     </figure>
     <div>
