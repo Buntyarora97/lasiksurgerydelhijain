@@ -137,7 +137,13 @@ p{max-width:70ch}
   display:flex;flex-direction:column;gap:1.2rem}
 .drawer.open .drawer-panel{transform:translateX(0)}
 .drawer-head{display:flex;justify-content:space-between;align-items:center}
-.drawer-close{background:none;border:0;font-size:1.4rem;cursor:pointer;color:var(--ink)}
+.drawer-brand{gap:.55rem;min-width:0}
+.drawer-brand .brand-mark{width:36px;height:36px}
+.drawer-brand .brand-text strong{font-size:.88rem}
+.drawer-brand .brand-text small{font-size:.58rem}
+.drawer-close{display:grid;place-items:center;flex:none;width:40px;height:40px;
+  border:0;border-radius:50%;background:var(--ice);font-size:1.25rem;cursor:pointer;color:var(--ink)}
+.drawer-close:hover{background:#e8eee6}
 .drawer nav{display:flex;flex-direction:column}
 .drawer nav a{padding:.8rem .4rem;border-bottom:1px solid var(--line);color:var(--ink);
   font-weight:600}

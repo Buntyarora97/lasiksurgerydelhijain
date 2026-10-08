@@ -156,7 +156,10 @@ $noindex  = $pageMeta['noindex'] ?? (SITE_ENV !== 'production');
 <div class="drawer" id="mobileDrawer" aria-hidden="true">
   <div class="drawer-panel" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="drawer-head">
-      <strong>Menu</strong>
+      <a href="/" class="brand drawer-brand" aria-label="Jain Eye Hospital & Laser Centre — home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text"><strong>Jain Eye Hospital</strong><small>&amp; Laser Centre</small></span>
+      </a>
       <button class="drawer-close" id="drawerClose" aria-label="Close menu">✕</button>
     </div>
     <nav aria-label="Mobile">
